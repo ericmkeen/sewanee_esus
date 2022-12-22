@@ -1,0 +1,3403 @@
+country,year,source,cost
+Australia,2010,Bioenergy ,NA
+Australia,2010,Geothermal ,NA
+Australia,2010,Offshore wind ,NA
+Australia,2010,Solar photovoltaic ,0.4239567
+Australia,2010,Concentrated solar power ,NA
+Australia,2010,Hydropower ,NA
+Australia,2010,Onshore wind ,NA
+Australia,2011,Bioenergy ,NA
+Australia,2011,Geothermal ,NA
+Australia,2011,Offshore wind ,NA
+Australia,2011,Solar photovoltaic ,0.43069142
+Australia,2011,Concentrated solar power ,NA
+Australia,2011,Hydropower ,NA
+Australia,2011,Onshore wind ,NA
+Australia,2012,Bioenergy ,NA
+Australia,2012,Geothermal ,NA
+Australia,2012,Offshore wind ,NA
+Australia,2012,Solar photovoltaic ,0.26103023
+Australia,2012,Concentrated solar power ,NA
+Australia,2012,Hydropower ,NA
+Australia,2012,Onshore wind ,NA
+Australia,2013,Bioenergy ,NA
+Australia,2013,Geothermal ,NA
+Australia,2013,Offshore wind ,NA
+Australia,2013,Solar photovoltaic ,0.1501569
+Australia,2013,Concentrated solar power ,NA
+Australia,2013,Hydropower ,NA
+Australia,2013,Onshore wind ,NA
+Australia,2014,Bioenergy ,NA
+Australia,2014,Geothermal ,NA
+Australia,2014,Offshore wind ,NA
+Australia,2014,Solar photovoltaic ,0.123621404
+Australia,2014,Concentrated solar power ,NA
+Australia,2014,Hydropower ,NA
+Australia,2014,Onshore wind ,NA
+Australia,2015,Bioenergy ,NA
+Australia,2015,Geothermal ,NA
+Australia,2015,Offshore wind ,NA
+Australia,2015,Solar photovoltaic ,0.1066126
+Australia,2015,Concentrated solar power ,NA
+Australia,2015,Hydropower ,NA
+Australia,2015,Onshore wind ,NA
+Australia,2016,Bioenergy ,NA
+Australia,2016,Geothermal ,NA
+Australia,2016,Offshore wind ,NA
+Australia,2016,Solar photovoltaic ,0.08202892
+Australia,2016,Concentrated solar power ,NA
+Australia,2016,Hydropower ,NA
+Australia,2016,Onshore wind ,NA
+Australia,2017,Bioenergy ,NA
+Australia,2017,Geothermal ,NA
+Australia,2017,Offshore wind ,NA
+Australia,2017,Solar photovoltaic ,0.089927785
+Australia,2017,Concentrated solar power ,NA
+Australia,2017,Hydropower ,NA
+Australia,2017,Onshore wind ,NA
+Australia,2018,Bioenergy ,NA
+Australia,2018,Geothermal ,NA
+Australia,2018,Offshore wind ,NA
+Australia,2018,Solar photovoltaic ,0.07406949
+Australia,2018,Concentrated solar power ,NA
+Australia,2018,Hydropower ,NA
+Australia,2018,Onshore wind ,NA
+Australia,2019,Bioenergy ,NA
+Australia,2019,Geothermal ,NA
+Australia,2019,Offshore wind ,NA
+Australia,2019,Solar photovoltaic ,0.07070799
+Australia,2019,Concentrated solar power ,NA
+Australia,2019,Hydropower ,NA
+Australia,2019,Onshore wind ,NA
+Australia,2020,Bioenergy ,NA
+Australia,2020,Geothermal ,NA
+Australia,2020,Offshore wind ,NA
+Australia,2020,Solar photovoltaic ,0.053563822
+Australia,2020,Concentrated solar power ,NA
+Australia,2020,Hydropower ,NA
+Australia,2020,Onshore wind ,NA
+Australia,2021,Bioenergy ,NA
+Australia,2021,Geothermal ,NA
+Australia,2021,Offshore wind ,NA
+Australia,2021,Solar photovoltaic ,0.04228514
+Australia,2021,Concentrated solar power ,NA
+Australia,2021,Hydropower ,NA
+Australia,2021,Onshore wind ,NA
+Brazil,1998,Bioenergy ,NA
+Brazil,1998,Geothermal ,NA
+Brazil,1998,Offshore wind ,NA
+Brazil,1998,Solar photovoltaic ,NA
+Brazil,1998,Concentrated solar power ,NA
+Brazil,1998,Hydropower ,NA
+Brazil,1998,Onshore wind ,0.053076696
+Brazil,2001,Bioenergy ,NA
+Brazil,2001,Geothermal ,NA
+Brazil,2001,Offshore wind ,NA
+Brazil,2001,Solar photovoltaic ,NA
+Brazil,2001,Concentrated solar power ,NA
+Brazil,2001,Hydropower ,NA
+Brazil,2001,Onshore wind ,0.14041322
+Brazil,2002,Bioenergy ,NA
+Brazil,2002,Geothermal ,NA
+Brazil,2002,Offshore wind ,NA
+Brazil,2002,Solar photovoltaic ,NA
+Brazil,2002,Concentrated solar power ,NA
+Brazil,2002,Hydropower ,NA
+Brazil,2002,Onshore wind ,0.11920648
+Brazil,2003,Bioenergy ,NA
+Brazil,2003,Geothermal ,NA
+Brazil,2003,Offshore wind ,NA
+Brazil,2003,Solar photovoltaic ,NA
+Brazil,2003,Concentrated solar power ,NA
+Brazil,2003,Hydropower ,NA
+Brazil,2003,Onshore wind ,0.13523011
+Brazil,2005,Bioenergy ,NA
+Brazil,2005,Geothermal ,NA
+Brazil,2005,Offshore wind ,NA
+Brazil,2005,Solar photovoltaic ,NA
+Brazil,2005,Concentrated solar power ,NA
+Brazil,2005,Hydropower ,NA
+Brazil,2005,Onshore wind ,0.126946
+Brazil,2006,Bioenergy ,NA
+Brazil,2006,Geothermal ,NA
+Brazil,2006,Offshore wind ,NA
+Brazil,2006,Solar photovoltaic ,NA
+Brazil,2006,Concentrated solar power ,NA
+Brazil,2006,Hydropower ,NA
+Brazil,2006,Onshore wind ,0.09186466
+Brazil,2007,Bioenergy ,NA
+Brazil,2007,Geothermal ,NA
+Brazil,2007,Offshore wind ,NA
+Brazil,2007,Solar photovoltaic ,NA
+Brazil,2007,Concentrated solar power ,NA
+Brazil,2007,Hydropower ,NA
+Brazil,2007,Onshore wind ,0.09692162
+Brazil,2008,Bioenergy ,NA
+Brazil,2008,Geothermal ,NA
+Brazil,2008,Offshore wind ,NA
+Brazil,2008,Solar photovoltaic ,NA
+Brazil,2008,Concentrated solar power ,NA
+Brazil,2008,Hydropower ,NA
+Brazil,2008,Onshore wind ,0.08540316
+Brazil,2009,Bioenergy ,NA
+Brazil,2009,Geothermal ,NA
+Brazil,2009,Offshore wind ,NA
+Brazil,2009,Solar photovoltaic ,NA
+Brazil,2009,Concentrated solar power ,NA
+Brazil,2009,Hydropower ,NA
+Brazil,2009,Onshore wind ,0.1125968
+Brazil,2010,Bioenergy ,NA
+Brazil,2010,Geothermal ,NA
+Brazil,2010,Offshore wind ,NA
+Brazil,2010,Solar photovoltaic ,NA
+Brazil,2010,Concentrated solar power ,NA
+Brazil,2010,Hydropower ,NA
+Brazil,2010,Onshore wind ,0.109430514
+Brazil,2011,Bioenergy ,NA
+Brazil,2011,Geothermal ,NA
+Brazil,2011,Offshore wind ,NA
+Brazil,2011,Solar photovoltaic ,NA
+Brazil,2011,Concentrated solar power ,NA
+Brazil,2011,Hydropower ,NA
+Brazil,2011,Onshore wind ,0.08839128
+Brazil,2012,Bioenergy ,NA
+Brazil,2012,Geothermal ,NA
+Brazil,2012,Offshore wind ,NA
+Brazil,2012,Solar photovoltaic ,NA
+Brazil,2012,Concentrated solar power ,NA
+Brazil,2012,Hydropower ,NA
+Brazil,2012,Onshore wind ,0.084496714
+Brazil,2013,Bioenergy ,NA
+Brazil,2013,Geothermal ,NA
+Brazil,2013,Offshore wind ,NA
+Brazil,2013,Solar photovoltaic ,NA
+Brazil,2013,Concentrated solar power ,NA
+Brazil,2013,Hydropower ,NA
+Brazil,2013,Onshore wind ,0.07826178
+Brazil,2014,Bioenergy ,NA
+Brazil,2014,Geothermal ,NA
+Brazil,2014,Offshore wind ,NA
+Brazil,2014,Solar photovoltaic ,NA
+Brazil,2014,Concentrated solar power ,NA
+Brazil,2014,Hydropower ,NA
+Brazil,2014,Onshore wind ,0.06430881
+Brazil,2015,Bioenergy ,NA
+Brazil,2015,Geothermal ,NA
+Brazil,2015,Offshore wind ,NA
+Brazil,2015,Solar photovoltaic ,NA
+Brazil,2015,Concentrated solar power ,NA
+Brazil,2015,Hydropower ,NA
+Brazil,2015,Onshore wind ,0.055246472
+Brazil,2016,Bioenergy ,NA
+Brazil,2016,Geothermal ,NA
+Brazil,2016,Offshore wind ,NA
+Brazil,2016,Solar photovoltaic ,NA
+Brazil,2016,Concentrated solar power ,NA
+Brazil,2016,Hydropower ,NA
+Brazil,2016,Onshore wind ,0.053584162
+Brazil,2017,Bioenergy ,NA
+Brazil,2017,Geothermal ,NA
+Brazil,2017,Offshore wind ,NA
+Brazil,2017,Solar photovoltaic ,NA
+Brazil,2017,Concentrated solar power ,NA
+Brazil,2017,Hydropower ,NA
+Brazil,2017,Onshore wind ,0.045001924
+Brazil,2018,Bioenergy ,NA
+Brazil,2018,Geothermal ,NA
+Brazil,2018,Offshore wind ,NA
+Brazil,2018,Solar photovoltaic ,NA
+Brazil,2018,Concentrated solar power ,NA
+Brazil,2018,Hydropower ,NA
+Brazil,2018,Onshore wind ,0.044300146
+Brazil,2019,Bioenergy ,NA
+Brazil,2019,Geothermal ,NA
+Brazil,2019,Offshore wind ,NA
+Brazil,2019,Solar photovoltaic ,NA
+Brazil,2019,Concentrated solar power ,NA
+Brazil,2019,Hydropower ,NA
+Brazil,2019,Onshore wind ,0.034077007
+Brazil,2020,Bioenergy ,NA
+Brazil,2020,Geothermal ,NA
+Brazil,2020,Offshore wind ,NA
+Brazil,2020,Solar photovoltaic ,NA
+Brazil,2020,Concentrated solar power ,NA
+Brazil,2020,Hydropower ,NA
+Brazil,2020,Onshore wind ,0.032227434
+Brazil,2021,Bioenergy ,NA
+Brazil,2021,Geothermal ,NA
+Brazil,2021,Offshore wind ,NA
+Brazil,2021,Solar photovoltaic ,NA
+Brazil,2021,Concentrated solar power ,NA
+Brazil,2021,Hydropower ,NA
+Brazil,2021,Onshore wind ,0.023675622
+Canada,1990,Bioenergy ,NA
+Canada,1990,Geothermal ,NA
+Canada,1990,Offshore wind ,NA
+Canada,1990,Solar photovoltaic ,NA
+Canada,1990,Concentrated solar power ,NA
+Canada,1990,Hydropower ,NA
+Canada,1990,Onshore wind ,0.1940042
+Canada,1992,Bioenergy ,NA
+Canada,1992,Geothermal ,NA
+Canada,1992,Offshore wind ,NA
+Canada,1992,Solar photovoltaic ,NA
+Canada,1992,Concentrated solar power ,NA
+Canada,1992,Hydropower ,NA
+Canada,1992,Onshore wind ,0.18494709
+Canada,1994,Bioenergy ,NA
+Canada,1994,Geothermal ,NA
+Canada,1994,Offshore wind ,NA
+Canada,1994,Solar photovoltaic ,NA
+Canada,1994,Concentrated solar power ,NA
+Canada,1994,Hydropower ,NA
+Canada,1994,Onshore wind ,0.09279627
+Canada,1996,Bioenergy ,NA
+Canada,1996,Geothermal ,NA
+Canada,1996,Offshore wind ,NA
+Canada,1996,Solar photovoltaic ,NA
+Canada,1996,Concentrated solar power ,NA
+Canada,1996,Hydropower ,NA
+Canada,1996,Onshore wind ,0.15513031
+Canada,1999,Bioenergy ,NA
+Canada,1999,Geothermal ,NA
+Canada,1999,Offshore wind ,NA
+Canada,1999,Solar photovoltaic ,NA
+Canada,1999,Concentrated solar power ,NA
+Canada,1999,Hydropower ,NA
+Canada,1999,Onshore wind ,0.15476184
+Canada,2000,Bioenergy ,NA
+Canada,2000,Geothermal ,NA
+Canada,2000,Offshore wind ,NA
+Canada,2000,Solar photovoltaic ,NA
+Canada,2000,Concentrated solar power ,NA
+Canada,2000,Hydropower ,NA
+Canada,2000,Onshore wind ,0.12835398
+Canada,2001,Bioenergy ,NA
+Canada,2001,Geothermal ,NA
+Canada,2001,Offshore wind ,NA
+Canada,2001,Solar photovoltaic ,NA
+Canada,2001,Concentrated solar power ,NA
+Canada,2001,Hydropower ,NA
+Canada,2001,Onshore wind ,0.09705347
+Canada,2002,Bioenergy ,NA
+Canada,2002,Geothermal ,NA
+Canada,2002,Offshore wind ,NA
+Canada,2002,Solar photovoltaic ,NA
+Canada,2002,Concentrated solar power ,NA
+Canada,2002,Hydropower ,NA
+Canada,2002,Onshore wind ,0.09142099
+Canada,2003,Bioenergy ,NA
+Canada,2003,Geothermal ,NA
+Canada,2003,Offshore wind ,NA
+Canada,2003,Solar photovoltaic ,NA
+Canada,2003,Concentrated solar power ,NA
+Canada,2003,Hydropower ,NA
+Canada,2003,Onshore wind ,0.09258934
+Canada,2004,Bioenergy ,NA
+Canada,2004,Geothermal ,NA
+Canada,2004,Offshore wind ,NA
+Canada,2004,Solar photovoltaic ,NA
+Canada,2004,Concentrated solar power ,NA
+Canada,2004,Hydropower ,NA
+Canada,2004,Onshore wind ,0.09075055
+Canada,2005,Bioenergy ,NA
+Canada,2005,Geothermal ,NA
+Canada,2005,Offshore wind ,NA
+Canada,2005,Solar photovoltaic ,NA
+Canada,2005,Concentrated solar power ,NA
+Canada,2005,Hydropower ,NA
+Canada,2005,Onshore wind ,0.08295157
+Canada,2006,Bioenergy ,NA
+Canada,2006,Geothermal ,NA
+Canada,2006,Offshore wind ,NA
+Canada,2006,Solar photovoltaic ,NA
+Canada,2006,Concentrated solar power ,NA
+Canada,2006,Hydropower ,NA
+Canada,2006,Onshore wind ,0.08787881
+Canada,2007,Bioenergy ,NA
+Canada,2007,Geothermal ,NA
+Canada,2007,Offshore wind ,NA
+Canada,2007,Solar photovoltaic ,NA
+Canada,2007,Concentrated solar power ,NA
+Canada,2007,Hydropower ,NA
+Canada,2007,Onshore wind ,0.09966969
+Canada,2008,Bioenergy ,NA
+Canada,2008,Geothermal ,NA
+Canada,2008,Offshore wind ,NA
+Canada,2008,Solar photovoltaic ,NA
+Canada,2008,Concentrated solar power ,NA
+Canada,2008,Hydropower ,NA
+Canada,2008,Onshore wind ,0.10012215
+Canada,2009,Bioenergy ,NA
+Canada,2009,Geothermal ,NA
+Canada,2009,Offshore wind ,NA
+Canada,2009,Solar photovoltaic ,NA
+Canada,2009,Concentrated solar power ,NA
+Canada,2009,Hydropower ,NA
+Canada,2009,Onshore wind ,0.09946103
+Canada,2010,Bioenergy ,NA
+Canada,2010,Geothermal ,NA
+Canada,2010,Offshore wind ,NA
+Canada,2010,Solar photovoltaic ,NA
+Canada,2010,Concentrated solar power ,NA
+Canada,2010,Hydropower ,NA
+Canada,2010,Onshore wind ,0.11103799
+Canada,2011,Bioenergy ,NA
+Canada,2011,Geothermal ,NA
+Canada,2011,Offshore wind ,NA
+Canada,2011,Solar photovoltaic ,NA
+Canada,2011,Concentrated solar power ,NA
+Canada,2011,Hydropower ,NA
+Canada,2011,Onshore wind ,0.098163895
+Canada,2012,Bioenergy ,NA
+Canada,2012,Geothermal ,NA
+Canada,2012,Offshore wind ,NA
+Canada,2012,Solar photovoltaic ,NA
+Canada,2012,Concentrated solar power ,NA
+Canada,2012,Hydropower ,NA
+Canada,2012,Onshore wind ,0.108819865
+Canada,2013,Bioenergy ,NA
+Canada,2013,Geothermal ,NA
+Canada,2013,Offshore wind ,NA
+Canada,2013,Solar photovoltaic ,NA
+Canada,2013,Concentrated solar power ,NA
+Canada,2013,Hydropower ,NA
+Canada,2013,Onshore wind ,0.10019473
+Canada,2014,Bioenergy ,NA
+Canada,2014,Geothermal ,NA
+Canada,2014,Offshore wind ,NA
+Canada,2014,Solar photovoltaic ,NA
+Canada,2014,Concentrated solar power ,NA
+Canada,2014,Hydropower ,NA
+Canada,2014,Onshore wind ,0.08756866
+Canada,2015,Bioenergy ,NA
+Canada,2015,Geothermal ,NA
+Canada,2015,Offshore wind ,NA
+Canada,2015,Solar photovoltaic ,NA
+Canada,2015,Concentrated solar power ,NA
+Canada,2015,Hydropower ,NA
+Canada,2015,Onshore wind ,0.080491066
+Canada,2016,Bioenergy ,NA
+Canada,2016,Geothermal ,NA
+Canada,2016,Offshore wind ,NA
+Canada,2016,Solar photovoltaic ,NA
+Canada,2016,Concentrated solar power ,NA
+Canada,2016,Hydropower ,NA
+Canada,2016,Onshore wind ,0.080697164
+Canada,2017,Bioenergy ,NA
+Canada,2017,Geothermal ,NA
+Canada,2017,Offshore wind ,NA
+Canada,2017,Solar photovoltaic ,NA
+Canada,2017,Concentrated solar power ,NA
+Canada,2017,Hydropower ,NA
+Canada,2017,Onshore wind ,0.06509453
+Canada,2018,Bioenergy ,NA
+Canada,2018,Geothermal ,NA
+Canada,2018,Offshore wind ,NA
+Canada,2018,Solar photovoltaic ,NA
+Canada,2018,Concentrated solar power ,NA
+Canada,2018,Hydropower ,NA
+Canada,2018,Onshore wind ,0.05353617
+Canada,2019,Bioenergy ,NA
+Canada,2019,Geothermal ,NA
+Canada,2019,Offshore wind ,NA
+Canada,2019,Solar photovoltaic ,NA
+Canada,2019,Concentrated solar power ,NA
+Canada,2019,Hydropower ,NA
+Canada,2019,Onshore wind ,0.05697208
+Canada,2020,Bioenergy ,NA
+Canada,2020,Geothermal ,NA
+Canada,2020,Offshore wind ,NA
+Canada,2020,Solar photovoltaic ,NA
+Canada,2020,Concentrated solar power ,NA
+Canada,2020,Hydropower ,NA
+Canada,2020,Onshore wind ,0.03649771
+Canada,2021,Bioenergy ,NA
+Canada,2021,Geothermal ,NA
+Canada,2021,Offshore wind ,NA
+Canada,2021,Solar photovoltaic ,NA
+Canada,2021,Concentrated solar power ,NA
+Canada,2021,Hydropower ,NA
+Canada,2021,Onshore wind ,0.029625542
+China,2010,Bioenergy ,NA
+China,2010,Geothermal ,NA
+China,2010,Offshore wind ,NA
+China,2010,Solar photovoltaic ,0.30835205
+China,2010,Concentrated solar power ,NA
+China,2010,Hydropower ,NA
+China,2010,Onshore wind ,0.08291851
+China,2011,Bioenergy ,NA
+China,2011,Geothermal ,NA
+China,2011,Offshore wind ,NA
+China,2011,Solar photovoltaic ,0.2696766
+China,2011,Concentrated solar power ,NA
+China,2011,Hydropower ,NA
+China,2011,Onshore wind ,0.07829489
+China,2012,Bioenergy ,NA
+China,2012,Geothermal ,NA
+China,2012,Offshore wind ,NA
+China,2012,Solar photovoltaic ,0.19792174
+China,2012,Concentrated solar power ,NA
+China,2012,Hydropower ,NA
+China,2012,Onshore wind ,0.07696838
+China,2013,Bioenergy ,NA
+China,2013,Geothermal ,NA
+China,2013,Offshore wind ,NA
+China,2013,Solar photovoltaic ,0.15542823
+China,2013,Concentrated solar power ,NA
+China,2013,Hydropower ,NA
+China,2013,Onshore wind ,0.072256915
+China,2014,Bioenergy ,NA
+China,2014,Geothermal ,NA
+China,2014,Offshore wind ,NA
+China,2014,Solar photovoltaic ,0.11619345
+China,2014,Concentrated solar power ,NA
+China,2014,Hydropower ,NA
+China,2014,Onshore wind ,0.068088576
+China,2015,Bioenergy ,NA
+China,2015,Geothermal ,NA
+China,2015,Offshore wind ,NA
+China,2015,Solar photovoltaic ,0.08657164
+China,2015,Concentrated solar power ,NA
+China,2015,Hydropower ,NA
+China,2015,Onshore wind ,0.06324118
+China,2016,Bioenergy ,NA
+China,2016,Geothermal ,NA
+China,2016,Offshore wind ,NA
+China,2016,Solar photovoltaic ,0.07509524
+China,2016,Concentrated solar power ,NA
+China,2016,Hydropower ,NA
+China,2016,Onshore wind ,0.058467355
+China,2017,Bioenergy ,NA
+China,2017,Geothermal ,NA
+China,2017,Offshore wind ,NA
+China,2017,Solar photovoltaic ,0.06575502
+China,2017,Concentrated solar power ,NA
+China,2017,Hydropower ,NA
+China,2017,Onshore wind ,0.046077926
+China,2018,Bioenergy ,NA
+China,2018,Geothermal ,NA
+China,2018,Offshore wind ,NA
+China,2018,Solar photovoltaic ,0.05041504
+China,2018,Concentrated solar power ,NA
+China,2018,Hydropower ,NA
+China,2018,Onshore wind ,0.0482948
+China,2019,Bioenergy ,NA
+China,2019,Geothermal ,NA
+China,2019,Offshore wind ,NA
+China,2019,Solar photovoltaic ,0.046723545
+China,2019,Concentrated solar power ,NA
+China,2019,Hydropower ,NA
+China,2019,Onshore wind ,0.037572194
+China,2020,Bioenergy ,NA
+China,2020,Geothermal ,NA
+China,2020,Offshore wind ,NA
+China,2020,Solar photovoltaic ,0.03987938
+China,2020,Concentrated solar power ,NA
+China,2020,Hydropower ,NA
+China,2020,Onshore wind ,0.034588665
+China,2021,Bioenergy ,NA
+China,2021,Geothermal ,NA
+China,2021,Offshore wind ,NA
+China,2021,Solar photovoltaic ,0.034198184
+China,2021,Concentrated solar power ,NA
+China,2021,Hydropower ,NA
+China,2021,Onshore wind ,0.028007098
+China,1996,Bioenergy ,NA
+China,1996,Geothermal ,NA
+China,1996,Offshore wind ,NA
+China,1996,Solar photovoltaic ,NA
+China,1996,Concentrated solar power ,NA
+China,1996,Hydropower ,NA
+China,1996,Onshore wind ,0.18164247
+China,1997,Bioenergy ,NA
+China,1997,Geothermal ,NA
+China,1997,Offshore wind ,NA
+China,1997,Solar photovoltaic ,NA
+China,1997,Concentrated solar power ,NA
+China,1997,Hydropower ,NA
+China,1997,Onshore wind ,0.18164247
+China,1998,Bioenergy ,NA
+China,1998,Geothermal ,NA
+China,1998,Offshore wind ,NA
+China,1998,Solar photovoltaic ,NA
+China,1998,Concentrated solar power ,NA
+China,1998,Hydropower ,NA
+China,1998,Onshore wind ,0.166726
+China,1999,Bioenergy ,NA
+China,1999,Geothermal ,NA
+China,1999,Offshore wind ,NA
+China,1999,Solar photovoltaic ,NA
+China,1999,Concentrated solar power ,NA
+China,1999,Hydropower ,NA
+China,1999,Onshore wind ,0.16321819
+China,2000,Bioenergy ,NA
+China,2000,Geothermal ,NA
+China,2000,Offshore wind ,NA
+China,2000,Solar photovoltaic ,NA
+China,2000,Concentrated solar power ,NA
+China,2000,Hydropower ,NA
+China,2000,Onshore wind ,0.14922291
+China,2001,Bioenergy ,NA
+China,2001,Geothermal ,NA
+China,2001,Offshore wind ,NA
+China,2001,Solar photovoltaic ,NA
+China,2001,Concentrated solar power ,NA
+China,2001,Hydropower ,NA
+China,2001,Onshore wind ,0.12468569
+China,2002,Bioenergy ,NA
+China,2002,Geothermal ,NA
+China,2002,Offshore wind ,NA
+China,2002,Solar photovoltaic ,NA
+China,2002,Concentrated solar power ,NA
+China,2002,Hydropower ,NA
+China,2002,Onshore wind ,0.14047137
+China,2003,Bioenergy ,NA
+China,2003,Geothermal ,NA
+China,2003,Offshore wind ,NA
+China,2003,Solar photovoltaic ,NA
+China,2003,Concentrated solar power ,NA
+China,2003,Hydropower ,NA
+China,2003,Onshore wind ,0.09866734
+China,2004,Bioenergy ,NA
+China,2004,Geothermal ,NA
+China,2004,Offshore wind ,NA
+China,2004,Solar photovoltaic ,NA
+China,2004,Concentrated solar power ,NA
+China,2004,Hydropower ,NA
+China,2004,Onshore wind ,0.10413199
+China,2005,Bioenergy ,NA
+China,2005,Geothermal ,NA
+China,2005,Offshore wind ,NA
+China,2005,Solar photovoltaic ,NA
+China,2005,Concentrated solar power ,NA
+China,2005,Hydropower ,NA
+China,2005,Onshore wind ,0.10206682
+China,2006,Bioenergy ,NA
+China,2006,Geothermal ,NA
+China,2006,Offshore wind ,NA
+China,2006,Solar photovoltaic ,NA
+China,2006,Concentrated solar power ,NA
+China,2006,Hydropower ,NA
+China,2006,Onshore wind ,0.096912526
+China,2007,Bioenergy ,NA
+China,2007,Geothermal ,NA
+China,2007,Offshore wind ,NA
+China,2007,Solar photovoltaic ,NA
+China,2007,Concentrated solar power ,NA
+China,2007,Hydropower ,NA
+China,2007,Onshore wind ,0.08495954
+China,2008,Bioenergy ,NA
+China,2008,Geothermal ,NA
+China,2008,Offshore wind ,NA
+China,2008,Solar photovoltaic ,NA
+China,2008,Concentrated solar power ,NA
+China,2008,Hydropower ,NA
+China,2008,Onshore wind ,0.0898723
+China,2009,Bioenergy ,NA
+China,2009,Geothermal ,NA
+China,2009,Offshore wind ,NA
+China,2009,Solar photovoltaic ,NA
+China,2009,Concentrated solar power ,NA
+China,2009,Hydropower ,NA
+China,2009,Onshore wind ,0.09099171
+Denmark,1984,Bioenergy ,NA
+Denmark,1984,Geothermal ,NA
+Denmark,1984,Offshore wind ,NA
+Denmark,1984,Solar photovoltaic ,NA
+Denmark,1984,Concentrated solar power ,NA
+Denmark,1984,Hydropower ,NA
+Denmark,1984,Onshore wind ,0.2371748
+Denmark,1985,Bioenergy ,NA
+Denmark,1985,Geothermal ,NA
+Denmark,1985,Offshore wind ,NA
+Denmark,1985,Solar photovoltaic ,NA
+Denmark,1985,Concentrated solar power ,NA
+Denmark,1985,Hydropower ,NA
+Denmark,1985,Onshore wind ,0.22235282
+Denmark,1986,Bioenergy ,NA
+Denmark,1986,Geothermal ,NA
+Denmark,1986,Offshore wind ,NA
+Denmark,1986,Solar photovoltaic ,NA
+Denmark,1986,Concentrated solar power ,NA
+Denmark,1986,Hydropower ,NA
+Denmark,1986,Onshore wind ,0.21547599
+Denmark,1987,Bioenergy ,NA
+Denmark,1987,Geothermal ,NA
+Denmark,1987,Offshore wind ,NA
+Denmark,1987,Solar photovoltaic ,NA
+Denmark,1987,Concentrated solar power ,NA
+Denmark,1987,Hydropower ,NA
+Denmark,1987,Onshore wind ,0.20560089
+Denmark,1988,Bioenergy ,NA
+Denmark,1988,Geothermal ,NA
+Denmark,1988,Offshore wind ,NA
+Denmark,1988,Solar photovoltaic ,NA
+Denmark,1988,Concentrated solar power ,NA
+Denmark,1988,Hydropower ,NA
+Denmark,1988,Onshore wind ,0.21551454
+Denmark,1989,Bioenergy ,NA
+Denmark,1989,Geothermal ,NA
+Denmark,1989,Offshore wind ,NA
+Denmark,1989,Solar photovoltaic ,NA
+Denmark,1989,Concentrated solar power ,NA
+Denmark,1989,Hydropower ,NA
+Denmark,1989,Onshore wind ,0.19646904
+Denmark,1990,Bioenergy ,NA
+Denmark,1990,Geothermal ,NA
+Denmark,1990,Offshore wind ,NA
+Denmark,1990,Solar photovoltaic ,NA
+Denmark,1990,Concentrated solar power ,NA
+Denmark,1990,Hydropower ,NA
+Denmark,1990,Onshore wind ,0.19716702
+Denmark,1991,Bioenergy ,NA
+Denmark,1991,Geothermal ,NA
+Denmark,1991,Offshore wind ,NA
+Denmark,1991,Solar photovoltaic ,NA
+Denmark,1991,Concentrated solar power ,NA
+Denmark,1991,Hydropower ,NA
+Denmark,1991,Onshore wind ,0.1865857
+Denmark,1992,Bioenergy ,NA
+Denmark,1992,Geothermal ,NA
+Denmark,1992,Offshore wind ,NA
+Denmark,1992,Solar photovoltaic ,NA
+Denmark,1992,Concentrated solar power ,NA
+Denmark,1992,Hydropower ,NA
+Denmark,1992,Onshore wind ,0.18328875
+Denmark,1993,Bioenergy ,NA
+Denmark,1993,Geothermal ,NA
+Denmark,1993,Offshore wind ,NA
+Denmark,1993,Solar photovoltaic ,NA
+Denmark,1993,Concentrated solar power ,NA
+Denmark,1993,Hydropower ,NA
+Denmark,1993,Onshore wind ,0.1841186
+Denmark,1995,Bioenergy ,NA
+Denmark,1995,Geothermal ,NA
+Denmark,1995,Offshore wind ,NA
+Denmark,1995,Solar photovoltaic ,NA
+Denmark,1995,Concentrated solar power ,NA
+Denmark,1995,Hydropower ,NA
+Denmark,1995,Onshore wind ,0.15327154
+Denmark,1996,Bioenergy ,NA
+Denmark,1996,Geothermal ,NA
+Denmark,1996,Offshore wind ,NA
+Denmark,1996,Solar photovoltaic ,NA
+Denmark,1996,Concentrated solar power ,NA
+Denmark,1996,Hydropower ,NA
+Denmark,1996,Onshore wind ,0.14933795
+Denmark,1997,Bioenergy ,NA
+Denmark,1997,Geothermal ,NA
+Denmark,1997,Offshore wind ,NA
+Denmark,1997,Solar photovoltaic ,NA
+Denmark,1997,Concentrated solar power ,NA
+Denmark,1997,Hydropower ,NA
+Denmark,1997,Onshore wind ,0.15341401
+Denmark,1998,Bioenergy ,NA
+Denmark,1998,Geothermal ,NA
+Denmark,1998,Offshore wind ,NA
+Denmark,1998,Solar photovoltaic ,NA
+Denmark,1998,Concentrated solar power ,NA
+Denmark,1998,Hydropower ,NA
+Denmark,1998,Onshore wind ,0.15657647
+Denmark,1999,Bioenergy ,NA
+Denmark,1999,Geothermal ,NA
+Denmark,1999,Offshore wind ,NA
+Denmark,1999,Solar photovoltaic ,NA
+Denmark,1999,Concentrated solar power ,NA
+Denmark,1999,Hydropower ,NA
+Denmark,1999,Onshore wind ,0.15372644
+Denmark,2000,Bioenergy ,NA
+Denmark,2000,Geothermal ,NA
+Denmark,2000,Offshore wind ,NA
+Denmark,2000,Solar photovoltaic ,NA
+Denmark,2000,Concentrated solar power ,NA
+Denmark,2000,Hydropower ,NA
+Denmark,2000,Onshore wind ,0.16735479
+Denmark,2001,Bioenergy ,NA
+Denmark,2001,Geothermal ,NA
+Denmark,2001,Offshore wind ,NA
+Denmark,2001,Solar photovoltaic ,NA
+Denmark,2001,Concentrated solar power ,NA
+Denmark,2001,Hydropower ,NA
+Denmark,2001,Onshore wind ,0.16139817
+Denmark,2002,Bioenergy ,NA
+Denmark,2002,Geothermal ,NA
+Denmark,2002,Offshore wind ,NA
+Denmark,2002,Solar photovoltaic ,NA
+Denmark,2002,Concentrated solar power ,NA
+Denmark,2002,Hydropower ,NA
+Denmark,2002,Onshore wind ,0.11854891
+Denmark,2003,Bioenergy ,NA
+Denmark,2003,Geothermal ,NA
+Denmark,2003,Offshore wind ,NA
+Denmark,2003,Solar photovoltaic ,NA
+Denmark,2003,Concentrated solar power ,NA
+Denmark,2003,Hydropower ,NA
+Denmark,2003,Onshore wind ,0.09519422
+Denmark,2004,Bioenergy ,NA
+Denmark,2004,Geothermal ,NA
+Denmark,2004,Offshore wind ,NA
+Denmark,2004,Solar photovoltaic ,NA
+Denmark,2004,Concentrated solar power ,NA
+Denmark,2004,Hydropower ,NA
+Denmark,2004,Onshore wind ,0.08490888
+Denmark,2005,Bioenergy ,NA
+Denmark,2005,Geothermal ,NA
+Denmark,2005,Offshore wind ,NA
+Denmark,2005,Solar photovoltaic ,NA
+Denmark,2005,Concentrated solar power ,NA
+Denmark,2005,Hydropower ,NA
+Denmark,2005,Onshore wind ,0.09956174
+Denmark,2006,Bioenergy ,NA
+Denmark,2006,Geothermal ,NA
+Denmark,2006,Offshore wind ,NA
+Denmark,2006,Solar photovoltaic ,NA
+Denmark,2006,Concentrated solar power ,NA
+Denmark,2006,Hydropower ,NA
+Denmark,2006,Onshore wind ,0.123286046
+Denmark,2008,Bioenergy ,NA
+Denmark,2008,Geothermal ,NA
+Denmark,2008,Offshore wind ,NA
+Denmark,2008,Solar photovoltaic ,NA
+Denmark,2008,Concentrated solar power ,NA
+Denmark,2008,Hydropower ,NA
+Denmark,2008,Onshore wind ,0.11873595
+Denmark,2010,Bioenergy ,NA
+Denmark,2010,Geothermal ,NA
+Denmark,2010,Offshore wind ,NA
+Denmark,2010,Solar photovoltaic ,NA
+Denmark,2010,Concentrated solar power ,NA
+Denmark,2010,Hydropower ,NA
+Denmark,2010,Onshore wind ,0.11967064
+Denmark,2011,Bioenergy ,NA
+Denmark,2011,Geothermal ,NA
+Denmark,2011,Offshore wind ,NA
+Denmark,2011,Solar photovoltaic ,NA
+Denmark,2011,Concentrated solar power ,NA
+Denmark,2011,Hydropower ,NA
+Denmark,2011,Onshore wind ,0.11685397
+Denmark,2012,Bioenergy ,NA
+Denmark,2012,Geothermal ,NA
+Denmark,2012,Offshore wind ,NA
+Denmark,2012,Solar photovoltaic ,NA
+Denmark,2012,Concentrated solar power ,NA
+Denmark,2012,Hydropower ,NA
+Denmark,2012,Onshore wind ,0.09105425
+Denmark,2013,Bioenergy ,NA
+Denmark,2013,Geothermal ,NA
+Denmark,2013,Offshore wind ,NA
+Denmark,2013,Solar photovoltaic ,NA
+Denmark,2013,Concentrated solar power ,NA
+Denmark,2013,Hydropower ,NA
+Denmark,2013,Onshore wind ,0.08896074
+Denmark,2015,Bioenergy ,NA
+Denmark,2015,Geothermal ,NA
+Denmark,2015,Offshore wind ,NA
+Denmark,2015,Solar photovoltaic ,NA
+Denmark,2015,Concentrated solar power ,NA
+Denmark,2015,Hydropower ,NA
+Denmark,2015,Onshore wind ,0.063312925
+Denmark,2016,Bioenergy ,NA
+Denmark,2016,Geothermal ,NA
+Denmark,2016,Offshore wind ,NA
+Denmark,2016,Solar photovoltaic ,NA
+Denmark,2016,Concentrated solar power ,NA
+Denmark,2016,Hydropower ,NA
+Denmark,2016,Onshore wind ,0.055428237
+Denmark,2017,Bioenergy ,NA
+Denmark,2017,Geothermal ,NA
+Denmark,2017,Offshore wind ,NA
+Denmark,2017,Solar photovoltaic ,NA
+Denmark,2017,Concentrated solar power ,NA
+Denmark,2017,Hydropower ,NA
+Denmark,2017,Onshore wind ,0.045787793
+Denmark,2018,Bioenergy ,NA
+Denmark,2018,Geothermal ,NA
+Denmark,2018,Offshore wind ,NA
+Denmark,2018,Solar photovoltaic ,NA
+Denmark,2018,Concentrated solar power ,NA
+Denmark,2018,Hydropower ,NA
+Denmark,2018,Onshore wind ,0.043740116
+Denmark,2019,Bioenergy ,NA
+Denmark,2019,Geothermal ,NA
+Denmark,2019,Offshore wind ,NA
+Denmark,2019,Solar photovoltaic ,NA
+Denmark,2019,Concentrated solar power ,NA
+Denmark,2019,Hydropower ,NA
+Denmark,2019,Onshore wind ,0.04533685
+Denmark,2020,Bioenergy ,NA
+Denmark,2020,Geothermal ,NA
+Denmark,2020,Offshore wind ,NA
+Denmark,2020,Solar photovoltaic ,NA
+Denmark,2020,Concentrated solar power ,NA
+Denmark,2020,Hydropower ,NA
+Denmark,2020,Onshore wind ,0.03997884
+France,2010,Bioenergy ,NA
+France,2010,Geothermal ,NA
+France,2010,Offshore wind ,NA
+France,2010,Solar photovoltaic ,0.39622504
+France,2010,Concentrated solar power ,NA
+France,2010,Hydropower ,NA
+France,2010,Onshore wind ,0.13456738
+France,2011,Bioenergy ,NA
+France,2011,Geothermal ,NA
+France,2011,Offshore wind ,NA
+France,2011,Solar photovoltaic ,0.40249026
+France,2011,Concentrated solar power ,NA
+France,2011,Hydropower ,NA
+France,2011,Onshore wind ,0.118863866
+France,2012,Bioenergy ,NA
+France,2012,Geothermal ,NA
+France,2012,Offshore wind ,NA
+France,2012,Solar photovoltaic ,0.4092841
+France,2012,Concentrated solar power ,NA
+France,2012,Hydropower ,NA
+France,2012,Onshore wind ,0.105976604
+France,2013,Bioenergy ,NA
+France,2013,Geothermal ,NA
+France,2013,Offshore wind ,NA
+France,2013,Solar photovoltaic ,0.24327987
+France,2013,Concentrated solar power ,NA
+France,2013,Hydropower ,NA
+France,2013,Onshore wind ,0.09619412
+France,2014,Bioenergy ,NA
+France,2014,Geothermal ,NA
+France,2014,Offshore wind ,NA
+France,2014,Solar photovoltaic ,0.1622646
+France,2014,Concentrated solar power ,NA
+France,2014,Hydropower ,NA
+France,2014,Onshore wind ,0.0881045
+France,2015,Bioenergy ,NA
+France,2015,Geothermal ,NA
+France,2015,Offshore wind ,NA
+France,2015,Solar photovoltaic ,0.11420018
+France,2015,Concentrated solar power ,NA
+France,2015,Hydropower ,NA
+France,2015,Onshore wind ,0.082430765
+France,2016,Bioenergy ,NA
+France,2016,Geothermal ,NA
+France,2016,Offshore wind ,NA
+France,2016,Solar photovoltaic ,0.09002813
+France,2016,Concentrated solar power ,NA
+France,2016,Hydropower ,NA
+France,2016,Onshore wind ,0.07559497
+France,2017,Bioenergy ,NA
+France,2017,Geothermal ,NA
+France,2017,Offshore wind ,NA
+France,2017,Solar photovoltaic ,0.08077769
+France,2017,Concentrated solar power ,NA
+France,2017,Hydropower ,NA
+France,2017,Onshore wind ,0.0827867
+France,2018,Bioenergy ,NA
+France,2018,Geothermal ,NA
+France,2018,Offshore wind ,NA
+France,2018,Solar photovoltaic ,0.06827521
+France,2018,Concentrated solar power ,NA
+France,2018,Hydropower ,NA
+France,2018,Onshore wind ,0.064475745
+France,2019,Bioenergy ,NA
+France,2019,Geothermal ,NA
+France,2019,Offshore wind ,NA
+France,2019,Solar photovoltaic ,0.06272443
+France,2019,Concentrated solar power ,NA
+France,2019,Hydropower ,NA
+France,2019,Onshore wind ,0.05288562
+France,2020,Bioenergy ,NA
+France,2020,Geothermal ,NA
+France,2020,Offshore wind ,NA
+France,2020,Solar photovoltaic ,0.055485584
+France,2020,Concentrated solar power ,NA
+France,2020,Hydropower ,NA
+France,2020,Onshore wind ,0.046687216
+France,2021,Bioenergy ,NA
+France,2021,Geothermal ,NA
+France,2021,Offshore wind ,NA
+France,2021,Solar photovoltaic ,0.04937929
+France,2021,Concentrated solar power ,NA
+France,2021,Hydropower ,NA
+France,2021,Onshore wind ,0.043461747
+France,1991,Bioenergy ,NA
+France,1991,Geothermal ,NA
+France,1991,Offshore wind ,NA
+France,1991,Solar photovoltaic ,NA
+France,1991,Concentrated solar power ,NA
+France,1991,Hydropower ,NA
+France,1991,Onshore wind ,0.20359294
+France,1993,Bioenergy ,NA
+France,1993,Geothermal ,NA
+France,1993,Offshore wind ,NA
+France,1993,Solar photovoltaic ,NA
+France,1993,Concentrated solar power ,NA
+France,1993,Hydropower ,NA
+France,1993,Onshore wind ,0.2163642
+France,1996,Bioenergy ,NA
+France,1996,Geothermal ,NA
+France,1996,Offshore wind ,NA
+France,1996,Solar photovoltaic ,NA
+France,1996,Concentrated solar power ,NA
+France,1996,Hydropower ,NA
+France,1996,Onshore wind ,0.19867961
+France,1997,Bioenergy ,NA
+France,1997,Geothermal ,NA
+France,1997,Offshore wind ,NA
+France,1997,Solar photovoltaic ,NA
+France,1997,Concentrated solar power ,NA
+France,1997,Hydropower ,NA
+France,1997,Onshore wind ,0.18496035
+France,1998,Bioenergy ,NA
+France,1998,Geothermal ,NA
+France,1998,Offshore wind ,NA
+France,1998,Solar photovoltaic ,NA
+France,1998,Concentrated solar power ,NA
+France,1998,Hydropower ,NA
+France,1998,Onshore wind ,0.18308549
+France,1999,Bioenergy ,NA
+France,1999,Geothermal ,NA
+France,1999,Offshore wind ,NA
+France,1999,Solar photovoltaic ,NA
+France,1999,Concentrated solar power ,NA
+France,1999,Hydropower ,NA
+France,1999,Onshore wind ,0.17547306
+France,2000,Bioenergy ,NA
+France,2000,Geothermal ,NA
+France,2000,Offshore wind ,NA
+France,2000,Solar photovoltaic ,NA
+France,2000,Concentrated solar power ,NA
+France,2000,Hydropower ,NA
+France,2000,Onshore wind ,0.13987792
+France,2001,Bioenergy ,NA
+France,2001,Geothermal ,NA
+France,2001,Offshore wind ,NA
+France,2001,Solar photovoltaic ,NA
+France,2001,Concentrated solar power ,NA
+France,2001,Hydropower ,NA
+France,2001,Onshore wind ,0.1418427
+France,2002,Bioenergy ,NA
+France,2002,Geothermal ,NA
+France,2002,Offshore wind ,NA
+France,2002,Solar photovoltaic ,NA
+France,2002,Concentrated solar power ,NA
+France,2002,Hydropower ,NA
+France,2002,Onshore wind ,0.14690243
+France,2003,Bioenergy ,NA
+France,2003,Geothermal ,NA
+France,2003,Offshore wind ,NA
+France,2003,Solar photovoltaic ,NA
+France,2003,Concentrated solar power ,NA
+France,2003,Hydropower ,NA
+France,2003,Onshore wind ,0.113806486
+France,2004,Bioenergy ,NA
+France,2004,Geothermal ,NA
+France,2004,Offshore wind ,NA
+France,2004,Solar photovoltaic ,NA
+France,2004,Concentrated solar power ,NA
+France,2004,Hydropower ,NA
+France,2004,Onshore wind ,0.1279492
+France,2005,Bioenergy ,NA
+France,2005,Geothermal ,NA
+France,2005,Offshore wind ,NA
+France,2005,Solar photovoltaic ,NA
+France,2005,Concentrated solar power ,NA
+France,2005,Hydropower ,NA
+France,2005,Onshore wind ,0.12641829
+France,2006,Bioenergy ,NA
+France,2006,Geothermal ,NA
+France,2006,Offshore wind ,NA
+France,2006,Solar photovoltaic ,NA
+France,2006,Concentrated solar power ,NA
+France,2006,Hydropower ,NA
+France,2006,Onshore wind ,0.12728357
+France,2007,Bioenergy ,NA
+France,2007,Geothermal ,NA
+France,2007,Offshore wind ,NA
+France,2007,Solar photovoltaic ,NA
+France,2007,Concentrated solar power ,NA
+France,2007,Hydropower ,NA
+France,2007,Onshore wind ,0.11985202
+France,2008,Bioenergy ,NA
+France,2008,Geothermal ,NA
+France,2008,Offshore wind ,NA
+France,2008,Solar photovoltaic ,NA
+France,2008,Concentrated solar power ,NA
+France,2008,Hydropower ,NA
+France,2008,Onshore wind ,0.16003865
+France,2009,Bioenergy ,NA
+France,2009,Geothermal ,NA
+France,2009,Offshore wind ,NA
+France,2009,Solar photovoltaic ,NA
+France,2009,Concentrated solar power ,NA
+France,2009,Hydropower ,NA
+France,2009,Onshore wind ,0.13216022
+Germany,2010,Bioenergy ,NA
+Germany,2010,Geothermal ,NA
+Germany,2010,Offshore wind ,NA
+Germany,2010,Solar photovoltaic ,0.37650403
+Germany,2010,Concentrated solar power ,NA
+Germany,2010,Hydropower ,NA
+Germany,2010,Onshore wind ,0.14217848
+Germany,2011,Bioenergy ,NA
+Germany,2011,Geothermal ,NA
+Germany,2011,Offshore wind ,NA
+Germany,2011,Solar photovoltaic ,0.318761
+Germany,2011,Concentrated solar power ,NA
+Germany,2011,Hydropower ,NA
+Germany,2011,Onshore wind ,0.13595219
+Germany,2012,Bioenergy ,NA
+Germany,2012,Geothermal ,NA
+Germany,2012,Offshore wind ,NA
+Germany,2012,Solar photovoltaic ,0.25737464
+Germany,2012,Concentrated solar power ,NA
+Germany,2012,Hydropower ,NA
+Germany,2012,Onshore wind ,0.121349245
+Germany,2013,Bioenergy ,NA
+Germany,2013,Geothermal ,NA
+Germany,2013,Offshore wind ,NA
+Germany,2013,Solar photovoltaic ,0.20379446
+Germany,2013,Concentrated solar power ,NA
+Germany,2013,Hydropower ,NA
+Germany,2013,Onshore wind ,0.113351874
+Germany,2014,Bioenergy ,NA
+Germany,2014,Geothermal ,NA
+Germany,2014,Offshore wind ,NA
+Germany,2014,Solar photovoltaic ,0.15059713
+Germany,2014,Concentrated solar power ,NA
+Germany,2014,Hydropower ,NA
+Germany,2014,Onshore wind ,0.101039015
+Germany,2015,Bioenergy ,NA
+Germany,2015,Geothermal ,NA
+Germany,2015,Offshore wind ,NA
+Germany,2015,Solar photovoltaic ,0.120279655
+Germany,2015,Concentrated solar power ,NA
+Germany,2015,Hydropower ,NA
+Germany,2015,Onshore wind ,0.090764664
+Germany,2016,Bioenergy ,NA
+Germany,2016,Geothermal ,NA
+Germany,2016,Offshore wind ,NA
+Germany,2016,Solar photovoltaic ,0.10560888
+Germany,2016,Concentrated solar power ,NA
+Germany,2016,Hydropower ,NA
+Germany,2016,Onshore wind ,0.08180428
+Germany,2017,Bioenergy ,NA
+Germany,2017,Geothermal ,NA
+Germany,2017,Offshore wind ,NA
+Germany,2017,Solar photovoltaic ,0.09638195
+Germany,2017,Concentrated solar power ,NA
+Germany,2017,Hydropower ,NA
+Germany,2017,Onshore wind ,0.07937867
+Germany,2018,Bioenergy ,NA
+Germany,2018,Geothermal ,NA
+Germany,2018,Offshore wind ,NA
+Germany,2018,Solar photovoltaic ,0.09244677
+Germany,2018,Concentrated solar power ,NA
+Germany,2018,Hydropower ,NA
+Germany,2018,Onshore wind ,0.06680757
+Germany,2019,Bioenergy ,NA
+Germany,2019,Geothermal ,NA
+Germany,2019,Offshore wind ,NA
+Germany,2019,Solar photovoltaic ,0.076485865
+Germany,2019,Concentrated solar power ,NA
+Germany,2019,Hydropower ,NA
+Germany,2019,Onshore wind ,0.054783765
+Germany,2020,Bioenergy ,NA
+Germany,2020,Geothermal ,NA
+Germany,2020,Offshore wind ,NA
+Germany,2020,Solar photovoltaic ,0.0659222
+Germany,2020,Concentrated solar power ,NA
+Germany,2020,Hydropower ,NA
+Germany,2020,Onshore wind ,0.046763394
+Germany,2021,Bioenergy ,NA
+Germany,2021,Geothermal ,NA
+Germany,2021,Offshore wind ,NA
+Germany,2021,Solar photovoltaic ,0.06054074
+Germany,2021,Concentrated solar power ,NA
+Germany,2021,Hydropower ,NA
+Germany,2021,Onshore wind ,0.051362187
+Germany,1984,Bioenergy ,NA
+Germany,1984,Geothermal ,NA
+Germany,1984,Offshore wind ,NA
+Germany,1984,Solar photovoltaic ,NA
+Germany,1984,Concentrated solar power ,NA
+Germany,1984,Hydropower ,NA
+Germany,1984,Onshore wind ,0.25298056
+Germany,1990,Bioenergy ,NA
+Germany,1990,Geothermal ,NA
+Germany,1990,Offshore wind ,NA
+Germany,1990,Solar photovoltaic ,NA
+Germany,1990,Concentrated solar power ,NA
+Germany,1990,Hydropower ,NA
+Germany,1990,Onshore wind ,0.22033587
+Germany,1991,Bioenergy ,NA
+Germany,1991,Geothermal ,NA
+Germany,1991,Offshore wind ,NA
+Germany,1991,Solar photovoltaic ,NA
+Germany,1991,Concentrated solar power ,NA
+Germany,1991,Hydropower ,NA
+Germany,1991,Onshore wind ,0.208617
+Germany,1992,Bioenergy ,NA
+Germany,1992,Geothermal ,NA
+Germany,1992,Offshore wind ,NA
+Germany,1992,Solar photovoltaic ,NA
+Germany,1992,Concentrated solar power ,NA
+Germany,1992,Hydropower ,NA
+Germany,1992,Onshore wind ,0.22682063
+Germany,1993,Bioenergy ,NA
+Germany,1993,Geothermal ,NA
+Germany,1993,Offshore wind ,NA
+Germany,1993,Solar photovoltaic ,NA
+Germany,1993,Concentrated solar power ,NA
+Germany,1993,Hydropower ,NA
+Germany,1993,Onshore wind ,0.22207908
+Germany,1994,Bioenergy ,NA
+Germany,1994,Geothermal ,NA
+Germany,1994,Offshore wind ,NA
+Germany,1994,Solar photovoltaic ,NA
+Germany,1994,Concentrated solar power ,NA
+Germany,1994,Hydropower ,NA
+Germany,1994,Onshore wind ,0.16774829
+Germany,1995,Bioenergy ,NA
+Germany,1995,Geothermal ,NA
+Germany,1995,Offshore wind ,NA
+Germany,1995,Solar photovoltaic ,NA
+Germany,1995,Concentrated solar power ,NA
+Germany,1995,Hydropower ,NA
+Germany,1995,Onshore wind ,0.2061206
+Germany,1996,Bioenergy ,NA
+Germany,1996,Geothermal ,NA
+Germany,1996,Offshore wind ,NA
+Germany,1996,Solar photovoltaic ,NA
+Germany,1996,Concentrated solar power ,NA
+Germany,1996,Hydropower ,NA
+Germany,1996,Onshore wind ,0.18943778
+Germany,1997,Bioenergy ,NA
+Germany,1997,Geothermal ,NA
+Germany,1997,Offshore wind ,NA
+Germany,1997,Solar photovoltaic ,NA
+Germany,1997,Concentrated solar power ,NA
+Germany,1997,Hydropower ,NA
+Germany,1997,Onshore wind ,0.18820949
+Germany,1998,Bioenergy ,NA
+Germany,1998,Geothermal ,NA
+Germany,1998,Offshore wind ,NA
+Germany,1998,Solar photovoltaic ,NA
+Germany,1998,Concentrated solar power ,NA
+Germany,1998,Hydropower ,NA
+Germany,1998,Onshore wind ,0.17528565
+Germany,1999,Bioenergy ,NA
+Germany,1999,Geothermal ,NA
+Germany,1999,Offshore wind ,NA
+Germany,1999,Solar photovoltaic ,NA
+Germany,1999,Concentrated solar power ,NA
+Germany,1999,Hydropower ,NA
+Germany,1999,Onshore wind ,0.18683195
+Germany,2000,Bioenergy ,NA
+Germany,2000,Geothermal ,NA
+Germany,2000,Offshore wind ,NA
+Germany,2000,Solar photovoltaic ,NA
+Germany,2000,Concentrated solar power ,NA
+Germany,2000,Hydropower ,NA
+Germany,2000,Onshore wind ,0.1841436
+Germany,2001,Bioenergy ,NA
+Germany,2001,Geothermal ,NA
+Germany,2001,Offshore wind ,NA
+Germany,2001,Solar photovoltaic ,NA
+Germany,2001,Concentrated solar power ,NA
+Germany,2001,Hydropower ,NA
+Germany,2001,Onshore wind ,0.19223905
+Germany,2002,Bioenergy ,NA
+Germany,2002,Geothermal ,NA
+Germany,2002,Offshore wind ,NA
+Germany,2002,Solar photovoltaic ,NA
+Germany,2002,Concentrated solar power ,NA
+Germany,2002,Hydropower ,NA
+Germany,2002,Onshore wind ,0.15312724
+Germany,2003,Bioenergy ,NA
+Germany,2003,Geothermal ,NA
+Germany,2003,Offshore wind ,NA
+Germany,2003,Solar photovoltaic ,NA
+Germany,2003,Concentrated solar power ,NA
+Germany,2003,Hydropower ,NA
+Germany,2003,Onshore wind ,0.13988975
+Germany,2004,Bioenergy ,NA
+Germany,2004,Geothermal ,NA
+Germany,2004,Offshore wind ,NA
+Germany,2004,Solar photovoltaic ,NA
+Germany,2004,Concentrated solar power ,NA
+Germany,2004,Hydropower ,NA
+Germany,2004,Onshore wind ,0.13999988
+Germany,2005,Bioenergy ,NA
+Germany,2005,Geothermal ,NA
+Germany,2005,Offshore wind ,NA
+Germany,2005,Solar photovoltaic ,NA
+Germany,2005,Concentrated solar power ,NA
+Germany,2005,Hydropower ,NA
+Germany,2005,Onshore wind ,0.14491752
+Germany,2006,Bioenergy ,NA
+Germany,2006,Geothermal ,NA
+Germany,2006,Offshore wind ,NA
+Germany,2006,Solar photovoltaic ,NA
+Germany,2006,Concentrated solar power ,NA
+Germany,2006,Hydropower ,NA
+Germany,2006,Onshore wind ,0.14910735
+Germany,2007,Bioenergy ,NA
+Germany,2007,Geothermal ,NA
+Germany,2007,Offshore wind ,NA
+Germany,2007,Solar photovoltaic ,NA
+Germany,2007,Concentrated solar power ,NA
+Germany,2007,Hydropower ,NA
+Germany,2007,Onshore wind ,0.13707228
+Germany,2008,Bioenergy ,NA
+Germany,2008,Geothermal ,NA
+Germany,2008,Offshore wind ,NA
+Germany,2008,Solar photovoltaic ,NA
+Germany,2008,Concentrated solar power ,NA
+Germany,2008,Hydropower ,NA
+Germany,2008,Onshore wind ,0.164476
+Germany,2009,Bioenergy ,NA
+Germany,2009,Geothermal ,NA
+Germany,2009,Offshore wind ,NA
+Germany,2009,Solar photovoltaic ,NA
+Germany,2009,Concentrated solar power ,NA
+Germany,2009,Hydropower ,NA
+Germany,2009,Onshore wind ,0.15193175
+India,2010,Bioenergy ,NA
+India,2010,Geothermal ,NA
+India,2010,Offshore wind ,NA
+India,2010,Solar photovoltaic ,0.3522841
+India,2010,Concentrated solar power ,NA
+India,2010,Hydropower ,NA
+India,2010,Onshore wind ,0.08987932
+India,2011,Bioenergy ,NA
+India,2011,Geothermal ,NA
+India,2011,Offshore wind ,NA
+India,2011,Solar photovoltaic ,0.22417882
+India,2011,Concentrated solar power ,NA
+India,2011,Hydropower ,NA
+India,2011,Onshore wind ,0.082927674
+India,2012,Bioenergy ,NA
+India,2012,Geothermal ,NA
+India,2012,Offshore wind ,NA
+India,2012,Solar photovoltaic ,0.19071592
+India,2012,Concentrated solar power ,NA
+India,2012,Hydropower ,NA
+India,2012,Onshore wind ,0.09594398
+India,2013,Bioenergy ,NA
+India,2013,Geothermal ,NA
+India,2013,Offshore wind ,NA
+India,2013,Solar photovoltaic ,0.19027169
+India,2013,Concentrated solar power ,NA
+India,2013,Hydropower ,NA
+India,2013,Onshore wind ,0.095000975
+India,2014,Bioenergy ,NA
+India,2014,Geothermal ,NA
+India,2014,Offshore wind ,NA
+India,2014,Solar photovoltaic ,0.12418194
+India,2014,Concentrated solar power ,NA
+India,2014,Hydropower ,NA
+India,2014,Onshore wind ,0.09114224
+India,2015,Bioenergy ,NA
+India,2015,Geothermal ,NA
+India,2015,Offshore wind ,NA
+India,2015,Solar photovoltaic ,0.08144649
+India,2015,Concentrated solar power ,NA
+India,2015,Hydropower ,NA
+India,2015,Onshore wind ,0.07712241
+India,2016,Bioenergy ,NA
+India,2016,Geothermal ,NA
+India,2016,Offshore wind ,NA
+India,2016,Solar photovoltaic ,0.07678855
+India,2016,Concentrated solar power ,NA
+India,2016,Hydropower ,NA
+India,2016,Onshore wind ,0.06695452
+India,2017,Bioenergy ,NA
+India,2017,Geothermal ,NA
+India,2017,Offshore wind ,NA
+India,2017,Solar photovoltaic ,0.07011864
+India,2017,Concentrated solar power ,NA
+India,2017,Hydropower ,NA
+India,2017,Onshore wind ,0.053850763
+India,2018,Bioenergy ,NA
+India,2018,Geothermal ,NA
+India,2018,Offshore wind ,NA
+India,2018,Solar photovoltaic ,0.05098757
+India,2018,Concentrated solar power ,NA
+India,2018,Hydropower ,NA
+India,2018,Onshore wind ,0.04226653
+India,2019,Bioenergy ,NA
+India,2019,Geothermal ,NA
+India,2019,Offshore wind ,NA
+India,2019,Solar photovoltaic ,0.04042649
+India,2019,Concentrated solar power ,NA
+India,2019,Hydropower ,NA
+India,2019,Onshore wind ,0.0421142
+India,2020,Bioenergy ,NA
+India,2020,Geothermal ,NA
+India,2020,Offshore wind ,NA
+India,2020,Solar photovoltaic ,0.038364064
+India,2020,Concentrated solar power ,NA
+India,2020,Hydropower ,NA
+India,2020,Onshore wind ,0.038190298
+India,2021,Bioenergy ,NA
+India,2021,Geothermal ,NA
+India,2021,Offshore wind ,NA
+India,2021,Solar photovoltaic ,0.03474201
+India,2021,Concentrated solar power ,NA
+India,2021,Hydropower ,NA
+India,2021,Onshore wind ,0.029906465
+India,1990,Bioenergy ,NA
+India,1990,Geothermal ,NA
+India,1990,Offshore wind ,NA
+India,1990,Solar photovoltaic ,NA
+India,1990,Concentrated solar power ,NA
+India,1990,Hydropower ,NA
+India,1990,Onshore wind ,0.2374089
+India,1991,Bioenergy ,NA
+India,1991,Geothermal ,NA
+India,1991,Offshore wind ,NA
+India,1991,Solar photovoltaic ,NA
+India,1991,Concentrated solar power ,NA
+India,1991,Hydropower ,NA
+India,1991,Onshore wind ,0.2712709
+India,1992,Bioenergy ,NA
+India,1992,Geothermal ,NA
+India,1992,Offshore wind ,NA
+India,1992,Solar photovoltaic ,NA
+India,1992,Concentrated solar power ,NA
+India,1992,Hydropower ,NA
+India,1992,Onshore wind ,0.24864517
+India,1993,Bioenergy ,NA
+India,1993,Geothermal ,NA
+India,1993,Offshore wind ,NA
+India,1993,Solar photovoltaic ,NA
+India,1993,Concentrated solar power ,NA
+India,1993,Hydropower ,NA
+India,1993,Onshore wind ,0.24864517
+India,1994,Bioenergy ,NA
+India,1994,Geothermal ,NA
+India,1994,Offshore wind ,NA
+India,1994,Solar photovoltaic ,NA
+India,1994,Concentrated solar power ,NA
+India,1994,Hydropower ,NA
+India,1994,Onshore wind ,0.24864517
+India,1995,Bioenergy ,NA
+India,1995,Geothermal ,NA
+India,1995,Offshore wind ,NA
+India,1995,Solar photovoltaic ,NA
+India,1995,Concentrated solar power ,NA
+India,1995,Hydropower ,NA
+India,1995,Onshore wind ,0.23356135
+India,1996,Bioenergy ,NA
+India,1996,Geothermal ,NA
+India,1996,Offshore wind ,NA
+India,1996,Solar photovoltaic ,NA
+India,1996,Concentrated solar power ,NA
+India,1996,Hydropower ,NA
+India,1996,Onshore wind ,0.22601944
+India,1997,Bioenergy ,NA
+India,1997,Geothermal ,NA
+India,1997,Offshore wind ,NA
+India,1997,Solar photovoltaic ,NA
+India,1997,Concentrated solar power ,NA
+India,1997,Hydropower ,NA
+India,1997,Onshore wind ,0.20755365
+India,1998,Bioenergy ,NA
+India,1998,Geothermal ,NA
+India,1998,Offshore wind ,NA
+India,1998,Solar photovoltaic ,NA
+India,1998,Concentrated solar power ,NA
+India,1998,Hydropower ,NA
+India,1998,Onshore wind ,0.21093562
+India,1999,Bioenergy ,NA
+India,1999,Geothermal ,NA
+India,1999,Offshore wind ,NA
+India,1999,Solar photovoltaic ,NA
+India,1999,Concentrated solar power ,NA
+India,1999,Hydropower ,NA
+India,1999,Onshore wind ,0.20339371
+India,2000,Bioenergy ,NA
+India,2000,Geothermal ,NA
+India,2000,Offshore wind ,NA
+India,2000,Solar photovoltaic ,NA
+India,2000,Concentrated solar power ,NA
+India,2000,Hydropower ,NA
+India,2000,Onshore wind ,0.19819096
+India,2001,Bioenergy ,NA
+India,2001,Geothermal ,NA
+India,2001,Offshore wind ,NA
+India,2001,Solar photovoltaic ,NA
+India,2001,Concentrated solar power ,NA
+India,2001,Hydropower ,NA
+India,2001,Onshore wind ,0.15253796
+India,2002,Bioenergy ,NA
+India,2002,Geothermal ,NA
+India,2002,Offshore wind ,NA
+India,2002,Solar photovoltaic ,NA
+India,2002,Concentrated solar power ,NA
+India,2002,Hydropower ,NA
+India,2002,Onshore wind ,0.1380333
+India,2003,Bioenergy ,NA
+India,2003,Geothermal ,NA
+India,2003,Offshore wind ,NA
+India,2003,Solar photovoltaic ,NA
+India,2003,Concentrated solar power ,NA
+India,2003,Hydropower ,NA
+India,2003,Onshore wind ,0.1495579
+India,2004,Bioenergy ,NA
+India,2004,Geothermal ,NA
+India,2004,Offshore wind ,NA
+India,2004,Solar photovoltaic ,NA
+India,2004,Concentrated solar power ,NA
+India,2004,Hydropower ,NA
+India,2004,Onshore wind ,0.12423102
+India,2005,Bioenergy ,NA
+India,2005,Geothermal ,NA
+India,2005,Offshore wind ,NA
+India,2005,Solar photovoltaic ,NA
+India,2005,Concentrated solar power ,NA
+India,2005,Hydropower ,NA
+India,2005,Onshore wind ,0.11563679
+India,2006,Bioenergy ,NA
+India,2006,Geothermal ,NA
+India,2006,Offshore wind ,NA
+India,2006,Solar photovoltaic ,NA
+India,2006,Concentrated solar power ,NA
+India,2006,Hydropower ,NA
+India,2006,Onshore wind ,0.13297398
+India,2007,Bioenergy ,NA
+India,2007,Geothermal ,NA
+India,2007,Offshore wind ,NA
+India,2007,Solar photovoltaic ,NA
+India,2007,Concentrated solar power ,NA
+India,2007,Hydropower ,NA
+India,2007,Onshore wind ,0.10407907
+India,2008,Bioenergy ,NA
+India,2008,Geothermal ,NA
+India,2008,Offshore wind ,NA
+India,2008,Solar photovoltaic ,NA
+India,2008,Concentrated solar power ,NA
+India,2008,Hydropower ,NA
+India,2008,Onshore wind ,0.11058166
+India,2009,Bioenergy ,NA
+India,2009,Geothermal ,NA
+India,2009,Offshore wind ,NA
+India,2009,Solar photovoltaic ,NA
+India,2009,Concentrated solar power ,NA
+India,2009,Hydropower ,NA
+India,2009,Onshore wind ,0.085253164
+Italy,2010,Bioenergy ,NA
+Italy,2010,Geothermal ,NA
+Italy,2010,Offshore wind ,NA
+Italy,2010,Solar photovoltaic ,0.4195348
+Italy,2010,Concentrated solar power ,NA
+Italy,2010,Hydropower ,NA
+Italy,2010,Onshore wind ,0.13568826
+Italy,2011,Bioenergy ,NA
+Italy,2011,Geothermal ,NA
+Italy,2011,Offshore wind ,NA
+Italy,2011,Solar photovoltaic ,0.39490283
+Italy,2011,Concentrated solar power ,NA
+Italy,2011,Hydropower ,NA
+Italy,2011,Onshore wind ,0.15576813
+Italy,2012,Bioenergy ,NA
+Italy,2012,Geothermal ,NA
+Italy,2012,Offshore wind ,NA
+Italy,2012,Solar photovoltaic ,0.20137814
+Italy,2012,Concentrated solar power ,NA
+Italy,2012,Hydropower ,NA
+Italy,2012,Onshore wind ,0.14094089
+Italy,2013,Bioenergy ,NA
+Italy,2013,Geothermal ,NA
+Italy,2013,Offshore wind ,NA
+Italy,2013,Solar photovoltaic ,0.17812791
+Italy,2013,Concentrated solar power ,NA
+Italy,2013,Hydropower ,NA
+Italy,2013,Onshore wind ,0.102453895
+Italy,2014,Bioenergy ,NA
+Italy,2014,Geothermal ,NA
+Italy,2014,Offshore wind ,NA
+Italy,2014,Solar photovoltaic ,0.14676638
+Italy,2014,Concentrated solar power ,NA
+Italy,2014,Hydropower ,NA
+Italy,2014,Onshore wind ,0.09756739
+Italy,2017,Bioenergy ,NA
+Italy,2017,Geothermal ,NA
+Italy,2017,Offshore wind ,NA
+Italy,2017,Solar photovoltaic ,0.07277317
+Italy,2017,Concentrated solar power ,NA
+Italy,2017,Hydropower ,NA
+Italy,2017,Onshore wind ,0.08739848
+Italy,2018,Bioenergy ,NA
+Italy,2018,Geothermal ,NA
+Italy,2018,Offshore wind ,NA
+Italy,2018,Solar photovoltaic ,0.06377539
+Italy,2018,Concentrated solar power ,NA
+Italy,2018,Hydropower ,NA
+Italy,2018,Onshore wind ,0.057036687
+Italy,2019,Bioenergy ,NA
+Italy,2019,Geothermal ,NA
+Italy,2019,Offshore wind ,NA
+Italy,2019,Solar photovoltaic ,0.058950685
+Italy,2019,Concentrated solar power ,NA
+Italy,2019,Hydropower ,NA
+Italy,2019,Onshore wind ,0.052479446
+Italy,2020,Bioenergy ,NA
+Italy,2020,Geothermal ,NA
+Italy,2020,Offshore wind ,NA
+Italy,2020,Solar photovoltaic ,0.05557109
+Italy,2020,Concentrated solar power ,NA
+Italy,2020,Hydropower ,NA
+Italy,2020,Onshore wind ,0.052158937
+Italy,2021,Bioenergy ,NA
+Italy,2021,Geothermal ,NA
+Italy,2021,Offshore wind ,NA
+Italy,2021,Solar photovoltaic ,0.0507096
+Italy,2021,Concentrated solar power ,NA
+Italy,2021,Hydropower ,NA
+Italy,2021,Onshore wind ,0.04085369
+Italy,1989,Bioenergy ,NA
+Italy,1989,Geothermal ,NA
+Italy,1989,Offshore wind ,NA
+Italy,1989,Solar photovoltaic ,NA
+Italy,1989,Concentrated solar power ,NA
+Italy,1989,Hydropower ,NA
+Italy,1989,Onshore wind ,0.2043723
+Italy,1991,Bioenergy ,NA
+Italy,1991,Geothermal ,NA
+Italy,1991,Offshore wind ,NA
+Italy,1991,Solar photovoltaic ,NA
+Italy,1991,Concentrated solar power ,NA
+Italy,1991,Hydropower ,NA
+Italy,1991,Onshore wind ,0.19418892
+Italy,1992,Bioenergy ,NA
+Italy,1992,Geothermal ,NA
+Italy,1992,Offshore wind ,NA
+Italy,1992,Solar photovoltaic ,NA
+Italy,1992,Concentrated solar power ,NA
+Italy,1992,Hydropower ,NA
+Italy,1992,Onshore wind ,0.2104087
+Italy,1993,Bioenergy ,NA
+Italy,1993,Geothermal ,NA
+Italy,1993,Offshore wind ,NA
+Italy,1993,Solar photovoltaic ,NA
+Italy,1993,Concentrated solar power ,NA
+Italy,1993,Hydropower ,NA
+Italy,1993,Onshore wind ,0.20566714
+Italy,1994,Bioenergy ,NA
+Italy,1994,Geothermal ,NA
+Italy,1994,Offshore wind ,NA
+Italy,1994,Solar photovoltaic ,NA
+Italy,1994,Concentrated solar power ,NA
+Italy,1994,Hydropower ,NA
+Italy,1994,Onshore wind ,0.19327341
+Italy,1995,Bioenergy ,NA
+Italy,1995,Geothermal ,NA
+Italy,1995,Offshore wind ,NA
+Italy,1995,Solar photovoltaic ,NA
+Italy,1995,Concentrated solar power ,NA
+Italy,1995,Hydropower ,NA
+Italy,1995,Onshore wind ,0.18279012
+Italy,1996,Bioenergy ,NA
+Italy,1996,Geothermal ,NA
+Italy,1996,Offshore wind ,NA
+Italy,1996,Solar photovoltaic ,NA
+Italy,1996,Concentrated solar power ,NA
+Italy,1996,Hydropower ,NA
+Italy,1996,Onshore wind ,0.18741955
+Italy,1997,Bioenergy ,NA
+Italy,1997,Geothermal ,NA
+Italy,1997,Offshore wind ,NA
+Italy,1997,Solar photovoltaic ,NA
+Italy,1997,Concentrated solar power ,NA
+Italy,1997,Hydropower ,NA
+Italy,1997,Onshore wind ,0.17426328
+Italy,1998,Bioenergy ,NA
+Italy,1998,Geothermal ,NA
+Italy,1998,Offshore wind ,NA
+Italy,1998,Solar photovoltaic ,NA
+Italy,1998,Concentrated solar power ,NA
+Italy,1998,Hydropower ,NA
+Italy,1998,Onshore wind ,0.17238842
+Italy,1999,Bioenergy ,NA
+Italy,1999,Geothermal ,NA
+Italy,1999,Offshore wind ,NA
+Italy,1999,Solar photovoltaic ,NA
+Italy,1999,Concentrated solar power ,NA
+Italy,1999,Hydropower ,NA
+Italy,1999,Onshore wind ,0.164776
+Italy,2000,Bioenergy ,NA
+Italy,2000,Geothermal ,NA
+Italy,2000,Offshore wind ,NA
+Italy,2000,Solar photovoltaic ,NA
+Italy,2000,Concentrated solar power ,NA
+Italy,2000,Hydropower ,NA
+Italy,2000,Onshore wind ,0.15811984
+Italy,2001,Bioenergy ,NA
+Italy,2001,Geothermal ,NA
+Italy,2001,Offshore wind ,NA
+Italy,2001,Solar photovoltaic ,NA
+Italy,2001,Concentrated solar power ,NA
+Italy,2001,Hydropower ,NA
+Italy,2001,Onshore wind ,0.1325409
+Italy,2002,Bioenergy ,NA
+Italy,2002,Geothermal ,NA
+Italy,2002,Offshore wind ,NA
+Italy,2002,Solar photovoltaic ,NA
+Italy,2002,Concentrated solar power ,NA
+Italy,2002,Hydropower ,NA
+Italy,2002,Onshore wind ,0.1480929
+Italy,2003,Bioenergy ,NA
+Italy,2003,Geothermal ,NA
+Italy,2003,Offshore wind ,NA
+Italy,2003,Solar photovoltaic ,NA
+Italy,2003,Concentrated solar power ,NA
+Italy,2003,Hydropower ,NA
+Italy,2003,Onshore wind ,0.13384978
+Italy,2004,Bioenergy ,NA
+Italy,2004,Geothermal ,NA
+Italy,2004,Offshore wind ,NA
+Italy,2004,Solar photovoltaic ,NA
+Italy,2004,Concentrated solar power ,NA
+Italy,2004,Hydropower ,NA
+Italy,2004,Onshore wind ,0.1159124
+Italy,2005,Bioenergy ,NA
+Italy,2005,Geothermal ,NA
+Italy,2005,Offshore wind ,NA
+Italy,2005,Solar photovoltaic ,NA
+Italy,2005,Concentrated solar power ,NA
+Italy,2005,Hydropower ,NA
+Italy,2005,Onshore wind ,0.13125773
+Italy,2006,Bioenergy ,NA
+Italy,2006,Geothermal ,NA
+Italy,2006,Offshore wind ,NA
+Italy,2006,Solar photovoltaic ,NA
+Italy,2006,Concentrated solar power ,NA
+Italy,2006,Hydropower ,NA
+Italy,2006,Onshore wind ,0.12893744
+Italy,2007,Bioenergy ,NA
+Italy,2007,Geothermal ,NA
+Italy,2007,Offshore wind ,NA
+Italy,2007,Solar photovoltaic ,NA
+Italy,2007,Concentrated solar power ,NA
+Italy,2007,Hydropower ,NA
+Italy,2007,Onshore wind ,0.12794913
+Italy,2008,Bioenergy ,NA
+Italy,2008,Geothermal ,NA
+Italy,2008,Offshore wind ,NA
+Italy,2008,Solar photovoltaic ,NA
+Italy,2008,Concentrated solar power ,NA
+Italy,2008,Hydropower ,NA
+Italy,2008,Onshore wind ,0.13672335
+Italy,2009,Bioenergy ,NA
+Italy,2009,Geothermal ,NA
+Italy,2009,Offshore wind ,NA
+Italy,2009,Solar photovoltaic ,NA
+Italy,2009,Concentrated solar power ,NA
+Italy,2009,Hydropower ,NA
+Italy,2009,Onshore wind ,0.14629456
+Italy,2015,Bioenergy ,NA
+Italy,2015,Geothermal ,NA
+Italy,2015,Offshore wind ,NA
+Italy,2015,Solar photovoltaic ,NA
+Italy,2015,Concentrated solar power ,NA
+Italy,2015,Hydropower ,NA
+Italy,2015,Onshore wind ,0.094148874
+Italy,2016,Bioenergy ,NA
+Italy,2016,Geothermal ,NA
+Italy,2016,Offshore wind ,NA
+Italy,2016,Solar photovoltaic ,NA
+Italy,2016,Concentrated solar power ,NA
+Italy,2016,Hydropower ,NA
+Italy,2016,Onshore wind ,0.07215399
+Japan,2011,Bioenergy ,NA
+Japan,2011,Geothermal ,NA
+Japan,2011,Offshore wind ,NA
+Japan,2011,Solar photovoltaic ,0.43872625
+Japan,2011,Concentrated solar power ,NA
+Japan,2011,Hydropower ,NA
+Japan,2011,Onshore wind ,0.14816925
+Japan,2012,Bioenergy ,NA
+Japan,2012,Geothermal ,NA
+Japan,2012,Offshore wind ,NA
+Japan,2012,Solar photovoltaic ,0.31387824
+Japan,2012,Concentrated solar power ,NA
+Japan,2012,Hydropower ,NA
+Japan,2012,Onshore wind ,0.18525063
+Japan,2013,Bioenergy ,NA
+Japan,2013,Geothermal ,NA
+Japan,2013,Offshore wind ,NA
+Japan,2013,Solar photovoltaic ,0.26047596
+Japan,2013,Concentrated solar power ,NA
+Japan,2013,Hydropower ,NA
+Japan,2013,Onshore wind ,0.16559906
+Japan,2014,Bioenergy ,NA
+Japan,2014,Geothermal ,NA
+Japan,2014,Offshore wind ,NA
+Japan,2014,Solar photovoltaic ,0.23084253
+Japan,2014,Concentrated solar power ,NA
+Japan,2014,Hydropower ,NA
+Japan,2014,Onshore wind ,0.15481062
+Japan,2015,Bioenergy ,NA
+Japan,2015,Geothermal ,NA
+Japan,2015,Offshore wind ,NA
+Japan,2015,Solar photovoltaic ,0.16521524
+Japan,2015,Concentrated solar power ,NA
+Japan,2015,Hydropower ,NA
+Japan,2015,Onshore wind ,0.12809746
+Japan,2016,Bioenergy ,NA
+Japan,2016,Geothermal ,NA
+Japan,2016,Offshore wind ,NA
+Japan,2016,Solar photovoltaic ,0.1660822
+Japan,2016,Concentrated solar power ,NA
+Japan,2016,Hydropower ,NA
+Japan,2016,Onshore wind ,0.17842601
+Japan,2017,Bioenergy ,NA
+Japan,2017,Geothermal ,NA
+Japan,2017,Offshore wind ,NA
+Japan,2017,Solar photovoltaic ,0.13125008
+Japan,2017,Concentrated solar power ,NA
+Japan,2017,Hydropower ,NA
+Japan,2017,Onshore wind ,0.12589623
+Japan,2018,Bioenergy ,NA
+Japan,2018,Geothermal ,NA
+Japan,2018,Offshore wind ,NA
+Japan,2018,Solar photovoltaic ,0.121405095
+Japan,2018,Concentrated solar power ,NA
+Japan,2018,Hydropower ,NA
+Japan,2018,Onshore wind ,0.14224303
+Japan,2019,Bioenergy ,NA
+Japan,2019,Geothermal ,NA
+Japan,2019,Offshore wind ,NA
+Japan,2019,Solar photovoltaic ,0.11157266
+Japan,2019,Concentrated solar power ,NA
+Japan,2019,Hydropower ,NA
+Japan,2019,Onshore wind ,0.121834986
+Japan,2020,Bioenergy ,NA
+Japan,2020,Geothermal ,NA
+Japan,2020,Offshore wind ,NA
+Japan,2020,Solar photovoltaic ,0.10416547
+Japan,2020,Concentrated solar power ,NA
+Japan,2020,Hydropower ,NA
+Japan,2020,Onshore wind ,0.10743379
+Japan,2021,Bioenergy ,NA
+Japan,2021,Geothermal ,NA
+Japan,2021,Offshore wind ,NA
+Japan,2021,Solar photovoltaic ,0.086479224
+Japan,2021,Concentrated solar power ,NA
+Japan,2021,Hydropower ,NA
+Japan,2021,Onshore wind ,0.14055713
+Japan,2000,Bioenergy ,NA
+Japan,2000,Geothermal ,NA
+Japan,2000,Offshore wind ,NA
+Japan,2000,Solar photovoltaic ,NA
+Japan,2000,Concentrated solar power ,NA
+Japan,2000,Hydropower ,NA
+Japan,2000,Onshore wind ,0.16865392
+Japan,2005,Bioenergy ,NA
+Japan,2005,Geothermal ,NA
+Japan,2005,Offshore wind ,NA
+Japan,2005,Solar photovoltaic ,NA
+Japan,2005,Concentrated solar power ,NA
+Japan,2005,Hydropower ,NA
+Japan,2005,Onshore wind ,0.16682677
+Japan,2010,Bioenergy ,NA
+Japan,2010,Geothermal ,NA
+Japan,2010,Offshore wind ,NA
+Japan,2010,Solar photovoltaic ,NA
+Japan,2010,Concentrated solar power ,NA
+Japan,2010,Hydropower ,NA
+Japan,2010,Onshore wind ,0.17022641
+Mexico,2007,Bioenergy ,NA
+Mexico,2007,Geothermal ,NA
+Mexico,2007,Offshore wind ,NA
+Mexico,2007,Solar photovoltaic ,NA
+Mexico,2007,Concentrated solar power ,NA
+Mexico,2007,Hydropower ,NA
+Mexico,2007,Onshore wind ,0.06369343
+Mexico,2008,Bioenergy ,NA
+Mexico,2008,Geothermal ,NA
+Mexico,2008,Offshore wind ,NA
+Mexico,2008,Solar photovoltaic ,NA
+Mexico,2008,Concentrated solar power ,NA
+Mexico,2008,Hydropower ,NA
+Mexico,2008,Onshore wind ,0.056250177
+Mexico,2009,Bioenergy ,NA
+Mexico,2009,Geothermal ,NA
+Mexico,2009,Offshore wind ,NA
+Mexico,2009,Solar photovoltaic ,NA
+Mexico,2009,Concentrated solar power ,NA
+Mexico,2009,Hydropower ,NA
+Mexico,2009,Onshore wind ,0.08362679
+Mexico,2010,Bioenergy ,NA
+Mexico,2010,Geothermal ,NA
+Mexico,2010,Offshore wind ,NA
+Mexico,2010,Solar photovoltaic ,NA
+Mexico,2010,Concentrated solar power ,NA
+Mexico,2010,Hydropower ,NA
+Mexico,2010,Onshore wind ,0.09875461
+Mexico,2011,Bioenergy ,NA
+Mexico,2011,Geothermal ,NA
+Mexico,2011,Offshore wind ,NA
+Mexico,2011,Solar photovoltaic ,NA
+Mexico,2011,Concentrated solar power ,NA
+Mexico,2011,Hydropower ,NA
+Mexico,2011,Onshore wind ,0.08509109
+Mexico,2012,Bioenergy ,NA
+Mexico,2012,Geothermal ,NA
+Mexico,2012,Offshore wind ,NA
+Mexico,2012,Solar photovoltaic ,NA
+Mexico,2012,Concentrated solar power ,NA
+Mexico,2012,Hydropower ,NA
+Mexico,2012,Onshore wind ,0.06644708
+Mexico,2013,Bioenergy ,NA
+Mexico,2013,Geothermal ,NA
+Mexico,2013,Offshore wind ,NA
+Mexico,2013,Solar photovoltaic ,NA
+Mexico,2013,Concentrated solar power ,NA
+Mexico,2013,Hydropower ,NA
+Mexico,2013,Onshore wind ,0.07742004
+Mexico,2014,Bioenergy ,NA
+Mexico,2014,Geothermal ,NA
+Mexico,2014,Offshore wind ,NA
+Mexico,2014,Solar photovoltaic ,NA
+Mexico,2014,Concentrated solar power ,NA
+Mexico,2014,Hydropower ,NA
+Mexico,2014,Onshore wind ,0.07554952
+Mexico,2015,Bioenergy ,NA
+Mexico,2015,Geothermal ,NA
+Mexico,2015,Offshore wind ,NA
+Mexico,2015,Solar photovoltaic ,NA
+Mexico,2015,Concentrated solar power ,NA
+Mexico,2015,Hydropower ,NA
+Mexico,2015,Onshore wind ,0.06945953
+Mexico,2016,Bioenergy ,NA
+Mexico,2016,Geothermal ,NA
+Mexico,2016,Offshore wind ,NA
+Mexico,2016,Solar photovoltaic ,NA
+Mexico,2016,Concentrated solar power ,NA
+Mexico,2016,Hydropower ,NA
+Mexico,2016,Onshore wind ,0.06940652
+Mexico,2017,Bioenergy ,NA
+Mexico,2017,Geothermal ,NA
+Mexico,2017,Offshore wind ,NA
+Mexico,2017,Solar photovoltaic ,NA
+Mexico,2017,Concentrated solar power ,NA
+Mexico,2017,Hydropower ,NA
+Mexico,2017,Onshore wind ,0.058093075
+Mexico,2018,Bioenergy ,NA
+Mexico,2018,Geothermal ,NA
+Mexico,2018,Offshore wind ,NA
+Mexico,2018,Solar photovoltaic ,NA
+Mexico,2018,Concentrated solar power ,NA
+Mexico,2018,Hydropower ,NA
+Mexico,2018,Onshore wind ,0.041350257
+Mexico,2019,Bioenergy ,NA
+Mexico,2019,Geothermal ,NA
+Mexico,2019,Offshore wind ,NA
+Mexico,2019,Solar photovoltaic ,NA
+Mexico,2019,Concentrated solar power ,NA
+Mexico,2019,Hydropower ,NA
+Mexico,2019,Onshore wind ,0.056750346
+Mexico,2020,Bioenergy ,NA
+Mexico,2020,Geothermal ,NA
+Mexico,2020,Offshore wind ,NA
+Mexico,2020,Solar photovoltaic ,NA
+Mexico,2020,Concentrated solar power ,NA
+Mexico,2020,Hydropower ,NA
+Mexico,2020,Onshore wind ,0.04600025
+Mexico,2021,Bioenergy ,NA
+Mexico,2021,Geothermal ,NA
+Mexico,2021,Offshore wind ,NA
+Mexico,2021,Solar photovoltaic ,NA
+Mexico,2021,Concentrated solar power ,NA
+Mexico,2021,Hydropower ,NA
+Mexico,2021,Onshore wind ,0.04214128
+Netherlands,2016,Bioenergy ,NA
+Netherlands,2016,Geothermal ,NA
+Netherlands,2016,Offshore wind ,NA
+Netherlands,2016,Solar photovoltaic ,0.11939912
+Netherlands,2016,Concentrated solar power ,NA
+Netherlands,2016,Hydropower ,NA
+Netherlands,2016,Onshore wind ,NA
+Netherlands,2017,Bioenergy ,NA
+Netherlands,2017,Geothermal ,NA
+Netherlands,2017,Offshore wind ,NA
+Netherlands,2017,Solar photovoltaic ,0.1328713
+Netherlands,2017,Concentrated solar power ,NA
+Netherlands,2017,Hydropower ,NA
+Netherlands,2017,Onshore wind ,NA
+Netherlands,2018,Bioenergy ,NA
+Netherlands,2018,Geothermal ,NA
+Netherlands,2018,Offshore wind ,NA
+Netherlands,2018,Solar photovoltaic ,0.10124573
+Netherlands,2018,Concentrated solar power ,NA
+Netherlands,2018,Hydropower ,NA
+Netherlands,2018,Onshore wind ,NA
+Netherlands,2019,Bioenergy ,NA
+Netherlands,2019,Geothermal ,NA
+Netherlands,2019,Offshore wind ,NA
+Netherlands,2019,Solar photovoltaic ,0.09663435
+Netherlands,2019,Concentrated solar power ,NA
+Netherlands,2019,Hydropower ,NA
+Netherlands,2019,Onshore wind ,NA
+Netherlands,2020,Bioenergy ,NA
+Netherlands,2020,Geothermal ,NA
+Netherlands,2020,Offshore wind ,NA
+Netherlands,2020,Solar photovoltaic ,0.09129814
+Netherlands,2020,Concentrated solar power ,NA
+Netherlands,2020,Hydropower ,NA
+Netherlands,2020,Onshore wind ,NA
+Netherlands,2021,Bioenergy ,NA
+Netherlands,2021,Geothermal ,NA
+Netherlands,2021,Offshore wind ,NA
+Netherlands,2021,Solar photovoltaic ,0.0781061
+Netherlands,2021,Concentrated solar power ,NA
+Netherlands,2021,Hydropower ,NA
+Netherlands,2021,Onshore wind ,NA
+South Korea,2010,Bioenergy ,NA
+South Korea,2010,Geothermal ,NA
+South Korea,2010,Offshore wind ,NA
+South Korea,2010,Solar photovoltaic ,0.4509997
+South Korea,2010,Concentrated solar power ,NA
+South Korea,2010,Hydropower ,NA
+South Korea,2010,Onshore wind ,NA
+South Korea,2011,Bioenergy ,NA
+South Korea,2011,Geothermal ,NA
+South Korea,2011,Offshore wind ,NA
+South Korea,2011,Solar photovoltaic ,0.4721218
+South Korea,2011,Concentrated solar power ,NA
+South Korea,2011,Hydropower ,NA
+South Korea,2011,Onshore wind ,NA
+South Korea,2012,Bioenergy ,NA
+South Korea,2012,Geothermal ,NA
+South Korea,2012,Offshore wind ,NA
+South Korea,2012,Solar photovoltaic ,0.19057739
+South Korea,2012,Concentrated solar power ,NA
+South Korea,2012,Hydropower ,NA
+South Korea,2012,Onshore wind ,NA
+South Korea,2013,Bioenergy ,NA
+South Korea,2013,Geothermal ,NA
+South Korea,2013,Offshore wind ,NA
+South Korea,2013,Solar photovoltaic ,0.22526984
+South Korea,2013,Concentrated solar power ,NA
+South Korea,2013,Hydropower ,NA
+South Korea,2013,Onshore wind ,NA
+South Korea,2014,Bioenergy ,NA
+South Korea,2014,Geothermal ,NA
+South Korea,2014,Offshore wind ,NA
+South Korea,2014,Solar photovoltaic ,0.17364664
+South Korea,2014,Concentrated solar power ,NA
+South Korea,2014,Hydropower ,NA
+South Korea,2014,Onshore wind ,NA
+South Korea,2015,Bioenergy ,NA
+South Korea,2015,Geothermal ,NA
+South Korea,2015,Offshore wind ,NA
+South Korea,2015,Solar photovoltaic ,0.15961091
+South Korea,2015,Concentrated solar power ,NA
+South Korea,2015,Hydropower ,NA
+South Korea,2015,Onshore wind ,NA
+South Korea,2016,Bioenergy ,NA
+South Korea,2016,Geothermal ,NA
+South Korea,2016,Offshore wind ,NA
+South Korea,2016,Solar photovoltaic ,0.15296403
+South Korea,2016,Concentrated solar power ,NA
+South Korea,2016,Hydropower ,NA
+South Korea,2016,Onshore wind ,NA
+South Korea,2017,Bioenergy ,NA
+South Korea,2017,Geothermal ,NA
+South Korea,2017,Offshore wind ,NA
+South Korea,2017,Solar photovoltaic ,0.10317841
+South Korea,2017,Concentrated solar power ,NA
+South Korea,2017,Hydropower ,NA
+South Korea,2017,Onshore wind ,NA
+South Korea,2018,Bioenergy ,NA
+South Korea,2018,Geothermal ,NA
+South Korea,2018,Offshore wind ,NA
+South Korea,2018,Solar photovoltaic ,0.08505376
+South Korea,2018,Concentrated solar power ,NA
+South Korea,2018,Hydropower ,NA
+South Korea,2018,Onshore wind ,NA
+South Korea,2019,Bioenergy ,NA
+South Korea,2019,Geothermal ,NA
+South Korea,2019,Offshore wind ,NA
+South Korea,2019,Solar photovoltaic ,0.078141004
+South Korea,2019,Concentrated solar power ,NA
+South Korea,2019,Hydropower ,NA
+South Korea,2019,Onshore wind ,NA
+South Korea,2020,Bioenergy ,NA
+South Korea,2020,Geothermal ,NA
+South Korea,2020,Offshore wind ,NA
+South Korea,2020,Solar photovoltaic ,0.059624854
+South Korea,2020,Concentrated solar power ,NA
+South Korea,2020,Hydropower ,NA
+South Korea,2020,Onshore wind ,NA
+South Korea,2021,Bioenergy ,NA
+South Korea,2021,Geothermal ,NA
+South Korea,2021,Offshore wind ,NA
+South Korea,2021,Solar photovoltaic ,0.05579204
+South Korea,2021,Concentrated solar power ,NA
+South Korea,2021,Hydropower ,NA
+South Korea,2021,Onshore wind ,NA
+Spain,2010,Bioenergy ,NA
+Spain,2010,Geothermal ,NA
+Spain,2010,Offshore wind ,NA
+Spain,2010,Solar photovoltaic ,0.32602894
+Spain,2010,Concentrated solar power ,NA
+Spain,2010,Hydropower ,NA
+Spain,2010,Onshore wind ,0.11689961
+Spain,2011,Bioenergy ,NA
+Spain,2011,Geothermal ,NA
+Spain,2011,Offshore wind ,NA
+Spain,2011,Solar photovoltaic ,0.2270799
+Spain,2011,Concentrated solar power ,NA
+Spain,2011,Hydropower ,NA
+Spain,2011,Onshore wind ,0.110066526
+Spain,2012,Bioenergy ,NA
+Spain,2012,Geothermal ,NA
+Spain,2012,Offshore wind ,NA
+Spain,2012,Solar photovoltaic ,0.18320407
+Spain,2012,Concentrated solar power ,NA
+Spain,2012,Hydropower ,NA
+Spain,2012,Onshore wind ,0.09502645
+Spain,2013,Bioenergy ,NA
+Spain,2013,Geothermal ,NA
+Spain,2013,Offshore wind ,NA
+Spain,2013,Solar photovoltaic ,0.14007719
+Spain,2013,Concentrated solar power ,NA
+Spain,2013,Hydropower ,NA
+Spain,2013,Onshore wind ,0.09103372
+Spain,2014,Bioenergy ,NA
+Spain,2014,Geothermal ,NA
+Spain,2014,Offshore wind ,NA
+Spain,2014,Solar photovoltaic ,0.13464624
+Spain,2014,Concentrated solar power ,NA
+Spain,2014,Hydropower ,NA
+Spain,2014,Onshore wind ,0.076079324
+Spain,2015,Bioenergy ,NA
+Spain,2015,Geothermal ,NA
+Spain,2015,Offshore wind ,NA
+Spain,2015,Solar photovoltaic ,0.07887244
+Spain,2015,Concentrated solar power ,NA
+Spain,2015,Hydropower ,NA
+Spain,2015,Onshore wind ,0.061772663
+Spain,2019,Bioenergy ,NA
+Spain,2019,Geothermal ,NA
+Spain,2019,Offshore wind ,NA
+Spain,2019,Solar photovoltaic ,0.050239716
+Spain,2019,Concentrated solar power ,NA
+Spain,2019,Hydropower ,NA
+Spain,2019,Onshore wind ,0.03841875
+Spain,2020,Bioenergy ,NA
+Spain,2020,Geothermal ,NA
+Spain,2020,Offshore wind ,NA
+Spain,2020,Solar photovoltaic ,0.04604019
+Spain,2020,Concentrated solar power ,NA
+Spain,2020,Hydropower ,NA
+Spain,2020,Onshore wind ,0.030920204
+Spain,2021,Bioenergy ,NA
+Spain,2021,Geothermal ,NA
+Spain,2021,Offshore wind ,NA
+Spain,2021,Solar photovoltaic ,0.04778082
+Spain,2021,Concentrated solar power ,NA
+Spain,2021,Hydropower ,NA
+Spain,2021,Onshore wind ,0.025176685
+Spain,1990,Bioenergy ,NA
+Spain,1990,Geothermal ,NA
+Spain,1990,Offshore wind ,NA
+Spain,1990,Solar photovoltaic ,NA
+Spain,1990,Concentrated solar power ,NA
+Spain,1990,Hydropower ,NA
+Spain,1990,Onshore wind ,0.15276395
+Spain,1991,Bioenergy ,NA
+Spain,1991,Geothermal ,NA
+Spain,1991,Offshore wind ,NA
+Spain,1991,Solar photovoltaic ,NA
+Spain,1991,Concentrated solar power ,NA
+Spain,1991,Hydropower ,NA
+Spain,1991,Onshore wind ,0.1514113
+Spain,1992,Bioenergy ,NA
+Spain,1992,Geothermal ,NA
+Spain,1992,Offshore wind ,NA
+Spain,1992,Solar photovoltaic ,NA
+Spain,1992,Concentrated solar power ,NA
+Spain,1992,Hydropower ,NA
+Spain,1992,Onshore wind ,0.143841
+Spain,1993,Bioenergy ,NA
+Spain,1993,Geothermal ,NA
+Spain,1993,Offshore wind ,NA
+Spain,1993,Solar photovoltaic ,NA
+Spain,1993,Concentrated solar power ,NA
+Spain,1993,Hydropower ,NA
+Spain,1993,Onshore wind ,0.1404163
+Spain,1994,Bioenergy ,NA
+Spain,1994,Geothermal ,NA
+Spain,1994,Offshore wind ,NA
+Spain,1994,Solar photovoltaic ,NA
+Spain,1994,Concentrated solar power ,NA
+Spain,1994,Hydropower ,NA
+Spain,1994,Onshore wind ,0.13146463
+Spain,1995,Bioenergy ,NA
+Spain,1995,Geothermal ,NA
+Spain,1995,Offshore wind ,NA
+Spain,1995,Solar photovoltaic ,NA
+Spain,1995,Concentrated solar power ,NA
+Spain,1995,Hydropower ,NA
+Spain,1995,Onshore wind ,0.123892814
+Spain,1996,Bioenergy ,NA
+Spain,1996,Geothermal ,NA
+Spain,1996,Offshore wind ,NA
+Spain,1996,Solar photovoltaic ,NA
+Spain,1996,Concentrated solar power ,NA
+Spain,1996,Hydropower ,NA
+Spain,1996,Onshore wind ,0.12046811
+Spain,1997,Bioenergy ,NA
+Spain,1997,Geothermal ,NA
+Spain,1997,Offshore wind ,NA
+Spain,1997,Solar photovoltaic ,NA
+Spain,1997,Concentrated solar power ,NA
+Spain,1997,Hydropower ,NA
+Spain,1997,Onshore wind ,0.1177341
+Spain,1998,Bioenergy ,NA
+Spain,1998,Geothermal ,NA
+Spain,1998,Offshore wind ,NA
+Spain,1998,Solar photovoltaic ,NA
+Spain,1998,Concentrated solar power ,NA
+Spain,1998,Hydropower ,NA
+Spain,1998,Onshore wind ,0.11358706
+Spain,1999,Bioenergy ,NA
+Spain,1999,Geothermal ,NA
+Spain,1999,Offshore wind ,NA
+Spain,1999,Solar photovoltaic ,NA
+Spain,1999,Concentrated solar power ,NA
+Spain,1999,Hydropower ,NA
+Spain,1999,Onshore wind ,0.10563063
+Spain,2000,Bioenergy ,NA
+Spain,2000,Geothermal ,NA
+Spain,2000,Offshore wind ,NA
+Spain,2000,Solar photovoltaic ,NA
+Spain,2000,Concentrated solar power ,NA
+Spain,2000,Hydropower ,NA
+Spain,2000,Onshore wind ,0.10996727
+Spain,2001,Bioenergy ,NA
+Spain,2001,Geothermal ,NA
+Spain,2001,Offshore wind ,NA
+Spain,2001,Solar photovoltaic ,NA
+Spain,2001,Concentrated solar power ,NA
+Spain,2001,Hydropower ,NA
+Spain,2001,Onshore wind ,0.10643823
+Spain,2002,Bioenergy ,NA
+Spain,2002,Geothermal ,NA
+Spain,2002,Offshore wind ,NA
+Spain,2002,Solar photovoltaic ,NA
+Spain,2002,Concentrated solar power ,NA
+Spain,2002,Hydropower ,NA
+Spain,2002,Onshore wind ,0.10074362
+Spain,2003,Bioenergy ,NA
+Spain,2003,Geothermal ,NA
+Spain,2003,Offshore wind ,NA
+Spain,2003,Solar photovoltaic ,NA
+Spain,2003,Concentrated solar power ,NA
+Spain,2003,Hydropower ,NA
+Spain,2003,Onshore wind ,0.09738506
+Spain,2004,Bioenergy ,NA
+Spain,2004,Geothermal ,NA
+Spain,2004,Offshore wind ,NA
+Spain,2004,Solar photovoltaic ,NA
+Spain,2004,Concentrated solar power ,NA
+Spain,2004,Hydropower ,NA
+Spain,2004,Onshore wind ,0.10738425
+Spain,2005,Bioenergy ,NA
+Spain,2005,Geothermal ,NA
+Spain,2005,Offshore wind ,NA
+Spain,2005,Solar photovoltaic ,NA
+Spain,2005,Concentrated solar power ,NA
+Spain,2005,Hydropower ,NA
+Spain,2005,Onshore wind ,0.10111704
+Spain,2006,Bioenergy ,NA
+Spain,2006,Geothermal ,NA
+Spain,2006,Offshore wind ,NA
+Spain,2006,Solar photovoltaic ,NA
+Spain,2006,Concentrated solar power ,NA
+Spain,2006,Hydropower ,NA
+Spain,2006,Onshore wind ,0.10438538
+Spain,2007,Bioenergy ,NA
+Spain,2007,Geothermal ,NA
+Spain,2007,Offshore wind ,NA
+Spain,2007,Solar photovoltaic ,NA
+Spain,2007,Concentrated solar power ,NA
+Spain,2007,Hydropower ,NA
+Spain,2007,Onshore wind ,0.121102646
+Spain,2008,Bioenergy ,NA
+Spain,2008,Geothermal ,NA
+Spain,2008,Offshore wind ,NA
+Spain,2008,Solar photovoltaic ,NA
+Spain,2008,Concentrated solar power ,NA
+Spain,2008,Hydropower ,NA
+Spain,2008,Onshore wind ,0.11930963
+Spain,2009,Bioenergy ,NA
+Spain,2009,Geothermal ,NA
+Spain,2009,Offshore wind ,NA
+Spain,2009,Solar photovoltaic ,NA
+Spain,2009,Concentrated solar power ,NA
+Spain,2009,Hydropower ,NA
+Spain,2009,Onshore wind ,0.114267476
+Spain,2016,Bioenergy ,NA
+Spain,2016,Geothermal ,NA
+Spain,2016,Offshore wind ,NA
+Spain,2016,Solar photovoltaic ,NA
+Spain,2016,Concentrated solar power ,NA
+Spain,2016,Hydropower ,NA
+Spain,2016,Onshore wind ,0.05698509
+Spain,2017,Bioenergy ,NA
+Spain,2017,Geothermal ,NA
+Spain,2017,Offshore wind ,NA
+Spain,2017,Solar photovoltaic ,NA
+Spain,2017,Concentrated solar power ,NA
+Spain,2017,Hydropower ,NA
+Spain,2017,Onshore wind ,0.05601185
+Spain,2018,Bioenergy ,NA
+Spain,2018,Geothermal ,NA
+Spain,2018,Offshore wind ,NA
+Spain,2018,Solar photovoltaic ,NA
+Spain,2018,Concentrated solar power ,NA
+Spain,2018,Hydropower ,NA
+Spain,2018,Onshore wind ,0.07693834
+Sweden,1984,Bioenergy ,NA
+Sweden,1984,Geothermal ,NA
+Sweden,1984,Offshore wind ,NA
+Sweden,1984,Solar photovoltaic ,NA
+Sweden,1984,Concentrated solar power ,NA
+Sweden,1984,Hydropower ,NA
+Sweden,1984,Onshore wind ,0.2523369
+Sweden,1990,Bioenergy ,NA
+Sweden,1990,Geothermal ,NA
+Sweden,1990,Offshore wind ,NA
+Sweden,1990,Solar photovoltaic ,NA
+Sweden,1990,Concentrated solar power ,NA
+Sweden,1990,Hydropower ,NA
+Sweden,1990,Onshore wind ,0.21972276
+Sweden,1991,Bioenergy ,NA
+Sweden,1991,Geothermal ,NA
+Sweden,1991,Offshore wind ,NA
+Sweden,1991,Solar photovoltaic ,NA
+Sweden,1991,Concentrated solar power ,NA
+Sweden,1991,Hydropower ,NA
+Sweden,1991,Onshore wind ,0.20803191
+Sweden,1992,Bioenergy ,NA
+Sweden,1992,Geothermal ,NA
+Sweden,1992,Offshore wind ,NA
+Sweden,1992,Solar photovoltaic ,NA
+Sweden,1992,Concentrated solar power ,NA
+Sweden,1992,Hydropower ,NA
+Sweden,1992,Onshore wind ,0.22615509
+Sweden,1993,Bioenergy ,NA
+Sweden,1993,Geothermal ,NA
+Sweden,1993,Offshore wind ,NA
+Sweden,1993,Solar photovoltaic ,NA
+Sweden,1993,Concentrated solar power ,NA
+Sweden,1993,Hydropower ,NA
+Sweden,1993,Onshore wind ,0.22141354
+Sweden,1994,Bioenergy ,NA
+Sweden,1994,Geothermal ,NA
+Sweden,1994,Offshore wind ,NA
+Sweden,1994,Solar photovoltaic ,NA
+Sweden,1994,Concentrated solar power ,NA
+Sweden,1994,Hydropower ,NA
+Sweden,1994,Onshore wind ,0.20901981
+Sweden,1995,Bioenergy ,NA
+Sweden,1995,Geothermal ,NA
+Sweden,1995,Offshore wind ,NA
+Sweden,1995,Solar photovoltaic ,NA
+Sweden,1995,Concentrated solar power ,NA
+Sweden,1995,Hydropower ,NA
+Sweden,1995,Onshore wind ,0.19853652
+Sweden,1996,Bioenergy ,NA
+Sweden,1996,Geothermal ,NA
+Sweden,1996,Offshore wind ,NA
+Sweden,1996,Solar photovoltaic ,NA
+Sweden,1996,Concentrated solar power ,NA
+Sweden,1996,Hydropower ,NA
+Sweden,1996,Onshore wind ,0.2039947
+Sweden,1997,Bioenergy ,NA
+Sweden,1997,Geothermal ,NA
+Sweden,1997,Offshore wind ,NA
+Sweden,1997,Solar photovoltaic ,NA
+Sweden,1997,Concentrated solar power ,NA
+Sweden,1997,Hydropower ,NA
+Sweden,1997,Onshore wind ,0.19000967
+Sweden,1998,Bioenergy ,NA
+Sweden,1998,Geothermal ,NA
+Sweden,1998,Offshore wind ,NA
+Sweden,1998,Solar photovoltaic ,NA
+Sweden,1998,Concentrated solar power ,NA
+Sweden,1998,Hydropower ,NA
+Sweden,1998,Onshore wind ,0.18813482
+Sweden,1999,Bioenergy ,NA
+Sweden,1999,Geothermal ,NA
+Sweden,1999,Offshore wind ,NA
+Sweden,1999,Solar photovoltaic ,NA
+Sweden,1999,Concentrated solar power ,NA
+Sweden,1999,Hydropower ,NA
+Sweden,1999,Onshore wind ,0.18052238
+Sweden,2001,Bioenergy ,NA
+Sweden,2001,Geothermal ,NA
+Sweden,2001,Offshore wind ,NA
+Sweden,2001,Solar photovoltaic ,NA
+Sweden,2001,Concentrated solar power ,NA
+Sweden,2001,Hydropower ,NA
+Sweden,2001,Onshore wind ,0.14623341
+Sweden,2002,Bioenergy ,NA
+Sweden,2002,Geothermal ,NA
+Sweden,2002,Offshore wind ,NA
+Sweden,2002,Solar photovoltaic ,NA
+Sweden,2002,Concentrated solar power ,NA
+Sweden,2002,Hydropower ,NA
+Sweden,2002,Onshore wind ,0.1673399
+Sweden,2003,Bioenergy ,NA
+Sweden,2003,Geothermal ,NA
+Sweden,2003,Offshore wind ,NA
+Sweden,2003,Solar photovoltaic ,NA
+Sweden,2003,Concentrated solar power ,NA
+Sweden,2003,Hydropower ,NA
+Sweden,2003,Onshore wind ,0.12967011
+Sweden,2004,Bioenergy ,NA
+Sweden,2004,Geothermal ,NA
+Sweden,2004,Offshore wind ,NA
+Sweden,2004,Solar photovoltaic ,NA
+Sweden,2004,Concentrated solar power ,NA
+Sweden,2004,Hydropower ,NA
+Sweden,2004,Onshore wind ,0.14061679
+Sweden,2005,Bioenergy ,NA
+Sweden,2005,Geothermal ,NA
+Sweden,2005,Offshore wind ,NA
+Sweden,2005,Solar photovoltaic ,NA
+Sweden,2005,Concentrated solar power ,NA
+Sweden,2005,Hydropower ,NA
+Sweden,2005,Onshore wind ,0.14551297
+Sweden,2006,Bioenergy ,NA
+Sweden,2006,Geothermal ,NA
+Sweden,2006,Offshore wind ,NA
+Sweden,2006,Solar photovoltaic ,NA
+Sweden,2006,Concentrated solar power ,NA
+Sweden,2006,Hydropower ,NA
+Sweden,2006,Onshore wind ,0.14551297
+Sweden,2007,Bioenergy ,NA
+Sweden,2007,Geothermal ,NA
+Sweden,2007,Offshore wind ,NA
+Sweden,2007,Solar photovoltaic ,NA
+Sweden,2007,Concentrated solar power ,NA
+Sweden,2007,Hydropower ,NA
+Sweden,2007,Onshore wind ,0.13179845
+Sweden,2008,Bioenergy ,NA
+Sweden,2008,Geothermal ,NA
+Sweden,2008,Offshore wind ,NA
+Sweden,2008,Solar photovoltaic ,NA
+Sweden,2008,Concentrated solar power ,NA
+Sweden,2008,Hydropower ,NA
+Sweden,2008,Onshore wind ,0.14917386
+Sweden,2009,Bioenergy ,NA
+Sweden,2009,Geothermal ,NA
+Sweden,2009,Offshore wind ,NA
+Sweden,2009,Solar photovoltaic ,NA
+Sweden,2009,Concentrated solar power ,NA
+Sweden,2009,Hydropower ,NA
+Sweden,2009,Onshore wind ,0.14366922
+Sweden,2010,Bioenergy ,NA
+Sweden,2010,Geothermal ,NA
+Sweden,2010,Offshore wind ,NA
+Sweden,2010,Solar photovoltaic ,NA
+Sweden,2010,Concentrated solar power ,NA
+Sweden,2010,Hydropower ,NA
+Sweden,2010,Onshore wind ,0.11451011
+Sweden,2011,Bioenergy ,NA
+Sweden,2011,Geothermal ,NA
+Sweden,2011,Offshore wind ,NA
+Sweden,2011,Solar photovoltaic ,NA
+Sweden,2011,Concentrated solar power ,NA
+Sweden,2011,Hydropower ,NA
+Sweden,2011,Onshore wind ,0.10907323
+Sweden,2012,Bioenergy ,NA
+Sweden,2012,Geothermal ,NA
+Sweden,2012,Offshore wind ,NA
+Sweden,2012,Solar photovoltaic ,NA
+Sweden,2012,Concentrated solar power ,NA
+Sweden,2012,Hydropower ,NA
+Sweden,2012,Onshore wind ,0.105462246
+Sweden,2013,Bioenergy ,NA
+Sweden,2013,Geothermal ,NA
+Sweden,2013,Offshore wind ,NA
+Sweden,2013,Solar photovoltaic ,NA
+Sweden,2013,Concentrated solar power ,NA
+Sweden,2013,Hydropower ,NA
+Sweden,2013,Onshore wind ,0.083965436
+Sweden,2014,Bioenergy ,NA
+Sweden,2014,Geothermal ,NA
+Sweden,2014,Offshore wind ,NA
+Sweden,2014,Solar photovoltaic ,NA
+Sweden,2014,Concentrated solar power ,NA
+Sweden,2014,Hydropower ,NA
+Sweden,2014,Onshore wind ,0.090954416
+Sweden,2015,Bioenergy ,NA
+Sweden,2015,Geothermal ,NA
+Sweden,2015,Offshore wind ,NA
+Sweden,2015,Solar photovoltaic ,NA
+Sweden,2015,Concentrated solar power ,NA
+Sweden,2015,Hydropower ,NA
+Sweden,2015,Onshore wind ,0.07375525
+Sweden,2016,Bioenergy ,NA
+Sweden,2016,Geothermal ,NA
+Sweden,2016,Offshore wind ,NA
+Sweden,2016,Solar photovoltaic ,NA
+Sweden,2016,Concentrated solar power ,NA
+Sweden,2016,Hydropower ,NA
+Sweden,2016,Onshore wind ,0.06313498
+Sweden,2017,Bioenergy ,NA
+Sweden,2017,Geothermal ,NA
+Sweden,2017,Offshore wind ,NA
+Sweden,2017,Solar photovoltaic ,NA
+Sweden,2017,Concentrated solar power ,NA
+Sweden,2017,Hydropower ,NA
+Sweden,2017,Onshore wind ,0.056847084
+Sweden,2018,Bioenergy ,NA
+Sweden,2018,Geothermal ,NA
+Sweden,2018,Offshore wind ,NA
+Sweden,2018,Solar photovoltaic ,NA
+Sweden,2018,Concentrated solar power ,NA
+Sweden,2018,Hydropower ,NA
+Sweden,2018,Onshore wind ,0.04238039
+Sweden,2019,Bioenergy ,NA
+Sweden,2019,Geothermal ,NA
+Sweden,2019,Offshore wind ,NA
+Sweden,2019,Solar photovoltaic ,NA
+Sweden,2019,Concentrated solar power ,NA
+Sweden,2019,Hydropower ,NA
+Sweden,2019,Onshore wind ,0.040514875
+Sweden,2020,Bioenergy ,NA
+Sweden,2020,Geothermal ,NA
+Sweden,2020,Offshore wind ,NA
+Sweden,2020,Solar photovoltaic ,NA
+Sweden,2020,Concentrated solar power ,NA
+Sweden,2020,Hydropower ,NA
+Sweden,2020,Onshore wind ,0.038623493
+Sweden,2021,Bioenergy ,NA
+Sweden,2021,Geothermal ,NA
+Sweden,2021,Offshore wind ,NA
+Sweden,2021,Solar photovoltaic ,NA
+Sweden,2021,Concentrated solar power ,NA
+Sweden,2021,Hydropower ,NA
+Sweden,2021,Onshore wind ,0.036375675
+Turkey,2016,Bioenergy ,NA
+Turkey,2016,Geothermal ,NA
+Turkey,2016,Offshore wind ,NA
+Turkey,2016,Solar photovoltaic ,0.12655638
+Turkey,2016,Concentrated solar power ,NA
+Turkey,2016,Hydropower ,NA
+Turkey,2016,Onshore wind ,0.07215444
+Turkey,2017,Bioenergy ,NA
+Turkey,2017,Geothermal ,NA
+Turkey,2017,Offshore wind ,NA
+Turkey,2017,Solar photovoltaic ,0.12046391
+Turkey,2017,Concentrated solar power ,NA
+Turkey,2017,Hydropower ,NA
+Turkey,2017,Onshore wind ,0.06516842
+Turkey,2018,Bioenergy ,NA
+Turkey,2018,Geothermal ,NA
+Turkey,2018,Offshore wind ,NA
+Turkey,2018,Solar photovoltaic ,0.09587503
+Turkey,2018,Concentrated solar power ,NA
+Turkey,2018,Hydropower ,NA
+Turkey,2018,Onshore wind ,0.072465286
+Turkey,2019,Bioenergy ,NA
+Turkey,2019,Geothermal ,NA
+Turkey,2019,Offshore wind ,NA
+Turkey,2019,Solar photovoltaic ,0.08706513
+Turkey,2019,Concentrated solar power ,NA
+Turkey,2019,Hydropower ,NA
+Turkey,2019,Onshore wind ,0.06926356
+Turkey,2020,Bioenergy ,NA
+Turkey,2020,Geothermal ,NA
+Turkey,2020,Offshore wind ,NA
+Turkey,2020,Solar photovoltaic ,0.06705172
+Turkey,2020,Concentrated solar power ,NA
+Turkey,2020,Hydropower ,NA
+Turkey,2020,Onshore wind ,0.050269816
+Turkey,2021,Bioenergy ,NA
+Turkey,2021,Geothermal ,NA
+Turkey,2021,Offshore wind ,NA
+Turkey,2021,Solar photovoltaic ,0.0640246
+Turkey,2021,Concentrated solar power ,NA
+Turkey,2021,Hydropower ,NA
+Turkey,2021,Onshore wind ,0.044634294
+Turkey,1998,Bioenergy ,NA
+Turkey,1998,Geothermal ,NA
+Turkey,1998,Offshore wind ,NA
+Turkey,1998,Solar photovoltaic ,NA
+Turkey,1998,Concentrated solar power ,NA
+Turkey,1998,Hydropower ,NA
+Turkey,1998,Onshore wind ,0.086582854
+Turkey,2000,Bioenergy ,NA
+Turkey,2000,Geothermal ,NA
+Turkey,2000,Offshore wind ,NA
+Turkey,2000,Solar photovoltaic ,NA
+Turkey,2000,Concentrated solar power ,NA
+Turkey,2000,Hydropower ,NA
+Turkey,2000,Onshore wind ,0.07863785
+Turkey,2009,Bioenergy ,NA
+Turkey,2009,Geothermal ,NA
+Turkey,2009,Offshore wind ,NA
+Turkey,2009,Solar photovoltaic ,NA
+Turkey,2009,Concentrated solar power ,NA
+Turkey,2009,Hydropower ,NA
+Turkey,2009,Onshore wind ,0.06774616
+Turkey,2010,Bioenergy ,NA
+Turkey,2010,Geothermal ,NA
+Turkey,2010,Offshore wind ,NA
+Turkey,2010,Solar photovoltaic ,NA
+Turkey,2010,Concentrated solar power ,NA
+Turkey,2010,Hydropower ,NA
+Turkey,2010,Onshore wind ,0.12797143
+Turkey,2011,Bioenergy ,NA
+Turkey,2011,Geothermal ,NA
+Turkey,2011,Offshore wind ,NA
+Turkey,2011,Solar photovoltaic ,NA
+Turkey,2011,Concentrated solar power ,NA
+Turkey,2011,Hydropower ,NA
+Turkey,2011,Onshore wind ,0.09477631
+Turkey,2012,Bioenergy ,NA
+Turkey,2012,Geothermal ,NA
+Turkey,2012,Offshore wind ,NA
+Turkey,2012,Solar photovoltaic ,NA
+Turkey,2012,Concentrated solar power ,NA
+Turkey,2012,Hydropower ,NA
+Turkey,2012,Onshore wind ,0.08422173
+Turkey,2013,Bioenergy ,NA
+Turkey,2013,Geothermal ,NA
+Turkey,2013,Offshore wind ,NA
+Turkey,2013,Solar photovoltaic ,NA
+Turkey,2013,Concentrated solar power ,NA
+Turkey,2013,Hydropower ,NA
+Turkey,2013,Onshore wind ,0.08495713
+Turkey,2014,Bioenergy ,NA
+Turkey,2014,Geothermal ,NA
+Turkey,2014,Offshore wind ,NA
+Turkey,2014,Solar photovoltaic ,NA
+Turkey,2014,Concentrated solar power ,NA
+Turkey,2014,Hydropower ,NA
+Turkey,2014,Onshore wind ,0.09270858
+Turkey,2015,Bioenergy ,NA
+Turkey,2015,Geothermal ,NA
+Turkey,2015,Offshore wind ,NA
+Turkey,2015,Solar photovoltaic ,NA
+Turkey,2015,Concentrated solar power ,NA
+Turkey,2015,Hydropower ,NA
+Turkey,2015,Onshore wind ,0.08066328
+Ukraine,2011,Bioenergy ,NA
+Ukraine,2011,Geothermal ,NA
+Ukraine,2011,Offshore wind ,NA
+Ukraine,2011,Solar photovoltaic ,0.5188495
+Ukraine,2011,Concentrated solar power ,NA
+Ukraine,2011,Hydropower ,NA
+Ukraine,2011,Onshore wind ,NA
+Ukraine,2013,Bioenergy ,NA
+Ukraine,2013,Geothermal ,NA
+Ukraine,2013,Offshore wind ,NA
+Ukraine,2013,Solar photovoltaic ,0.4037338
+Ukraine,2013,Concentrated solar power ,NA
+Ukraine,2013,Hydropower ,NA
+Ukraine,2013,Onshore wind ,NA
+Ukraine,2017,Bioenergy ,NA
+Ukraine,2017,Geothermal ,NA
+Ukraine,2017,Offshore wind ,NA
+Ukraine,2017,Solar photovoltaic ,0.13571915
+Ukraine,2017,Concentrated solar power ,NA
+Ukraine,2017,Hydropower ,NA
+Ukraine,2017,Onshore wind ,NA
+Ukraine,2018,Bioenergy ,NA
+Ukraine,2018,Geothermal ,NA
+Ukraine,2018,Offshore wind ,NA
+Ukraine,2018,Solar photovoltaic ,0.13889024
+Ukraine,2018,Concentrated solar power ,NA
+Ukraine,2018,Hydropower ,NA
+Ukraine,2018,Onshore wind ,NA
+Ukraine,2019,Bioenergy ,NA
+Ukraine,2019,Geothermal ,NA
+Ukraine,2019,Offshore wind ,NA
+Ukraine,2019,Solar photovoltaic ,0.095474236
+Ukraine,2019,Concentrated solar power ,NA
+Ukraine,2019,Hydropower ,NA
+Ukraine,2019,Onshore wind ,NA
+Ukraine,2020,Bioenergy ,NA
+Ukraine,2020,Geothermal ,NA
+Ukraine,2020,Offshore wind ,NA
+Ukraine,2020,Solar photovoltaic ,0.09331378
+Ukraine,2020,Concentrated solar power ,NA
+Ukraine,2020,Hydropower ,NA
+Ukraine,2020,Onshore wind ,NA
+Ukraine,2021,Bioenergy ,NA
+Ukraine,2021,Geothermal ,NA
+Ukraine,2021,Offshore wind ,NA
+Ukraine,2021,Solar photovoltaic ,0.11676699
+Ukraine,2021,Concentrated solar power ,NA
+Ukraine,2021,Hydropower ,NA
+Ukraine,2021,Onshore wind ,NA
+United Kingdom,2010,Bioenergy ,NA
+United Kingdom,2010,Geothermal ,NA
+United Kingdom,2010,Offshore wind ,NA
+United Kingdom,2010,Solar photovoltaic ,0.5340079
+United Kingdom,2010,Concentrated solar power ,NA
+United Kingdom,2010,Hydropower ,NA
+United Kingdom,2010,Onshore wind ,0.10233368
+United Kingdom,2011,Bioenergy ,NA
+United Kingdom,2011,Geothermal ,NA
+United Kingdom,2011,Offshore wind ,NA
+United Kingdom,2011,Solar photovoltaic ,0.49272853
+United Kingdom,2011,Concentrated solar power ,NA
+United Kingdom,2011,Hydropower ,NA
+United Kingdom,2011,Onshore wind ,0.10502856
+United Kingdom,2012,Bioenergy ,NA
+United Kingdom,2012,Geothermal ,NA
+United Kingdom,2012,Offshore wind ,NA
+United Kingdom,2012,Solar photovoltaic ,0.2900355
+United Kingdom,2012,Concentrated solar power ,NA
+United Kingdom,2012,Hydropower ,NA
+United Kingdom,2012,Onshore wind ,0.093658954
+United Kingdom,2013,Bioenergy ,NA
+United Kingdom,2013,Geothermal ,NA
+United Kingdom,2013,Offshore wind ,NA
+United Kingdom,2013,Solar photovoltaic ,0.23476368
+United Kingdom,2013,Concentrated solar power ,NA
+United Kingdom,2013,Hydropower ,NA
+United Kingdom,2013,Onshore wind ,0.09322738
+United Kingdom,2014,Bioenergy ,NA
+United Kingdom,2014,Geothermal ,NA
+United Kingdom,2014,Offshore wind ,NA
+United Kingdom,2014,Solar photovoltaic ,0.19213423
+United Kingdom,2014,Concentrated solar power ,NA
+United Kingdom,2014,Hydropower ,NA
+United Kingdom,2014,Onshore wind ,0.08808455
+United Kingdom,2015,Bioenergy ,NA
+United Kingdom,2015,Geothermal ,NA
+United Kingdom,2015,Offshore wind ,NA
+United Kingdom,2015,Solar photovoltaic ,0.14969818
+United Kingdom,2015,Concentrated solar power ,NA
+United Kingdom,2015,Hydropower ,NA
+United Kingdom,2015,Onshore wind ,0.08042729
+United Kingdom,2016,Bioenergy ,NA
+United Kingdom,2016,Geothermal ,NA
+United Kingdom,2016,Offshore wind ,NA
+United Kingdom,2016,Solar photovoltaic ,0.14178355
+United Kingdom,2016,Concentrated solar power ,NA
+United Kingdom,2016,Hydropower ,NA
+United Kingdom,2016,Onshore wind ,0.06957678
+United Kingdom,2017,Bioenergy ,NA
+United Kingdom,2017,Geothermal ,NA
+United Kingdom,2017,Offshore wind ,NA
+United Kingdom,2017,Solar photovoltaic ,0.11634936
+United Kingdom,2017,Concentrated solar power ,NA
+United Kingdom,2017,Hydropower ,NA
+United Kingdom,2017,Onshore wind ,0.066068396
+United Kingdom,2018,Bioenergy ,NA
+United Kingdom,2018,Geothermal ,NA
+United Kingdom,2018,Offshore wind ,NA
+United Kingdom,2018,Solar photovoltaic ,0.1181692
+United Kingdom,2018,Concentrated solar power ,NA
+United Kingdom,2018,Hydropower ,NA
+United Kingdom,2018,Onshore wind ,0.046249684
+United Kingdom,2019,Bioenergy ,NA
+United Kingdom,2019,Geothermal ,NA
+United Kingdom,2019,Offshore wind ,NA
+United Kingdom,2019,Solar photovoltaic ,0.088153124
+United Kingdom,2019,Concentrated solar power ,NA
+United Kingdom,2019,Hydropower ,NA
+United Kingdom,2019,Onshore wind ,0.056466475
+United Kingdom,2020,Bioenergy ,NA
+United Kingdom,2020,Geothermal ,NA
+United Kingdom,2020,Offshore wind ,NA
+United Kingdom,2020,Solar photovoltaic ,0.07481206
+United Kingdom,2020,Concentrated solar power ,NA
+United Kingdom,2020,Hydropower ,NA
+United Kingdom,2020,Onshore wind ,0.045735206
+United Kingdom,2021,Bioenergy ,NA
+United Kingdom,2021,Geothermal ,NA
+United Kingdom,2021,Offshore wind ,NA
+United Kingdom,2021,Solar photovoltaic ,0.06895723
+United Kingdom,2021,Concentrated solar power ,NA
+United Kingdom,2021,Hydropower ,NA
+United Kingdom,2021,Onshore wind ,0.042237155
+United Kingdom,1989,Bioenergy ,NA
+United Kingdom,1989,Geothermal ,NA
+United Kingdom,1989,Offshore wind ,NA
+United Kingdom,1989,Solar photovoltaic ,NA
+United Kingdom,1989,Concentrated solar power ,NA
+United Kingdom,1989,Hydropower ,NA
+United Kingdom,1989,Onshore wind ,0.20415092
+United Kingdom,1990,Bioenergy ,NA
+United Kingdom,1990,Geothermal ,NA
+United Kingdom,1990,Offshore wind ,NA
+United Kingdom,1990,Solar photovoltaic ,NA
+United Kingdom,1990,Concentrated solar power ,NA
+United Kingdom,1990,Hydropower ,NA
+United Kingdom,1990,Onshore wind ,0.20500809
+United Kingdom,1991,Bioenergy ,NA
+United Kingdom,1991,Geothermal ,NA
+United Kingdom,1991,Offshore wind ,NA
+United Kingdom,1991,Solar photovoltaic ,NA
+United Kingdom,1991,Concentrated solar power ,NA
+United Kingdom,1991,Hydropower ,NA
+United Kingdom,1991,Onshore wind ,0.19398992
+United Kingdom,1992,Bioenergy ,NA
+United Kingdom,1992,Geothermal ,NA
+United Kingdom,1992,Offshore wind ,NA
+United Kingdom,1992,Solar photovoltaic ,NA
+United Kingdom,1992,Concentrated solar power ,NA
+United Kingdom,1992,Hydropower ,NA
+United Kingdom,1992,Onshore wind ,0.20847157
+United Kingdom,1993,Bioenergy ,NA
+United Kingdom,1993,Geothermal ,NA
+United Kingdom,1993,Offshore wind ,NA
+United Kingdom,1993,Solar photovoltaic ,NA
+United Kingdom,1993,Concentrated solar power ,NA
+United Kingdom,1993,Hydropower ,NA
+United Kingdom,1993,Onshore wind ,0.19127405
+United Kingdom,1994,Bioenergy ,NA
+United Kingdom,1994,Geothermal ,NA
+United Kingdom,1994,Offshore wind ,NA
+United Kingdom,1994,Solar photovoltaic ,NA
+United Kingdom,1994,Concentrated solar power ,NA
+United Kingdom,1994,Hydropower ,NA
+United Kingdom,1994,Onshore wind ,0.19304705
+United Kingdom,1995,Bioenergy ,NA
+United Kingdom,1995,Geothermal ,NA
+United Kingdom,1995,Offshore wind ,NA
+United Kingdom,1995,Solar photovoltaic ,NA
+United Kingdom,1995,Concentrated solar power ,NA
+United Kingdom,1995,Hydropower ,NA
+United Kingdom,1995,Onshore wind ,0.18256375
+United Kingdom,1996,Bioenergy ,NA
+United Kingdom,1996,Geothermal ,NA
+United Kingdom,1996,Offshore wind ,NA
+United Kingdom,1996,Solar photovoltaic ,NA
+United Kingdom,1996,Concentrated solar power ,NA
+United Kingdom,1996,Hydropower ,NA
+United Kingdom,1996,Onshore wind ,0.18718126
+United Kingdom,1997,Bioenergy ,NA
+United Kingdom,1997,Geothermal ,NA
+United Kingdom,1997,Offshore wind ,NA
+United Kingdom,1997,Solar photovoltaic ,NA
+United Kingdom,1997,Concentrated solar power ,NA
+United Kingdom,1997,Hydropower ,NA
+United Kingdom,1997,Onshore wind ,0.1740369
+United Kingdom,1998,Bioenergy ,NA
+United Kingdom,1998,Geothermal ,NA
+United Kingdom,1998,Offshore wind ,NA
+United Kingdom,1998,Solar photovoltaic ,NA
+United Kingdom,1998,Concentrated solar power ,NA
+United Kingdom,1998,Hydropower ,NA
+United Kingdom,1998,Onshore wind ,0.17216206
+United Kingdom,1999,Bioenergy ,NA
+United Kingdom,1999,Geothermal ,NA
+United Kingdom,1999,Offshore wind ,NA
+United Kingdom,1999,Solar photovoltaic ,NA
+United Kingdom,1999,Concentrated solar power ,NA
+United Kingdom,1999,Hydropower ,NA
+United Kingdom,1999,Onshore wind ,0.16454962
+United Kingdom,2000,Bioenergy ,NA
+United Kingdom,2000,Geothermal ,NA
+United Kingdom,2000,Offshore wind ,NA
+United Kingdom,2000,Solar photovoltaic ,NA
+United Kingdom,2000,Concentrated solar power ,NA
+United Kingdom,2000,Hydropower ,NA
+United Kingdom,2000,Onshore wind ,0.11315568
+United Kingdom,2001,Bioenergy ,NA
+United Kingdom,2001,Geothermal ,NA
+United Kingdom,2001,Offshore wind ,NA
+United Kingdom,2001,Solar photovoltaic ,NA
+United Kingdom,2001,Concentrated solar power ,NA
+United Kingdom,2001,Hydropower ,NA
+United Kingdom,2001,Onshore wind ,0.1283265
+United Kingdom,2002,Bioenergy ,NA
+United Kingdom,2002,Geothermal ,NA
+United Kingdom,2002,Offshore wind ,NA
+United Kingdom,2002,Solar photovoltaic ,NA
+United Kingdom,2002,Concentrated solar power ,NA
+United Kingdom,2002,Hydropower ,NA
+United Kingdom,2002,Onshore wind ,0.13384654
+United Kingdom,2003,Bioenergy ,NA
+United Kingdom,2003,Geothermal ,NA
+United Kingdom,2003,Offshore wind ,NA
+United Kingdom,2003,Solar photovoltaic ,NA
+United Kingdom,2003,Concentrated solar power ,NA
+United Kingdom,2003,Hydropower ,NA
+United Kingdom,2003,Onshore wind ,0.13365294
+United Kingdom,2004,Bioenergy ,NA
+United Kingdom,2004,Geothermal ,NA
+United Kingdom,2004,Offshore wind ,NA
+United Kingdom,2004,Solar photovoltaic ,NA
+United Kingdom,2004,Concentrated solar power ,NA
+United Kingdom,2004,Hydropower ,NA
+United Kingdom,2004,Onshore wind ,0.14029786
+United Kingdom,2005,Bioenergy ,NA
+United Kingdom,2005,Geothermal ,NA
+United Kingdom,2005,Offshore wind ,NA
+United Kingdom,2005,Solar photovoltaic ,NA
+United Kingdom,2005,Concentrated solar power ,NA
+United Kingdom,2005,Hydropower ,NA
+United Kingdom,2005,Onshore wind ,0.13268963
+United Kingdom,2006,Bioenergy ,NA
+United Kingdom,2006,Geothermal ,NA
+United Kingdom,2006,Offshore wind ,NA
+United Kingdom,2006,Solar photovoltaic ,NA
+United Kingdom,2006,Concentrated solar power ,NA
+United Kingdom,2006,Hydropower ,NA
+United Kingdom,2006,Onshore wind ,0.13314562
+United Kingdom,2007,Bioenergy ,NA
+United Kingdom,2007,Geothermal ,NA
+United Kingdom,2007,Offshore wind ,NA
+United Kingdom,2007,Solar photovoltaic ,NA
+United Kingdom,2007,Concentrated solar power ,NA
+United Kingdom,2007,Hydropower ,NA
+United Kingdom,2007,Onshore wind ,0.12634729
+United Kingdom,2008,Bioenergy ,NA
+United Kingdom,2008,Geothermal ,NA
+United Kingdom,2008,Offshore wind ,NA
+United Kingdom,2008,Solar photovoltaic ,NA
+United Kingdom,2008,Concentrated solar power ,NA
+United Kingdom,2008,Hydropower ,NA
+United Kingdom,2008,Onshore wind ,0.1387804
+United Kingdom,2009,Bioenergy ,NA
+United Kingdom,2009,Geothermal ,NA
+United Kingdom,2009,Offshore wind ,NA
+United Kingdom,2009,Solar photovoltaic ,NA
+United Kingdom,2009,Concentrated solar power ,NA
+United Kingdom,2009,Hydropower ,NA
+United Kingdom,2009,Onshore wind ,0.07675461
+United States,2010,Bioenergy ,NA
+United States,2010,Geothermal ,NA
+United States,2010,Offshore wind ,NA
+United States,2010,Solar photovoltaic ,0.22071867
+United States,2010,Concentrated solar power ,NA
+United States,2010,Hydropower ,NA
+United States,2010,Onshore wind ,0.10264576
+United States,2011,Bioenergy ,NA
+United States,2011,Geothermal ,NA
+United States,2011,Offshore wind ,NA
+United States,2011,Solar photovoltaic ,0.2627196
+United States,2011,Concentrated solar power ,NA
+United States,2011,Hydropower ,NA
+United States,2011,Onshore wind ,0.10847992
+United States,2012,Bioenergy ,NA
+United States,2012,Geothermal ,NA
+United States,2012,Offshore wind ,NA
+United States,2012,Solar photovoltaic ,0.22718425
+United States,2012,Concentrated solar power ,NA
+United States,2012,Hydropower ,NA
+United States,2012,Onshore wind ,0.09205702
+United States,2013,Bioenergy ,NA
+United States,2013,Geothermal ,NA
+United States,2013,Offshore wind ,NA
+United States,2013,Solar photovoltaic ,0.22637878
+United States,2013,Concentrated solar power ,NA
+United States,2013,Hydropower ,NA
+United States,2013,Onshore wind ,0.07594883
+United States,2014,Bioenergy ,NA
+United States,2014,Geothermal ,NA
+United States,2014,Offshore wind ,NA
+United States,2014,Solar photovoltaic ,0.15501648
+United States,2014,Concentrated solar power ,NA
+United States,2014,Hydropower ,NA
+United States,2014,Onshore wind ,0.06268506
+United States,2015,Bioenergy ,NA
+United States,2015,Geothermal ,NA
+United States,2015,Offshore wind ,NA
+United States,2015,Solar photovoltaic ,0.14340648
+United States,2015,Concentrated solar power ,NA
+United States,2015,Hydropower ,NA
+United States,2015,Onshore wind ,0.056870524
+United States,2016,Bioenergy ,NA
+United States,2016,Geothermal ,NA
+United States,2016,Offshore wind ,NA
+United States,2016,Solar photovoltaic ,0.13033208
+United States,2016,Concentrated solar power ,NA
+United States,2016,Hydropower ,NA
+United States,2016,Onshore wind ,0.052276865
+United States,2017,Bioenergy ,NA
+United States,2017,Geothermal ,NA
+United States,2017,Offshore wind ,NA
+United States,2017,Solar photovoltaic ,0.09481538
+United States,2017,Concentrated solar power ,NA
+United States,2017,Hydropower ,NA
+United States,2017,Onshore wind ,0.045964383
+United States,2018,Bioenergy ,NA
+United States,2018,Geothermal ,NA
+United States,2018,Offshore wind ,NA
+United States,2018,Solar photovoltaic ,0.07368063
+United States,2018,Concentrated solar power ,NA
+United States,2018,Hydropower ,NA
+United States,2018,Onshore wind ,0.042361673
+United States,2019,Bioenergy ,NA
+United States,2019,Geothermal ,NA
+United States,2019,Offshore wind ,NA
+United States,2019,Solar photovoltaic ,0.062099442
+United States,2019,Concentrated solar power ,NA
+United States,2019,Hydropower ,NA
+United States,2019,Onshore wind ,0.038209517
+United States,2020,Bioenergy ,NA
+United States,2020,Geothermal ,NA
+United States,2020,Offshore wind ,NA
+United States,2020,Solar photovoltaic ,0.060060732
+United States,2020,Concentrated solar power ,NA
+United States,2020,Hydropower ,NA
+United States,2020,Onshore wind ,0.034139894
+United States,2021,Bioenergy ,NA
+United States,2021,Geothermal ,NA
+United States,2021,Offshore wind ,NA
+United States,2021,Solar photovoltaic ,0.055293158
+United States,2021,Concentrated solar power ,NA
+United States,2021,Hydropower ,NA
+United States,2021,Onshore wind ,0.02961255
+United States,1984,Bioenergy ,NA
+United States,1984,Geothermal ,NA
+United States,1984,Offshore wind ,NA
+United States,1984,Solar photovoltaic ,NA
+United States,1984,Concentrated solar power ,NA
+United States,1984,Hydropower ,NA
+United States,1984,Onshore wind ,0.32380807
+United States,1985,Bioenergy ,NA
+United States,1985,Geothermal ,NA
+United States,1985,Offshore wind ,NA
+United States,1985,Solar photovoltaic ,NA
+United States,1985,Concentrated solar power ,NA
+United States,1985,Hydropower ,NA
+United States,1985,Onshore wind ,0.3044088
+United States,1986,Bioenergy ,NA
+United States,1986,Geothermal ,NA
+United States,1986,Offshore wind ,NA
+United States,1986,Solar photovoltaic ,NA
+United States,1986,Concentrated solar power ,NA
+United States,1986,Hydropower ,NA
+United States,1986,Onshore wind ,0.27523696
+United States,1987,Bioenergy ,NA
+United States,1987,Geothermal ,NA
+United States,1987,Offshore wind ,NA
+United States,1987,Solar photovoltaic ,NA
+United States,1987,Concentrated solar power ,NA
+United States,1987,Hydropower ,NA
+United States,1987,Onshore wind ,0.2694026
+United States,1988,Bioenergy ,NA
+United States,1988,Geothermal ,NA
+United States,1988,Offshore wind ,NA
+United States,1988,Solar photovoltaic ,NA
+United States,1988,Concentrated solar power ,NA
+United States,1988,Hydropower ,NA
+United States,1988,Onshore wind ,0.21000881
+United States,1989,Bioenergy ,NA
+United States,1989,Geothermal ,NA
+United States,1989,Offshore wind ,NA
+United States,1989,Solar photovoltaic ,NA
+United States,1989,Concentrated solar power ,NA
+United States,1989,Hydropower ,NA
+United States,1989,Onshore wind ,0.19602023
+United States,1990,Bioenergy ,NA
+United States,1990,Geothermal ,NA
+United States,1990,Offshore wind ,NA
+United States,1990,Solar photovoltaic ,NA
+United States,1990,Concentrated solar power ,NA
+United States,1990,Hydropower ,NA
+United States,1990,Onshore wind ,0.2162832
+United States,1991,Bioenergy ,NA
+United States,1991,Geothermal ,NA
+United States,1991,Offshore wind ,NA
+United States,1991,Solar photovoltaic ,NA
+United States,1991,Concentrated solar power ,NA
+United States,1991,Hydropower ,NA
+United States,1991,Onshore wind ,0.20989212
+United States,1998,Bioenergy ,NA
+United States,1998,Geothermal ,NA
+United States,1998,Offshore wind ,NA
+United States,1998,Solar photovoltaic ,NA
+United States,1998,Concentrated solar power ,NA
+United States,1998,Hydropower ,NA
+United States,1998,Onshore wind ,0.120570146
+United States,1999,Bioenergy ,NA
+United States,1999,Geothermal ,NA
+United States,1999,Offshore wind ,NA
+United States,1999,Solar photovoltaic ,NA
+United States,1999,Concentrated solar power ,NA
+United States,1999,Hydropower ,NA
+United States,1999,Onshore wind ,0.11613337
+United States,2000,Bioenergy ,NA
+United States,2000,Geothermal ,NA
+United States,2000,Offshore wind ,NA
+United States,2000,Solar photovoltaic ,NA
+United States,2000,Concentrated solar power ,NA
+United States,2000,Hydropower ,NA
+United States,2000,Onshore wind ,0.10138847
+United States,2001,Bioenergy ,NA
+United States,2001,Geothermal ,NA
+United States,2001,Offshore wind ,NA
+United States,2001,Solar photovoltaic ,NA
+United States,2001,Concentrated solar power ,NA
+United States,2001,Hydropower ,NA
+United States,2001,Onshore wind ,0.09534082
+United States,2002,Bioenergy ,NA
+United States,2002,Geothermal ,NA
+United States,2002,Offshore wind ,NA
+United States,2002,Solar photovoltaic ,NA
+United States,2002,Concentrated solar power ,NA
+United States,2002,Hydropower ,NA
+United States,2002,Onshore wind ,0.09022507
+United States,2003,Bioenergy ,NA
+United States,2003,Geothermal ,NA
+United States,2003,Offshore wind ,NA
+United States,2003,Solar photovoltaic ,NA
+United States,2003,Concentrated solar power ,NA
+United States,2003,Hydropower ,NA
+United States,2003,Onshore wind ,0.080114976
+United States,2004,Bioenergy ,NA
+United States,2004,Geothermal ,NA
+United States,2004,Offshore wind ,NA
+United States,2004,Solar photovoltaic ,NA
+United States,2004,Concentrated solar power ,NA
+United States,2004,Hydropower ,NA
+United States,2004,Onshore wind ,0.08824527
+United States,2005,Bioenergy ,NA
+United States,2005,Geothermal ,NA
+United States,2005,Offshore wind ,NA
+United States,2005,Solar photovoltaic ,NA
+United States,2005,Concentrated solar power ,NA
+United States,2005,Hydropower ,NA
+United States,2005,Onshore wind ,0.0780249
+United States,2006,Bioenergy ,NA
+United States,2006,Geothermal ,NA
+United States,2006,Offshore wind ,NA
+United States,2006,Solar photovoltaic ,NA
+United States,2006,Concentrated solar power ,NA
+United States,2006,Hydropower ,NA
+United States,2006,Onshore wind ,0.08819039
+United States,2007,Bioenergy ,NA
+United States,2007,Geothermal ,NA
+United States,2007,Offshore wind ,NA
+United States,2007,Solar photovoltaic ,NA
+United States,2007,Concentrated solar power ,NA
+United States,2007,Hydropower ,NA
+United States,2007,Onshore wind ,0.08683384
+United States,2008,Bioenergy ,NA
+United States,2008,Geothermal ,NA
+United States,2008,Offshore wind ,NA
+United States,2008,Solar photovoltaic ,NA
+United States,2008,Concentrated solar power ,NA
+United States,2008,Hydropower ,NA
+United States,2008,Onshore wind ,0.09884649
+United States,2009,Bioenergy ,NA
+United States,2009,Geothermal ,NA
+United States,2009,Offshore wind ,NA
+United States,2009,Solar photovoltaic ,NA
+United States,2009,Concentrated solar power ,NA
+United States,2009,Hydropower ,NA
+United States,2009,Onshore wind ,0.1102728
+Vietnam,2016,Bioenergy ,NA
+Vietnam,2016,Geothermal ,NA
+Vietnam,2016,Offshore wind ,NA
+Vietnam,2016,Solar photovoltaic ,0.17619993
+Vietnam,2016,Concentrated solar power ,NA
+Vietnam,2016,Hydropower ,NA
+Vietnam,2016,Onshore wind ,NA
+Vietnam,2017,Bioenergy ,NA
+Vietnam,2017,Geothermal ,NA
+Vietnam,2017,Offshore wind ,NA
+Vietnam,2017,Solar photovoltaic ,0.25426394
+Vietnam,2017,Concentrated solar power ,NA
+Vietnam,2017,Hydropower ,NA
+Vietnam,2017,Onshore wind ,NA
+Vietnam,2019,Bioenergy ,NA
+Vietnam,2019,Geothermal ,NA
+Vietnam,2019,Offshore wind ,NA
+Vietnam,2019,Solar photovoltaic ,0.07367718
+Vietnam,2019,Concentrated solar power ,NA
+Vietnam,2019,Hydropower ,NA
+Vietnam,2019,Onshore wind ,NA
+Vietnam,2020,Bioenergy ,NA
+Vietnam,2020,Geothermal ,NA
+Vietnam,2020,Offshore wind ,NA
+Vietnam,2020,Solar photovoltaic ,0.06579177
+Vietnam,2020,Concentrated solar power ,NA
+Vietnam,2020,Hydropower ,NA
+Vietnam,2020,Onshore wind ,NA
+Vietnam,2021,Bioenergy ,NA
+Vietnam,2021,Geothermal ,NA
+Vietnam,2021,Offshore wind ,NA
+Vietnam,2021,Solar photovoltaic ,0.04576739
+Vietnam,2021,Concentrated solar power ,NA
+Vietnam,2021,Hydropower ,NA
+Vietnam,2021,Onshore wind ,NA
+World,2010,Bioenergy ,0.07818927
+World,2010,Geothermal ,0.05044529
+World,2010,Offshore wind ,0.18785676
+World,2010,Solar photovoltaic ,0.41714868
+World,2010,Concentrated solar power ,0.3580038
+World,2010,Hydropower ,0.038882706
+World,2010,Onshore wind ,0.102061465
+World,2011,Bioenergy ,0.056684334
+World,2011,Geothermal ,NA
+World,2011,Offshore wind ,0.19754878
+World,2011,Solar photovoltaic ,0.31129825
+World,2011,Concentrated solar power ,0.34665465
+World,2011,Hydropower ,0.03656066
+World,2011,Onshore wind ,0.09648669
+World,2012,Bioenergy ,0.06187914
+World,2012,Geothermal ,0.08569454
+World,2012,Offshore wind ,0.16660058
+World,2012,Solar photovoltaic ,0.23263325
+World,2012,Concentrated solar power ,0.3375742
+World,2012,Hydropower ,0.038037654
+World,2012,Onshore wind ,0.08839028
+World,2013,Bioenergy ,0.08219819
+World,2013,Geothermal ,0.06411118
+World,2013,Offshore wind ,0.16666164
+World,2013,Solar photovoltaic ,0.1794014
+World,2013,Concentrated solar power ,0.24888833
+World,2013,Hydropower ,0.042512473
+World,2013,Onshore wind ,0.08920628
+World,2014,Bioenergy ,0.08237512
+World,2014,Geothermal ,0.06533503
+World,2014,Offshore wind ,0.17219925
+World,2014,Solar photovoltaic ,0.16125813
+World,2014,Concentrated solar power ,0.21637706
+World,2014,Hydropower ,0.042456634
+World,2014,Onshore wind ,0.080203146
+World,2015,Bioenergy ,0.07277113
+World,2015,Geothermal ,0.05884901
+World,2015,Offshore wind ,0.14052741
+World,2015,Solar photovoltaic ,0.12107989
+World,2015,Concentrated solar power ,0.223889
+World,2015,Hydropower ,0.036572017
+World,2015,Onshore wind ,0.068961546
+World,2016,Bioenergy ,0.071178205
+World,2016,Geothermal ,0.06780182
+World,2016,Offshore wind ,0.11632308
+World,2016,Solar photovoltaic ,0.106340416
+World,2016,Concentrated solar power ,0.24726917
+World,2016,Hydropower ,0.04838911
+World,2016,Onshore wind ,0.06385536
+World,2017,Bioenergy ,0.07107003
+World,2017,Geothermal ,0.07091718
+World,2017,Offshore wind ,0.10615218
+World,2017,Solar photovoltaic ,0.083659746
+World,2017,Concentrated solar power ,0.20621318
+World,2017,Hydropower ,0.05072171
+World,2017,Onshore wind ,0.05995916
+World,2018,Bioenergy ,0.055360332
+World,2018,Geothermal ,0.06758344
+World,2018,Offshore wind ,0.10004871
+World,2018,Solar photovoltaic ,0.07113868
+World,2018,Concentrated solar power ,0.14910279
+World,2018,Hydropower ,0.039836742
+World,2018,Onshore wind ,0.05087996
+World,2019,Bioenergy ,0.06393309
+World,2019,Geothermal ,0.067305215
+World,2019,Offshore wind ,0.08638764
+World,2019,Solar photovoltaic ,0.062119152
+World,2019,Concentrated solar power ,0.21183106
+World,2019,Hydropower ,0.041408572
+World,2019,Onshore wind ,0.044592004
+World,2020,Bioenergy ,0.07247308
+World,2020,Geothermal ,0.054264043
+World,2020,Offshore wind ,0.08626575
+World,2020,Solar photovoltaic ,0.055443965
+World,2020,Concentrated solar power ,0.10665299
+World,2020,Hydropower ,0.045965873
+World,2020,Onshore wind ,0.03713682
+World,2021,Bioenergy ,0.067342535
+World,2021,Geothermal ,0.06761599
+World,2021,Offshore wind ,0.07516697
+World,2021,Solar photovoltaic ,0.04834554
+World,2021,Concentrated solar power ,0.11424175
+World,2021,Hydropower ,0.04829987
+World,2021,Onshore wind ,0.033123367
+World,2007,Bioenergy ,NA
+World,2007,Geothermal ,0.05007819
+World,2007,Offshore wind ,0.21350704
+World,2007,Solar photovoltaic ,NA
+World,2007,Concentrated solar power ,NA
+World,2007,Hydropower ,NA
+World,2007,Onshore wind ,0.10228007
+World,2008,Bioenergy ,NA
+World,2008,Geothermal ,0.055424795
+World,2008,Offshore wind ,0.21072298
+World,2008,Solar photovoltaic ,NA
+World,2008,Concentrated solar power ,NA
+World,2008,Hydropower ,NA
+World,2008,Onshore wind ,0.10760544
+World,2009,Bioenergy ,NA
+World,2009,Geothermal ,0.09531676
+World,2009,Offshore wind ,0.19494483
+World,2009,Solar photovoltaic ,NA
+World,2009,Concentrated solar power ,NA
+World,2009,Hydropower ,NA
+World,2009,Onshore wind ,0.1053068
+World,2000,Bioenergy ,NA
+World,2000,Geothermal ,NA
+World,2000,Offshore wind ,0.1707826
+World,2000,Solar photovoltaic ,NA
+World,2000,Concentrated solar power ,NA
+World,2000,Hydropower ,NA
+World,2000,Onshore wind ,0.16236141
+World,2001,Bioenergy ,NA
+World,2001,Geothermal ,NA
+World,2001,Offshore wind ,0.16112547
+World,2001,Solar photovoltaic ,NA
+World,2001,Concentrated solar power ,NA
+World,2001,Hydropower ,NA
+World,2001,Onshore wind ,0.14201893
+World,2002,Bioenergy ,NA
+World,2002,Geothermal ,NA
+World,2002,Offshore wind ,0.13536467
+World,2002,Solar photovoltaic ,NA
+World,2002,Concentrated solar power ,NA
+World,2002,Hydropower ,NA
+World,2002,Onshore wind ,0.13127674
+World,2003,Bioenergy ,NA
+World,2003,Geothermal ,NA
+World,2003,Offshore wind ,0.12575519
+World,2003,Solar photovoltaic ,NA
+World,2003,Concentrated solar power ,NA
+World,2003,Hydropower ,NA
+World,2003,Onshore wind ,0.11504814
+World,2004,Bioenergy ,NA
+World,2004,Geothermal ,NA
+World,2004,Offshore wind ,0.17802335
+World,2004,Solar photovoltaic ,NA
+World,2004,Concentrated solar power ,NA
+World,2004,Hydropower ,NA
+World,2004,Onshore wind ,0.116608016
+World,2005,Bioenergy ,NA
+World,2005,Geothermal ,NA
+World,2005,Offshore wind ,0.15135488
+World,2005,Solar photovoltaic ,NA
+World,2005,Concentrated solar power ,NA
+World,2005,Hydropower ,NA
+World,2005,Onshore wind ,0.10943693
+World,2006,Bioenergy ,NA
+World,2006,Geothermal ,NA
+World,2006,Offshore wind ,0.14865257
+World,2006,Solar photovoltaic ,NA
+World,2006,Concentrated solar power ,NA
+World,2006,Hydropower ,NA
+World,2006,Onshore wind ,0.11239332
+World,1983,Bioenergy ,NA
+World,1983,Geothermal ,NA
+World,1983,Offshore wind ,NA
+World,1983,Solar photovoltaic ,NA
+World,1983,Concentrated solar power ,NA
+World,1983,Hydropower ,NA
+World,1983,Onshore wind ,0.32785082
+World,1984,Bioenergy ,NA
+World,1984,Geothermal ,NA
+World,1984,Offshore wind ,NA
+World,1984,Solar photovoltaic ,NA
+World,1984,Concentrated solar power ,NA
+World,1984,Hydropower ,NA
+World,1984,Onshore wind ,0.32007387
+World,1985,Bioenergy ,NA
+World,1985,Geothermal ,NA
+World,1985,Offshore wind ,NA
+World,1985,Solar photovoltaic ,NA
+World,1985,Concentrated solar power ,NA
+World,1985,Hydropower ,NA
+World,1985,Onshore wind ,0.2972214
+World,1986,Bioenergy ,NA
+World,1986,Geothermal ,NA
+World,1986,Offshore wind ,NA
+World,1986,Solar photovoltaic ,NA
+World,1986,Concentrated solar power ,NA
+World,1986,Hydropower ,NA
+World,1986,Onshore wind ,0.2641942
+World,1987,Bioenergy ,NA
+World,1987,Geothermal ,NA
+World,1987,Offshore wind ,NA
+World,1987,Solar photovoltaic ,NA
+World,1987,Concentrated solar power ,NA
+World,1987,Hydropower ,NA
+World,1987,Onshore wind ,0.2564197
+World,1988,Bioenergy ,NA
+World,1988,Geothermal ,NA
+World,1988,Offshore wind ,NA
+World,1988,Solar photovoltaic ,NA
+World,1988,Concentrated solar power ,NA
+World,1988,Hydropower ,NA
+World,1988,Onshore wind ,0.21215738
+World,1989,Bioenergy ,NA
+World,1989,Geothermal ,NA
+World,1989,Offshore wind ,NA
+World,1989,Solar photovoltaic ,NA
+World,1989,Concentrated solar power ,NA
+World,1989,Hydropower ,NA
+World,1989,Onshore wind ,0.19643468
+World,1990,Bioenergy ,NA
+World,1990,Geothermal ,NA
+World,1990,Offshore wind ,NA
+World,1990,Solar photovoltaic ,NA
+World,1990,Concentrated solar power ,NA
+World,1990,Hydropower ,NA
+World,1990,Onshore wind ,0.2086876
+World,1991,Bioenergy ,NA
+World,1991,Geothermal ,NA
+World,1991,Offshore wind ,NA
+World,1991,Solar photovoltaic ,NA
+World,1991,Concentrated solar power ,NA
+World,1991,Hydropower ,NA
+World,1991,Onshore wind ,0.20031708
+World,1992,Bioenergy ,NA
+World,1992,Geothermal ,NA
+World,1992,Offshore wind ,NA
+World,1992,Solar photovoltaic ,NA
+World,1992,Concentrated solar power ,NA
+World,1992,Hydropower ,NA
+World,1992,Onshore wind ,0.20065267
+World,1993,Bioenergy ,NA
+World,1993,Geothermal ,NA
+World,1993,Offshore wind ,NA
+World,1993,Solar photovoltaic ,NA
+World,1993,Concentrated solar power ,NA
+World,1993,Hydropower ,NA
+World,1993,Onshore wind ,0.21116926
+World,1994,Bioenergy ,NA
+World,1994,Geothermal ,NA
+World,1994,Offshore wind ,NA
+World,1994,Solar photovoltaic ,NA
+World,1994,Concentrated solar power ,NA
+World,1994,Hydropower ,NA
+World,1994,Onshore wind ,0.1982574
+World,1995,Bioenergy ,NA
+World,1995,Geothermal ,NA
+World,1995,Offshore wind ,NA
+World,1995,Solar photovoltaic ,NA
+World,1995,Concentrated solar power ,NA
+World,1995,Hydropower ,NA
+World,1995,Onshore wind ,0.20773248
+World,1996,Bioenergy ,NA
+World,1996,Geothermal ,NA
+World,1996,Offshore wind ,NA
+World,1996,Solar photovoltaic ,NA
+World,1996,Concentrated solar power ,NA
+World,1996,Hydropower ,NA
+World,1996,Onshore wind ,0.18573205
+World,1997,Bioenergy ,NA
+World,1997,Geothermal ,NA
+World,1997,Offshore wind ,NA
+World,1997,Solar photovoltaic ,NA
+World,1997,Concentrated solar power ,NA
+World,1997,Hydropower ,NA
+World,1997,Onshore wind ,0.16313075
+World,1998,Bioenergy ,NA
+World,1998,Geothermal ,NA
+World,1998,Offshore wind ,NA
+World,1998,Solar photovoltaic ,NA
+World,1998,Concentrated solar power ,NA
+World,1998,Hydropower ,NA
+World,1998,Onshore wind ,0.15288077
+World,1999,Bioenergy ,NA
+World,1999,Geothermal ,NA
+World,1999,Offshore wind ,NA
+World,1999,Solar photovoltaic ,NA
+World,1999,Concentrated solar power ,NA
+World,1999,Hydropower ,NA
+World,1999,Onshore wind ,0.15087588

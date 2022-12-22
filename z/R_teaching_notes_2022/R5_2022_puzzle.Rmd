@@ -1,0 +1,242 @@
+---
+title: 'Geographies of longevity and wealth'
+author: "`R` puzzle #5: Environment & Sustainability (2022)"
+date: "2/18/2022"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*Answer these questions in a separate script.*
+
+*** 
+
+### Setup
+
+- First, install the `gapminder` package.   
+
+```{r, echo=TRUE, eval=FALSE}
+install.packages('gapminder')
+```
+
+- Load this and other packages:  
+
+```{r, echo=TRUE, eval=TRUE, warning=FALSE, message=FALSE}
+library(gapminder)
+library(ggplot2)
+library(dplyr)
+```
+
+- Load data from the `gapminder` package:  
+
+```{r, echo=TRUE, eval=TRUE}
+data(gapminder)
+```
+
+*** 
+
+### Part 1
+
+**Write code that answers these questions:** 
+
+**1A.** Look at the top six rows of this dataset:
+
+```{r, echo=FALSE, eval=FALSE}
+head(gapminder)
+```
+
+**1B.** How many countries are represented in this dataset?
+
+```{r, echo=FALSE, eval=FALSE}
+gapminder$country %>% unique %>% length
+```
+
+**1C.** What unique years are represented?
+
+```{r, echo=FALSE, eval=FALSE}
+gapminder$year %>% unique
+```
+
+**1D.** What was the total world population in 1952?
+
+```{r, echo=FALSE, eval=FALSE}
+gapminder %>% filter(year==1952) %>% summarize(pop = sum(pop))
+```
+
+**1E.** In 2007? *(This time, provide your answer in billions, e.g., `3.2` instead of `3,200,000,000`)*
+
+```{r, echo=FALSE, eval=FALSE}
+gapminder %>% filter(year==2007) %>% summarize(pop = sum(pop)/(10^9))
+```
+
+*** 
+
+### Part 2
+
+**Write the code that reproduces these plots exactly**.  
+
+**2A.** 
+
+```{r, echo=FALSE, eval=TRUE}
+ggplot(gapminder %>% filter(continent == 'Europe', 
+                            year==2007),
+       aes(x=pop,
+           y=country)) +
+  geom_col(fill='blue') +
+  labs(title = 'Population sizes of European countries in 2007') +
+  xlab('Population size') +
+  ylab(NULL)
+```
+
+**2B.** 
+
+```{r, echo=FALSE, eval=TRUE}
+ggplot(gapminder,
+       aes(x=continent, y=lifeExp)) +
+  geom_violin(fill='darkblue', alpha=.5) +
+  ylab('Life expectancy') +
+  xlab('Continent') +
+  labs(title='The geography of life expectancy')
+```
+
+**2C.** *(A more detailed view of the same topic)*
+
+```{r, echo=FALSE, eval=TRUE}
+ggplot(gapminder,
+       aes(x=continent, y=lifeExp, color=year)) +
+  geom_jitter(alpha=.7, size=2) +
+  ylab('Life expectancy') +
+  xlab('Continent') +
+  labs(title='The geography of life expectancy')
+```
+
+**Hint:** The points on this plot have been *"jittered"* so that they do not fully overlap each other, and their transparency has been adjusted so that you can see where overlaps do occur. To replicate this, use `geom_jitter(alpha=.5)` instead of `geom_point()`. You can still adjust point size by adding `size` as an input within this `geom`.  
+
+
+*** 
+
+### Part 3
+
+**Write the code that reproduces these plots exactly**.  
+
+These questions will require two stages:  
+- First, a new version of the dataset, grouped and summarized using `dplyr` verbs;  
+- Second, a `ggplot` call.  
+
+**3A.**  
+
+```{r, echo=FALSE, eval=TRUE}
+# First, summarize continent population size:
+gap_conts <- 
+  gapminder %>% 
+  filter(year == 2007) %>% 
+  group_by(continent) %>% 
+  summarize(pop = sum(pop)) %>% 
+  mutate(pop = pop / 1000000000)
+
+# Second, plot it:
+ggplot(gap_conts, 
+       aes(x=continent,
+           y=pop)) + 
+  geom_col(color='red', fill='pink') + 
+  ylab('Population (in billions)') + 
+  xlab(NULL) + 
+  labs(title='Total population by continent in 2007')
+```
+
+**3B.** 
+
+```{r, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
+# First, summarize continent population size:
+gap_conts <- 
+  gapminder %>% 
+  group_by(year, continent) %>% 
+  summarize(pop = sum(pop)) %>% 
+    mutate(pop = pop / 1000000000)
+
+# Second, plot it:
+ggplot(gap_conts, 
+       aes(x=year,
+           color=continent,
+           y=pop)) + 
+  geom_line() + 
+  xlab(NULL) + 
+  ylab('Population (in billions)') + 
+  labs(title='Population growth by continent, 1952 - 2007')
+```
+
+
+*** 
+
+### Part 4
+
+**Write the code that reproduces these plots exactly**.  
+
+
+
+**Hint 1:** To log-transform an axis, add this line to your `ggplot()` call:
+
+```{r, echo=TRUE, eval=FALSE}
+# For x axis
++ scale_x_continuous(trans='log') 
+
+# For y axis
++ scale_y_continuous(trans='log') 
+```
+  
+  
+**Hint 2:** To create a multi-panel plot that shows the same plot for different categories within the data, add this line to your `ggplot()` call:
+
+```{r, echo=TRUE, eval=FALSE}
++ facet_wrap(~ variable)
+```
+
+Replace `variable` with the column that specifies the categories that you want represented in each "facet", or panel, of your plot. 
+  
+  
+Here is an example with our class survey data: 
+
+```{r, echo=TRUE, eval=TRUE, fig.height=4, fig.width=8}
+library(gsheet)
+url <- 'https://docs.google.com/spreadsheets/d/1sW1X7KFuOIq9fddLD_otPWj3xJD24v0JFdDPh4vc1a4/edit?usp=sharing'
+df <- gsheet2tbl(url)
+
+ggplot(df, aes(x=height, y=shoe_size)) + 
+  geom_point() + 
+  facet_wrap(~gender)
+```
+
+Keep those hints as mind as you reproduce the following plots:  
+
+**4A.** 
+
+```{r, echo=FALSE, eval=TRUE}
+ggplot(gapminder %>% filter(year %in% c(2007)),
+       aes(x=lifeExp,
+           y=gdpPercap,
+           color=continent)) +
+  geom_point() +
+  scale_y_continuous(trans='log') + 
+  xlab('Life expectancy in 2007') + 
+  ylab('GPD per Capita (log-transformed)')
+```
+
+**4B.** 
+
+```{r, echo=FALSE, eval=TRUE, fig.height=6, fig.width=8}
+ggplot(gapminder %>% filter(year %in% c(1952, 1972, 1992, 2007)),
+       aes(x=lifeExp,
+           y=gdpPercap,
+           size=pop,
+           color=continent)) +
+  geom_point() +
+  scale_y_continuous(trans='log') +
+  facet_wrap(~year) + 
+  xlab('Life expectancy') + 
+  ylab('GPD per Capita (log-transformed)')
+```
+
