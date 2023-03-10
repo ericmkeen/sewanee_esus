@@ -236,7 +236,7 @@ sepher
 
 length(sepher)
 
-nonyearnames <- names(sepher)[which(! grepl('20', names(sepher)))]
+(nonyearnames <- names(sepher)[which(! grepl('20', names(sepher)))])
 
 (sepher %>% names)[1:200]
 (sepher %>% names)[201:400]
@@ -275,6 +275,7 @@ dontkeep <- c(17, 18, 20, 21:23,
 
 # Subset to these columns
 sepher <- sepher[, which(names(sepher) %in% keepnames)]
+sepher %>% names
 
 # Save to file
 save(sepher, file='/Users/erickeen/Downloads/SEPHER_2016.rds')
@@ -290,9 +291,12 @@ ggplot(sepher, aes(y=POVERTY.RATE_2016,
 # Data key
 
 key <- readxl::read_excel('/Users/erickeen/Downloads/sepher2.0_cleaned_dataDictionary_20211123.xlsx')
-key <- key %>% filter(Name %in% names(sepher))
+key$Name
+name_order <- sapply(names(sepher), function(x){which(key$Name == x)})
+name_order
+key <- key[name_order,]
+key
 save(key, file='/Users/erickeen/Downloads/key_sepher.rds')
-
 
 
 ################################################################################
@@ -312,6 +316,39 @@ save(tracts, file='/Users/erickeen/Downloads/census_tracts.rds')
 ################################################################################
 # WORKSHOP
 
+#===============================================================================
+# SEPHER dataset
+
+# https://www.ciesin.columbia.edu/data/sepher/
+# https://www.liebertpub.com/doi/10.1089/env.2021.0059
+# census tracts:
+# https://www.google.com/search?q=map+of+census+tracts&rlz=1C5GCEM_enUS914US914&sxsrf=AJOqlzVuq8FlethjplKv-DWdei7KlSb9Xg:1678462715520&source=lnms&tbm=isch&sa=X&ved=2ahUKEwimirXv2NH9AhWiH0QIHfnpD0kQ_AUoAnoECAEQBA&biw=1792&bih=849&dpr=2#imgrc=IqwlVkgAfwox8M
+
+# Load SEPHER (2016 data only)
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/SEPHER_2016.rds?raw=true'))
+names(sepher)
+
+# Load data key
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/key_sepher.rds?raw=true'))
+key
+
+# Explore
+ggplot(sepher, aes(y=POVERTY.RATE_2016,
+                   x=PCT.WHITE_2016)) +
+  geom_point(alpha=.1)
+
+ggplot(sepher %>% filter(STATE %in% c('CALIFORNIA', 'TENNESSEE')),
+       aes(x=RISK_TOTAL,
+           fill=STATE)) +
+  geom_density()
+
+# Create 2 plots
+
+
+
+#===============================================================================
+# Census tracts
+
 # Load tracts
 load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/census_tracts.rds?raw=true'))
 
@@ -323,15 +360,26 @@ ggplot(cali) +
   coord_sf()
 
 
-# Load SEPHER
-load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/SEPHER_2016.rds?raw=true'))
 
-# Load data key
+#===============================================================================
+# Join the datasets together
+
+mr <- left_join(tracts, sepher, by='FIPS')
+
+
+#===============================================================================
 
 
 
+#===============================================================================
 
-# Subset to study area - SEWANEE
+
+
+#===============================================================================
+
+
+# Subset to manully defined study area, e.g., South Cumberland Plateau
+
 #tracts <- st_crop(tracts,
 #                  xmin = -86.5,
 #                  ymin = 34.5,
