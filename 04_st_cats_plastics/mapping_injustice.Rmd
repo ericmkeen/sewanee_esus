@@ -1,0 +1,356 @@
+---
+title: "Workshop #6: Mapping injustice"
+author: "ENST 320"
+date: "Spring 2023"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+print_key = FALSE
+```
+
+**Instructions:**  
+
+1. Save a copy of this document to your own Drive so that you can edit it.   
+
+2. You may work on this with others, but your answers must be your own, typed manually by you.  
+
+3. For each question, replace the "*Your code/answer/plot goes here*" line with your response. (For plots, you can take a screenshot of your plot from `R`).  
+
+4. When you are done, save your doc as a PDF then submit via this [form](https://forms.gle/2QrE6vTmWwup4DMv6).  
+
+Note that submissions will be assessed using [this rubric](https://docs.google.com/presentation/d/1PesPBMLaJqNBtc4mFJ8ymcsZaT1UjWAXQZyi10yZY84/edit#slide=id.g1c31560e1bb_0_7).  
+
+&nbsp;  
+
+#### (1) Your name:  
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+#### (2) "Library" packages
+*Show the code needed to load the following packages for use in your R session. Make sure these lines of code work when you run them. If any of these packages are not installed on your R account, install them and show the code for how you did so.*
+
+- `dplyr`
+- `ggplot2`
+- `leaflet`
+- `sf`
+- `viridis`
+
+**Your answer goes here.**
+
+&nbsp;  
+
+```{r , echo=print_key, eval=TRUE, include=print_key, message=FALSE, warning=FALSE}
+# Answer key
+library(dplyr)
+library(ggplot2)
+library(leaflet)
+library(sf)
+library(viridis)
+```
+
+&nbsp;  
+
+#### The SEPHER dataset
+
+Columbia University [SEPHER dataset](https://www.ciesin.columbia.edu/data/sepher/) (see related publication [here](https://www.liebertpub.com/doi/10.1089/env.2021.0059)). This dataset summarizes socioeconomic demographics, housing status, and exposure to environmental risks (e.g., tornadoes, wildfires, flooding, etc.) for every census tract in the United States (see maps of those tracts [here](https://www.google.com/search?q=map+of+census+tracts&rlz=1C5GCEM_enUS914US914&sxsrf=AJOqlzVuq8FlethjplKv-DWdei7KlSb9Xg:1678462715520&source=lnms&tbm=isch&sa=X&ved=2ahUKEwimirXv2NH9AhWiH0QIHfnpD0kQ_AUoAnoECAEQBA&biw=1792&bih=849&dpr=2#imgrc=IqwlVkgAfwox8M)).
+
+This is an *enormous* dataset: for each census tract (there are about 86,000), the SEPHER dataset contains over 1,600 variables for every year from 2000 to 2016. 
+
+To make this dataset more manageable, Ezell has filtered it down to only 174 variables in the year 2016 only. You can load that filtered dataset with the following code: 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/SEPHER_2016.rds?raw=true'))
+```
+
+Check out your "Environment", and you should see a new data object named `sepher`. Here's what the first six rows of the first 10 columns should look like: 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+sepher[1:6, 1:10]
+```
+
+Every row is a census tract. To understand what each column means, `load` & `View` this key: 
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/key_sepher.rds?raw=true'))
+
+# That code saves a dataframe named `key`.
+key %>% View
+
+```
+
+This dataset allows you to explore the correlation between socioeconomic factors, housing status, and environmental risk across the United States.
+
+#### (3) Produce a scatterplot displaying the relationship between the percent-whiteness of a community (column `PCT.WHITE_2016`) and its poverty rate (column `POVERTY.RATE_2016`).  
+ 
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(sepher, aes(y=POVERTY.RATE_2016,
+                   x=PCT.WHITE_2016)) +
+  geom_point(alpha=.1) + 
+  labs(title = 'More whiteness, less poverty')
+```
+
+&nbsp;  
+
+#### (4) Produce a plot comparing the distribution of environmental risk exposure (`RISK SCORE`) across census tracts in California (CA) vs. Florida (FL). Note that state abbreviations are in the column `ST_ABBR`. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(sepher %>% filter(ST_ABBR %in% c('CA', 'FL')),
+       aes(x=RISK_SCORE,
+           fill=ST_ABBR)) +
+  geom_density(alpha=.4)
+```
+&nbsp;
+
+#### (5) Produce a plot that explores the relationship between environmental risk exposure (`RISK_SCORE`) and median household income (`MEDIAN.HOUSEHOLD.INCOME_2016`).  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(sepher, aes(y=RISK_SCORE,
+                   x=MEDIAN.HOUSEHOLD.INCOME_2016)) +
+  geom_point(alpha=.1)
+```
+&nbsp;
+
+#### (6) Devise your own justice-related question and make a plot that answers it
+  
+
+&nbsp;  
+**Your question goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;
+
+
+
+## Mapping census tracts
+
+Here is a dataset with census tract polygons for mapping. 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/census_tracts.rds?raw=true'))
+```
+
+After running that code, your Environment should have a dataset named `tracts`.  That dataset is known as a `sf` object, which refers to the package (`sf`) that is used to work with spatial data in `R`.  Check out the head of the dataset:  
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+tracts %>% head
+```
+
+That final column, `geometry`, contains all the data that `R` needs to know in order to add polygons to a map.  But you can still treat this as a `dataframe` that you can `filter`, `mutate`, etc. 
+
+To learn how to map, let's filter the data to just a single state, since trying to plot the entire dataset at once might crash your computer:  
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+cali <- tracts %>% filter(STATE == 'CALIFORNIA')
+```
+
+Now add these California census polygons a `ggplot()` using a new geom, `geom_sf()`: 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(cali) +
+  geom_sf()
+```
+
+## Join SEPHER and census tract data together
+
+Use the following code to join the `sepher` and `tracts` datasets together: 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+mr <- left_join(tracts, sepher, by='FIPS')
+```
+
+Now you have census tract polygon details associated with all of your  socioeconomic/environmental data. 
+
+
+## Make a "chloropleth"
+
+A chloropleth is a map in which polygons are color-coded according to data. 
+
+To make your first chloropleth, let's filter our dataset down to Tennessee: 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+mr_tn <- mr %>% filter(STATE == 'TENNESSEE')
+```
+
+Now let's color-code Tennessee's census tracts by their per-capita income: 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(mr_tn,
+       aes(fill=E_PCI_2016)) +
+  geom_sf(color=NA) +
+  labs(title='Per-capita income by census tract')
+```
+
+Note that we added `color = NA` to the `geom_sf()` call to get rid of thick borders around the census tracts.  
+
+These tracts are being color-coded according to a default color scale in `ggplot()`, but you can specify other color scales thanks to the [`viridis` package](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html): 
+
+```{r , echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(mr_tn,
+       aes(fill=E_PCI_2016)) +
+  geom_sf(color=NA) +
+  scale_fill_viridis(option='magma')
+```
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+# Another exmaple
+ggplot(cali, aes(fill=RISK_SCORE)) +
+  geom_sf(color=NA) +
+  labs(title='FEMA risk score')
+```
+
+#### (7) Create a chloropleth map of a state of your own choice, color-coded according to an environmental risk variable of your choice. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;
+
+
+## Manually define your map range
+
+You can also crop the census tract data to a range of your choice. For example, you could use this code to crop data to show all census tracts within 1/2 a degree of Sewanee, 
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+#===============================================================================
+# Subset to manully defined study area, e.g., South Cumberland Plateau
+
+# Sewanee's LAT/LON
+x <-  -85.92
+y <- 35.2
+
+socu <- st_crop(mr,
+                xmin = x - 0.5,
+                ymin = y - 0.5,
+                xmax = x + 0.5,
+                ymax = y + 0.5)
+```
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(socu,
+       aes(fill=POPULATION)) +
+  geom_sf() +
+  geom_point(aes(x=x, y=y), 
+             color='orange', 
+             size=3)
+```
+
+#### (8) Create a chloropleth map of census tracts in and around the U.S. city of your own choice. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;
+
+
+## Air quality
+
+Ezell also downloaded a dataset from the EPA that estimates cancer risk for each census tract based upon air quality. Load that dataset with this code:  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/cancer_risk.rds?raw=true'))
+```
+
+Your environment should now have an object named `air`.  
+
+Join the `air` dataset to your `mr` dataset. 
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+mra <- left_join(mr, air, by='FIPS')
+```
+
+Produce a plot that displays the relationship between a census tract's whiteness (`PCT.WHITE_2016`) and its cancer risk (`cancer_risk`).  Set the y-axis range to 0-70.
+
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(mra,
+       aes(x=PCT.WHITE_2016,
+           y=cancer_risk)) +
+  ylim(0, 70) +
+  geom_point(alpha=.1)
+```
+
+
+Let's explore those variables in a different way. Create a new column that categorizes each census tract as `very white` or `less white` based on a `PCT.WHITE_2016` threshold of 0.5. 
+
+You can do this pretty easily using an `ifelse` statement. Here's how it works:  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+mra <- mra %>% 
+  mutate(whiteness = ifelse(PCT.WHITE_2016 > 0.5, 
+                            'more white', 
+                            'less white'))
+```
+
+#### (9) Before we plot anything, filter the dataset to rows where `whiteness` is not `NA` and `cancer_risk` is less than 100.  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+mra <- mra %>% filter(is.na(whiteness) == FALSE, cancer_risk < 100)
+```
+
+&nbsp;  
+
+
+#### (10) Now compare the two whiteness categories using a boxplot (use `geom_boxplot()`).
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+ggplot(mra,
+       aes(x=whiteness, y=cancer_risk)) +
+  geom_boxplot()
+```
+
+&nbsp; 
+
+
+

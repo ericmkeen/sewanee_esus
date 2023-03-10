@@ -445,6 +445,26 @@ ggplot(socu,
 #===============================================================================
 # Air quality
 
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/cancer_risk.rds?raw=true'))
+
+mra <- left_join(mr, air, by='FIPS')
+mra %>% head
+
+ggplot(mra,
+       aes(x=PCT.WHITE_2016,
+           y=cancer_risk)) +
+  ylim(0, 70) +
+  geom_point(alpha=.1)
+
+
+ggplot(mra %>%
+         mutate(whiteness = ifelse(PCT.WHITE_2016 > 0.5, 'more white', 'less white')) %>%
+         filter(!is.na(whiteness) == TRUE,
+                cancer_risk < 100),
+       aes(x=whiteness, y=cancer_risk)) +
+  geom_boxplot()
+
+
 
 
 
