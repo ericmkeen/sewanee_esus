@@ -46,7 +46,8 @@ ggplot(by_country,
 # Top 10 emitters
 top10 <-
   by_country %>%
-  mutate(rank = dense_rank(desc(total))) %>%
+  arrange(desc(total)) %>%
+  mutate(rank = 1:n()) %>%
   filter(rank < 10)
 
 ggplot(top10,
@@ -139,9 +140,10 @@ ggplotly()
 # Our World In Data
 # https://ourworldindata.org/grapher/levelized-cost-of-energy
 
-costs <- read_csv('levelized-cost-of-energy.csv')
+# 'levelized-cost-of-energy.csv'
+url <- 'https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/02_energy_sector/levelized-cost-of-energy.csv'
+costs <- read_csv(url)
 costs
-costs %>% names
 
 ggplot(costs,
        aes(x=year,

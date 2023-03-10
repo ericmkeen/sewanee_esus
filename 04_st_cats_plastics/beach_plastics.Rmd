@@ -1,0 +1,564 @@
+---
+title: "Workshop #5: Plastic pollution on beaches"
+author: "ENST 320"
+date: "Spring 2023"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+print_key = FALSE
+```
+
+**Instructions:**  
+
+1. Save a copy of this document to your own Drive so that you can edit it.   
+
+2. You may work on this with others, but your answers must be your own, typed manually by you.  
+
+3. For each question, replace the "*Your code/answer/plot goes here*" line with your response. (For plots, you can take a screenshot of your plot from `R`).  
+
+4. When you are done, save your doc as a PDF then submit via this [form](https://forms.gle/2QrE6vTmWwup4DMv6).  
+
+Note that submissions will be assessed using [this rubric](https://docs.google.com/presentation/d/1PesPBMLaJqNBtc4mFJ8ymcsZaT1UjWAXQZyi10yZY84/edit#slide=id.g1c31560e1bb_0_7).  
+
+&nbsp;  
+
+#### (1) Your name:  
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+#### (2) "Library" packages
+*Show the code needed to load the following packages for use in your R session. Make sure these lines of code work when you run them. If any of these packages are not installed on your R account, install them and show the code for how you did so.*
+
+- `dplyr`
+- `ggplot2`
+- `readr`
+- `tidyr`
+- `gsheet`
+- `leaflet`
+- `sf`
+
+**Your answer goes here.**
+
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key, message=FALSE, warning=FALSE}
+# Answer key
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(tidyr)
+library(gsheet)
+library(leaflet)
+library(sf)
+```
+
+&nbsp;  
+
+#### Introduction
+For his ESUS capstone project, Reid Calhoun (C'22) analyzed surveys of plastic pollution on the beaches of St. Catherines Island (a barrier island off the Georgia coast, near Savannah).  
+
+These surveys were carried out by the 2021 class of Sewanee's Island Ecology Program. Transect locations were randomly placed on the island's beach. At each location, the students looked for all artificial debris within 1.5m of a transect tape (50 - 100m in length).
+
+Reid received these data in the form of three datasets. Use the code below to read these into `R`:  
+&nbsp;  
+
+**`beaches`**  
+
+This dataset summarizes the characteristics of six beaches on St. Catherines.  
+
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+beaches <- read_csv('https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/04_st_cats_plastics/beaches.csv')
+```
+&nbsp;  
+
+**`transects`**  
+
+This dataset contains details for each transect -- location, the length of the transect tape, the width of the beach (i.e., the distance between the most recent high tide and the back of the beach), and the search area for each transect (most transects involved a search area of 150m, since transects were usually 50m long and all debris within 1.5m of the tape -- on either side -- was counted.)   
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+transects <- read_csv('https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/04_st_cats_plastics/transects.csv')
+```
+
+Each transect is given a unique ID in the column `master_id`.  
+&nbsp;  
+
+**`debris`**  
+
+This dataset has a row for every artificial piece of debris that was found.   
+
+```{r , echo=TRUE, eval=print_key, include=TRUE, message=FALSE, warning=FALSE}
+debris <- read_csv('https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/04_st_cats_plastics/debris.csv')
+```
+
+For each piece of debris, you have the transect ID on which it was found (column `master_id`), the `material` (e.g., foam or hard plastic), the `structure` (e.g., fragment or whole bottle), the distance of the item from the transect tape (`cm_from_tape`), the estimated size of the item (`size_cm`), the number of items found (`quantity`, which was useful if an item actually consisted of 30 tiny shards of plastic), and a few more columns that you won't need to worry about here.  
+
+
+&nbsp; 
+
+## Explore datasets
+
+#### (3) Read these datasets in and View them in their own tab.  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=FALSE, include=print_key}
+# Answer key
+beaches %>% View
+transects %>% View
+debris %>% View
+```
+
+&nbsp; 
+
+#### (4) Map survey transects
+*Produce an interactive `leaflet` map that plots the starting location for each transect.*  
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=FALSE, include=print_key}
+# Answer key
+leaflet() %>%  
+  addTiles() %>%
+  addCircleMarkers(lat=transects$latitude, 
+                   lng=transects$longitude,
+                   radius=.1)
+
+```
+
+&nbsp; 
+
+#### (5) Explore the data to determine the total length of transect effort... 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+transects$length_m %>% sum
+```
+
+&nbsp; 
+
+#### (6) the total items found... 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+debris$quantity %>% sum
+```
+
+&nbsp; 
+
+#### (7) the total linear-length of items found... 
+*"Linear-length" is the end-to-end length, in cm, for all items found. This is a more informative metric than the number of items found, since one item may be very small while another may be a fishing net that is 100 feet long.*
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+debris$size_cm %>% sum
+```
+
+&nbsp; 
+
+#### (8) and the total items for each debris material type. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+debris %>% 
+  group_by(material) %>% 
+  tally()
+```
+
+&nbsp; 
+
+## Research questions
+
+Reid wanted to design an analysis that answered the following questions:  
+
+**(i) How much anthropogenic debris is on St. Catherine’s remote beaches?**   
+
+**(ii) Do certain sections of beach have more debris than others?**  
+
+&nbsp;  
+
+*The following baby-step questions will help guide you through this analysis:* 
+
+&nbsp;  
+
+#### (9) Each transect serves as a randomly-placed measure of the beach’s width. Use these measures to estimate the mean (and SD) width, in meters, of each of St. Cats' six beaches. 
+*Save your table in an object named `beach_widths`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+beach_widths <-
+  transects %>%
+  group_by(beach) %>%
+  summarize(width_mean = mean(width_m),
+            width_sd = sd(width_m))
+
+beach_widths
+```
+
+&nbsp; 
+
+#### (10) Join `beach_widths` to `beaches`, and create a new `area_km2` column for `beaches` that shows the total area of each beach, in square km. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+beach_table <-
+  left_join(beaches, beach_widths) %>%
+  mutate(area_km2 = length_km*(width_mean/1000))
+
+beach_table
+```
+
+&nbsp; 
+
+#### (11) What is the total area of beach on St Cats, in square km?
+*Round your answer to two decimal places.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+beach_table$area_km2 %>% sum %>% round(2)
+```
+
+&nbsp; 
+
+#### (12) What fraction of the island’s beach was surveyed in this study?
+*Round your answer to three decimal places.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+sum(transects$area_m2/1000000) / (beach_table$area_km2 %>% sum)
+```
+
+&nbsp; 
+
+#### (13) Create a table that shows the total number of items found on each transect. 
+*Save the result into an object named `items`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+items <-
+  debris %>%
+  group_by(master_id) %>%
+  summarize(items = n())
+```
+
+&nbsp;  
+
+#### (14) Use `left_join` to add the `items` column to the `transects` dataset. 
+*Save the result in a new object named `densities`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+densities <-
+  left_join(transects, items) 
+```
+
+*If you run `densities %>% head(10)`, you will notice that some rows in the column `items` now have `NA` -- these are the transects where no debris was found at all, so there were no records for that transect in the `debris` dataset. Let's convert those `NA`'s to `0` using the following code:* 
+
+```{r , echo=TRUE, eval=print_key, include=TRUE}
+densities$items <- 
+  densities$items %>% replace_na(0)
+```
+
+&nbsp;  
+
+#### (15) Calculate the density of items on each survey transect. 
+*To do this, add a `D` column to your `densities` dataset.*  
+
+*If it helps: Density is the number of items per square meter (i.e., total items found on transect, divided by the transect search area).*
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+densities <-
+  densities %>% 
+  mutate(D = items / area_m2)
+```
+
+&nbsp;  
+
+#### (16) Display a histogram of these densities.
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Display a histogram of transect debris densities
+densities$D %>% hist
+```
+
+&nbsp; 
+
+#### (17) Produce a violin plot that compares the transect debris densities across the beaches. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+ggplot(densities,
+       aes(x=beach,
+           y=D)) +
+  geom_violin(fill='navyblue', alpha=.3) +
+  geom_point(alpha=.6)
+```
+
+&nbsp; 
+
+#### (18) Create a table showing mean and SD debris density for each beach. 
+*Save your result in an object named `density_table`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Paste your table here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+density_table <-
+  densities %>%
+  group_by(beach) %>%
+  summarize(Dmean = mean(D),
+            Dsd = sd(D))
+
+density_table
+```
+
+#### (19) Which beach has the highest density of anthropogenic debris? The lowest?
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+# Highest = Top beach. 
+# Lowest = Middle / Northeast
+```
+
+&nbsp; 
+
+#### (20) Use a t-test to compare debris densities on the beaches with the highest and lowest densities. 
+*To do so, use the code below:*  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE}
+highest <- densities %>% filter(beach == 'top')
+lowest <- densities %>% filter(beach == 'middle')
+
+t.test(highest$D, 
+       lowest$D)
+```
+
+*This code will print results to the Console. Based on the `p-value` in those results, can you conclude that the difference in debris densities on these two beaches is statistically significant? Explain your reasoning.*    
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+&nbsp; 
+
+#### (21) Now use an ANOVA to test for significant differences among any of the beaches. 
+*T-tests are used for two-way comparisons, while ANOVAs can be used to test among three or more groups.*  
+
+*To conduct an ANOVA, use the code below:*  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE}
+aov(D ~ beach, data=densities) %>% summary
+```
+
+*This code will print results to the Console. The p-value in those results (under the name `Pr(>F)` tells you whether ANY of the groups are significantly different from the others. Was the result statistically significant?*  
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+&nbsp; 
+
+#### (22) Follow-up on your ANOVA with a Tukey-HSD test.
+*Whenever an ANOVA comes back as statistically significant, you can do a follow-up test to see WHICH of the group combinations are significantly different from one another. This test is called a Tukey-HSD test.*  
+
+*Use the code below to do so:*  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE}
+aov(D ~ beach, data=densities) %>% TukeyHSD
+```
+ 
+*The results printed to the Console show every possible combination of groups in your data, with a p-value for each individual comparison. Based on these results, which pairwise beach comparisons were statistically significant?*  
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+&nbsp; 
+
+#### (23) Estimate the total abundance of debris on each beach.
+*Abundance is the total number of items expected on the beach, given the beach's area. In other words, `Abundance = Density x Area`.*  
+
+*Save your result in an object named `final_table`. Be sure to be careful with units here.*  
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+final_table <-
+  left_join(beach_table, density_table) %>%
+  mutate(items = area_km2*1000000*(Dmean))
+```
+
+#### (24) Produce a column plot that compares debris abundance across beaches.  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+ggplot(final_table,
+       aes(x=name, y=items)) +
+  geom_col()
+```
+
+&nbsp;  
+
+#### (25) Estimate the total number of plastic debris items on St. Catherine’s beaches as a whole. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+final_table$items %>% sum
+```
+
+&nbsp; 
+
+#### (26) Your plot shows that South Beach has way more debris than Top Beach. How can that be? Didn't we find that Top Beach had a higher debris density? Explain this apparent discrepancy.  
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+&nbsp;  
+
+## Discuss study limitations
+
+#### (27) This study’s analysis assumed that *ALL* debris items between 0m and 1.5m from the trackline were counted – nothing was missed. To evaluate whether this assumption is valid, produce and interpret a histogram of debris distance from the survey trackline. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+ggplot(debris, 
+       aes(x=cm_from_tape)) + 
+  geom_histogram()
+```
+
+&nbsp; 
+
+#### (28) Based on those histograms, would you suggest that your plastic abundance estimate is an over-estimate or an under-estimate? Explain.
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+# Under-estimate!
+```
+
+#### (29) Your plot shows strange spikes at 0cm, 25cm, 100cm, and 150cm. How could you explain these anomalies?  
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+# Students were rounding to easy/convenient numbers -- error in the data!
+```
+
+&nbsp; 
+

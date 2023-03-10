@@ -1,0 +1,302 @@
+---
+title: "Workshop #1: Greenhouse gas emissions"
+author: "ENST 320"
+date: "Spring 2023"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Instructions:**  
+
+1. Save a copy of this document to your own Drive so that you can edit it.   
+
+2. You may work on this with others, but your answers must be your own, typed manually by you.  
+
+3. For each question, replace the "*Your code/answer/plot goes here*" line with your response. (For plots, you can take a screenshot of your plot from `R`).  
+
+4. When you are done, save your doc as a PDF then submit via this [form](https://forms.gle/2QrE6vTmWwup4DMv6).  
+
+Note that submissions will be assessed using [this rubric](https://docs.google.com/presentation/d/1PesPBMLaJqNBtc4mFJ8ymcsZaT1UjWAXQZyi10yZY84/edit#slide=id.g1c31560e1bb_0_7).  
+
+&nbsp;  
+
+#### (1) Your name:  
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+#### (2) "Library" packages
+*Show the code needed to load the following packages for use in your R session. Make sure these lines of code work in your `R` session.*
+
+- `dplyr`
+- `ggplot2`
+- `readr`
+
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+#### (3) "Read in" the data
+*In this workshop we will use a massive carbon emissions database maintained by the website "Our World in Data". The URL for this dataset is:*
+
+`https://nyc3.digitaloceanspaces.com/owid-public/data/co2/owid-co2-data.csv`  
+
+*Show the code needed to save this link into an object named `url` (make sure the link is in quotes), then read the data in the link into R using the function `read_csv()`, saving the data into a new object named `carbon`.*
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (4) View your data
+*Show the code you would use to view this entire dataset within `R`.*  
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (5) Get column names
+*Show the code to view just the column names of the dataset.*  
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (6) Select certain columns
+*Show the code to select only a few of the dataset's columns, saving the subset version of the data into a new object named `subcarbon`. The columns to keep are* `country`, `year`, `population`, `gdp`, `co2`, `cumulative_co2`, *and* `co2_per_gdp`.   
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+
+## Historical trends in carbon emissions from the United States
+
+#### (7) Filter the dataset
+*Show the code to filter `subcarbon` to show only rows where `country` is equal to `"United States"`. Store this filtered dataset in a new object named `usa`.*  
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (8) Annual CO2e emissions by the United States
+*Show the code to produce a beautiful line graph of annual trends in CO2e emissions by the United States. Then provide a screenshot of your plot.*  
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (9) Cumulative CO2e emissions by the United States
+*Show the code to produce a beautiful line graph of cumulative CO2e emissions by the United States. Then provide a screenshot of your plot.*  
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp; 
+
+#### (10) Annual CO2e emissions *per capita* in the United States
+*Show the code to produce a beautiful line graph of annual trends in per-capita CO2e emissions by the United States. Then provide a screenshot of your plot.*  
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (11) The U.S. "drawdown"
+*Based on your graphs, in what year did United States emissions peak?*  
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (12) Explain emissions types
+*Explain the difference between annual emissions, cumulative emissions, and per-capita emissions.*  
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+## Comparing the top two emitters: United States & China.
+
+Re-filter `subcarbon` to include data for both the United States AND China, and save the result in a new object named `top_two`. Filtering to multiple countries is a bit different than filtering to a single country, so here is the code you need to do so:
+
+```{r , eval=FALSE}
+top_two <- subcarbon %>% filter(country %in% c('United States', 'China'))
+```
+
+#### (13) Annual trends
+*Show the code to produce a beautiful line graph of annual emissions trends in these two countries. To do so, you will need to make sure `ggplot()` knows that line `color` should be deteremined by the `country`. Then provide a screenshot of your plot.*  
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (14) Cumulative trends
+*Show the code and a screenshot of your plot for comparing cumulative emissions in the two countries over time.*  
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (15) Per-capita trends
+*Show the code and a screenshot of your plot for comparing per-capita emissions in the two countries over time.*  
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (16) Which country currently emits the most CO2 annually? 
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (17) Which country currently emits the most on a per-capita basis?
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp; 
+
+
+#### (18) Which country has emitted the most cumulatively over time?
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp; 
+
+
+#### (19) Design your own plot!
+*Use the `subcarbon` dataset to produce a plot of your own focus and design. It can use whichever columns you wish, and as many countries as you wish. Make your plot beautiful, and give it a title to make it clear what you are showing.*
+
+*Recall that you can add a title to your plot using the line...* 
+
+`+ labs(title = "My title is here")`  
+
+
+&nbsp;  
+**Your code goes here.**    
+
+**Your screenshot goes here.**   
+
+```{r , echo=FALSE, eval=FALSE}
+# Answer key goes here
+```
+
+&nbsp; 
+&nbsp;  
+
+
+

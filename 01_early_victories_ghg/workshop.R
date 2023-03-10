@@ -4,124 +4,134 @@
 ################################################################################
 ################################################################################
 
-# calculator (add, subtract, multiply, divide, exponent)
+# Running R code ===============================================================
 
-# incomplete commands: 45 +
+# Open script
+# Save your script: week2
+# Write stuff in script
+3 + 3
+# Command enter (how to run lines of code)
 
-# getting errors
+# Run more stuff:
+6 / 3
+6 * 3
+6 > 3
+6 < 3
+6 == 3
+3 == 3
+# (emphasize: R is just a fancy calculator)
 
-# use parentheses
-2*7 - 2*5 / 2
-(2*7 - 2*5) / 2
+# Talk about errors
+# 3 +
+# 3 * (4 + 3
 
-# unresolved parentheses cause errors
+# Assigning values to objects
+x <- 3 # note how it did not print to console
+y <- 6
+x*y
+z <- y/x
+z
 
-################################################################################
-# Setting up scripts
+m <- 1:100
+m
+# analogy: objects are like credit cards: they are a super-portable way of accessing big collections of things.
+# note: hinting at true power of R: an object named m could hold gigabytes of data
 
-# Open file
-# Write stuff in scripts
-# Save file
-# Put library at the top
-# Comments
-# Why scripts are awesome
+# you can name objects pretty much anything
+duh <- runif(10)
+duh
 
-################################################################################
-# More basics
+# use underscores instead of spaces
+rob_pearigen <- 10
+rob_pearigen *10
 
-# testing equality
-1 == 1
-1 == 2
-1 != 1
-1 != 2
+# Save script
+# Re-run all of your script so far.
+# Discuss difference between script & console
+# Another advantage of scripts: # COMMENTS --
+# go back and comment your code up to this point.
 
-# sets of numbers (vectors)
-1:10
-10:1
-c(1,3,5,6)
+# Functions ====================================================================
 
-# built-in functions
-sqrt(16)
-log(4)
-round(43.44)
-round(43.44, 1)
+x <- 1:10
+x
+mean(x)
+sd(x)
+# This is a function -- functions are like vending machines.
 
-mean(1:10)
-sd(1:10)
+# Try another function:
+x <- rnorm(10000)
+x
+hist(x)
+mean(x)
+sd(x)
+# re-run to show how random number generation works
 
-rnorm(1000)
-?rnorm
-rnorm(n = 1000, mean = 0, sd = 1)
-rnorm(n = 1000, mean = 0, sd = 3)
+# Packages =====================================================================
 
-################################################################################
-# Packages - think of them like SHOES
+# R comes with a lot of functions built-in. Like mean, sd, hist, rnorm, runif, etc.
 
+# You can also download functions that others have developed using PACKAGES.
 install.packages('dplyr')
+
+# Packages are like shoes.
+# Base R is like going barefoot -- you can do alot with barefeet.
+# But sometimes you want to go snowshoeing, or skiing, or rockclimbing,
+# and you need special shoes for those things.
+
+# Install some more:
 install.packages('readr')
 install.packages('ggplot2')
 install.packages('gsheet')
-install.packages("wesanderson")
-install.packages("leaflet")
+install.packages('leaflet')
+install.packages('gganimate')
+install.packages('gapminder')
+install.packages('scales')
+install.packages('plotly')
+install.packages('av')
+install.packages('gifski')
 
-# Libraries
+# There's a difference between buying shoes and wearing shoes.
+# In R, installing a package is like buying your shoes. You get to keep them at your house.
+# But to actually use your package, you need to use another line of code.
 library(dplyr)
+
+# This is like putting your shoes ON.
 library(readr)
 library(ggplot2)
+library(gsheet)
+library(leaflet)
 library(gganimate)
 library(gapminder)
 library(scales)
 library(plotly)
+library(av)
+library(gifski)
 
-wes_palette("Royal1")
-wes_palette("Zissou1")
-?wes_palette
+# Install -- Do ONCE -- use quotes. # comment out after done
+# Library -- Do in EVERY SCRIPT -- no quotes.
 
-################################################################################
-# The pipe
+# Re-install R
+# Re-run library code
 
+# The pipe =====================================================================
+
+# Type this:
 1:10 %>% mean
+
+# The pipe means THEN.
 16 %>% sqrt
-1:100 %>% mean %>% sqrt %>% round
 rnorm(10000) %>% hist
-rnorm(n = 10000, mean = 0, sd = 3) %>% hist
 
-# PAUSE & TEST: Find errors
-# 5 * 6 +
-# sqrt(16
-# round(100/3,digits+3)
+# Shortcut: Command + Shift + M
 
-################################################################################
-# Variables
+# This can make your code clearer
+round(sqrt(mean(1:100)))
+1:100 %>% mean %>% sqrt %>% round
 
-3 + 5
+# The pipe will become INDISPENSABLE once we start working with datasets
 
-# Declaring variables
-x <- 3 + 5
-
-# Calling variables
-
-# Using parentheses to print
-
-# Naming variables
-
-# Adding together
-
-# Numeric v character v logical
-# can't add them together
-
-#  PAUSE: Finding errors
-# my_var < 5
-
-# my_var == 5
-
-#x <- 5
-#y <- 1
-#X + y
-
-################################################################################
-################################################################################
-# Early victories!
+# Looking at data ==============================================================
 
 # Load dataset
 data(gapminder)
@@ -129,15 +139,16 @@ data(gapminder)
 # Look at dataset
 gapminder %>% head
 gapminder %>% View
-
-# Talk about the pipe
+# note columns and rows
 
 # Look at years in dataset
-gapminder$year
+gapminder$year # use $ to look at just one column
 gapminder$year %>% table
 
-# 2007 plot
-gapminder_filtered <- gapminder %>% filter(year==2007)
+# We want to plot these data for 2007 only.
+gapminder %>% filter(year==2007) # First, filter the data
+gapminder_filtered <- gapminder %>% filter(year==2007) # save to a new object
+gapminder_filtered %>% View
 
 # ggplot it - canvas
 ggplot(gapminder_filtered,
@@ -154,15 +165,16 @@ ggplot(gapminder_filtered,
 ggplot(gapminder_filtered,
        aes(x = gdpPercap,
            y = lifeExp,
-           group=country,
+           group=country, # add 1
            size = pop,
            color = continent)) +
   geom_point(alpha=0.7) +
+  theme_minimal() + # add 2
   xlab("GDP per capita") +
-  ylab("Life expectancy at birth") +
-  theme_minimal() +
-  scale_size_area(guide = FALSE, max_size = 15) +
-  scale_x_continuous(labels = dollar)
+  ylab("Life expectancy at birth") + # add 3
+  scale_x_continuous(trans='log', # add 4
+                     labels = dollar) + # add 5
+  scale_size_area(guide = FALSE, max_size = 15) # add 6
 
 # plotly version
 ggplotly()
@@ -180,7 +192,7 @@ p <-
   ylab("Life expectancy at birth") +
   theme_minimal() +
   scale_size_area(guide = FALSE, max_size = 15) +
-  scale_x_continuous(labels = dollar)
+  scale_x_continuous(trans='log', labels = dollar)
 p
 
 # Animate
@@ -192,34 +204,29 @@ p +
 
 ################################################################################
 ################################################################################
-# (2) Climate impacts
+# R Lab #1: Climate impacts & carbon emissions
 ################################################################################
 ################################################################################
 
-# Our World in Data
-# https://ourworldindata.org/explorers/climate-change
+# Go to course calendar, click on workshop link.
 
-# https://github.com/owid/co2-data # Their data repository
-
-# Their entire dataset
+# Read in data
 url <- 'https://nyc3.digitaloceanspaces.com/owid-public/data/co2/owid-co2-data.csv'
-
-# Read in
 carbon <- read_csv(url)
 
 # Explore
 carbon %>% View
 carbon %>% names
-# data dictionary # https://github.com/owid/co2-data/blob/master/owid-co2-codebook.csv
 
 # Simple exploration
-carbon <-carbon %>% select(country, year, population, gdp, co2, cumulative_co2, co2_per_gdp)
+carbon_simple <- carbon %>% select(country, year, population, gdp, co2, cumulative_co2, co2_per_gdp)
 
 ################################################################################
-# Case study: USA
+# Task # 1: Case study: USA
 ################################################################################
 
-usa <- carbon %>% filter(country == 'United States')
+# Filter to the United States only
+usa <- carbon_simple %>% filter(country == 'United States')
 usa %>% nrow
 
 # Annual co2
@@ -242,7 +249,7 @@ ggplot(usa %>% mutate(co2_percapita = co2/population),
 
 
 ################################################################################
-# Case study: USA & China
+# Task #2: case study: USA & China
 ################################################################################
 
 toptwo <- carbon %>% filter(country %in% c('United States', 'China'))
@@ -269,7 +276,7 @@ ggplot(toptwo %>%
   labs(title='Per-capita CO2 emissions by USA & China')
 
 ################################################################################
-# CO2 and GDP (present day)
+# Task #3: CO2 and GDP (present day)
 ################################################################################
 
 # Join gapminder to co2 data
@@ -278,7 +285,8 @@ super_data <- left_join(carbon, gapminder)
 super_data %>% filter(country == 'United States') %>% View
 
 # Starting point
-ggplot(super_data %>% filter(year == 2007),
+ggplot(super_data %>%
+         filter(year == 2007),
        aes(x=gdpPercap,
            y= co2 / population,
            size=population,
@@ -290,18 +298,36 @@ ggplot(super_data %>% filter(year == 2007),
 ggplot(super_data %>%
          filter(year == '2007'),
        aes(x=gdpPercap,
+           y=(co2*1000000) / population, # change 1
+           size=population,
+           color = continent,
+           group=country)) +
+  geom_point(alpha=.8) +
+  scale_x_continuous(trans='log') +  # change 2
+  scale_size_area(guide = FALSE, max_size = 15) # change 3
+
+# Final
+ggplot(super_data %>%
+         filter(year == '2007'),
+       aes(x=gdpPercap,
            y=(co2*1000000) / population,
            size=population,
            color = continent,
            group=country)) +
   geom_point(alpha=.8) +
-  scale_x_continuous(trans='log') +
-  scale_size_area(guide = FALSE, max_size = 15)
+  scale_x_continuous(trans='log',
+                     labels=dollar_format(), # change 1
+                     breaks=c(500, 1500, 5000, 15000, 60000)) + # change 2
+  scale_size_area(guide = FALSE, max_size = 15) +
+  theme_light() + # change 3
+  ylim(0, 30) + # change 4
+  xlab('GPD per capita') + # change 5
+  ylab('CO2 emissions (tons) per capita') # change 6
 
-# Final
+# Bring in ALL years with gdp data
 p <-
   ggplot(super_data %>%
-         filter(!is.na(gdpPercap)),
+         filter(!is.na(gdpPercap)), # CHANGE THIS
          aes(x=gdpPercap,
              y=(co2*1000000) / population,
              size=population,
@@ -326,7 +352,4 @@ p +
   ggtitle('Relationship between CO2 and GDP: {round(frame_time)}') +
   transition_time(year) +
   ease_aes("linear")
-
-
-
 

@@ -1,0 +1,652 @@
+---
+title: "Workshop #3: Measuring carbon offsets"
+author: "ENST 320"
+date: "Spring 2023"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+print_key = TRUE
+```
+
+**Instructions:**  
+
+1. Save a copy of this document to your own Drive so that you can edit it.   
+
+2. You may work on this with others, but your answers must be your own, typed manually by you.  
+
+3. For each question, replace the "*Your code/answer/plot goes here*" line with your response. (For plots, you can take a screenshot of your plot from `R`).  
+
+4. When you are done, save your doc as a PDF then submit via this [form](https://forms.gle/2QrE6vTmWwup4DMv6).  
+
+Note that submissions will be assessed using [this rubric](https://docs.google.com/presentation/d/1PesPBMLaJqNBtc4mFJ8ymcsZaT1UjWAXQZyi10yZY84/edit#slide=id.g1c31560e1bb_0_7).  
+
+&nbsp;  
+
+#### (1) Your name:  
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+#### (2) "Library" packages
+*Show the code needed to load the following packages for use in your R session. Make sure these lines of code work when you run them. If any of these packages are not installed on your R account, install them and show the code for how you did so.*
+
+- `dplyr`
+- `ggplot2`
+- `readr`
+- `tidyr`
+- `gsheet`
+- `leaflet`
+- `sf`
+
+**Your answer goes here.**
+
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key, message=FALSE, warning=FALSE}
+# Answer key
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(gsheet)
+library(leaflet)
+library(sf)
+```
+
+&nbsp;  
+
+#### Studying carbon storage in "Urban" Sewanee
+
+*In this workshop we will use a dataset by Nelson Tyer Jones, C'22, an ESUS major who studied carbon storage in the trees of "urban" Sewanee, i.e., the central campus zone of the Domain as well as the thoroughfares used regularly by students.*
+
+*Nelson's study area is delineated in the dataset available at this link:*  
+
+`https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/03_sequestration/nelson_polygon.csv`
+
+&nbsp; 
+
+#### (2) Read in the study area dataset.
+
+&nbsp;  
+**Your code goes here.**   
+
+```{r , echo=print_key, eval=print_key, include=print_key, message=FALSE, warning=FALSE}
+# Answer key
+url <- 'https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/03_sequestration/nelson_polygon.csv'
+urban_sewanee <- read_csv(url)
+```
+
+&nbsp; 
+&nbsp;  
+  
+#### (3) Map the study area. 
+*Create an interactive `leaflet` map that displays this study area.*
+
+&nbsp;  
+**Your answer goes here.**   
+
+```{r , echo=print_key, eval=FALSE, include=print_key}
+# Answer key
+leaflet() %>%
+  addTiles() %>%
+  addPolygons(lng=urban_sewanee$lon, 
+              lat=urban_sewanee$lat, 
+              col='purple') 
+```
+
+&nbsp; 
+&nbsp;  
+
+To sample the trees within "urban Sewanee", Nelson selected random locations within this study area. Her sample locations are available at this link:  
+
+`https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/03_sequestration/nelson-sample-locations.csv`  
+
+&nbsp;  
+
+#### (4) Add these sample locations to your interactive map. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+
+```{r , echo=print_key, eval=print_key, include=print_key, message=FALSE, warning=FALSE}
+# Read in data
+url <- 'https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/03_sequestration/nelson-sample-locations.csv'
+sites <- read_csv(url)
+```
+
+```{r , echo=print_key, eval=FALSE, include=print_key}
+# Map it
+leaflet() %>%
+  addTiles() %>%
+  addPolygons(lng=urban_sewanee$lon, lat=urban_sewanee$lat, col='purple') %>%
+  addCircleMarkers(lng=sites$lon, lat=sites$lat)
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (5) How many sample locations did Nelson use?
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**  
+
+&nbsp; 
+
+```{r , echo=print_key, eval=print_key, include=print_key, message=FALSE, warning=FALSE}
+# Answer key
+sites %>% nrow
+```
+
+&nbsp;  
+
+*In each of these sample locations, Nelson measured the diameter-at-breast-height (dbh) of every single tree within a 25m radius. Her dataset of measurements is available at this link:*  
+
+`https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/03_sequestration/nelson_trees.csv`  
+
+&nbsp;  
+
+#### (6) How many trees did Nelson measure?
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**  
+
+```{r , echo=print_key, eval=print_key, include=print_key, message=FALSE, warning=FALSE}
+# Load data
+url <- 'https://raw.githubusercontent.com/ericmkeen/sewanee_esus/master/03_sequestration/nelson_trees.csv'
+trees <- read_csv(url)
+
+# How many trees?
+trees %>% nrow
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (7) Describe how many trees were measured per plot. 
+*Provide the mean, SD, min., and max.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+
+&nbsp; 
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+trees %>% 
+  group_by(plot) %>% 
+  tally() %>% 
+  summarize(mean = mean(n),
+            sd = sd(n),
+            min = min(n),
+            max = max(n))
+```
+
+#### (8) Plot the number of trees measured for each species.
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+
+&nbsp; 
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+species <- trees %>% group_by(species) %>% tally()
+ggplot(species,
+       aes(x=n, y=species)) +
+  geom_col()
+```
+
+&nbsp;  
+
+#### (9) Fix the DBH measurement in this dataset. 
+*This dataset has a `dbh` column, but it accidentally contains tree circumference. Modify this column so that it accurately contains DBH.*
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+trees <- 
+  trees %>% mutate(dbh = dbh / pi)
+```
+
+&nbsp; 
+
+#### (10) Create a table summarizing measurements for each species.
+*For each species, provide the sample size and the mean and SD of DBH. Rank the species by sample size, in descending order, and show only the top 10 most-measured species. Save your table in an object named `tree_table`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+tree_table <- 
+  trees %>%
+  group_by(species) %>%
+  summarize(n=n(),
+            dbh_mean = mean(dbh),
+            dbh_sd = sd(dbh)) %>%
+  arrange(desc(n)) %>% 
+  head(10)
+
+tree_table
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (11) Of the species with at least five measurements, which tree species was largest on average?
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**  
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+tree_table %>% 
+  filter(n >=5) %>% 
+  arrange(dbh_mean) %>% 
+  tail(1)
+```
+&nbsp;  
+
+#### (12) Show a violin plot of the DBH measurements for the 6 largest species with at least 5 measurements. 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+largest_species <- 
+  tree_table %>% 
+  filter(n >= 5) %>% 
+  arrange(dbh_mean) %>% 
+  tail %>% 
+  pull(species)
+
+largest_species
+
+large_trees <- 
+  trees %>% 
+  filter(species %in% largest_species)
+
+ggplot(large_trees,
+       aes(x=dbh, y=species)) +
+  geom_violin(fill='darkblue', alpha=.5) + 
+  geom_jitter(alpha=.3, width=0, height=.2)
+```
+
+&nbsp;  
+
+## Calculating carbon storage
+
+Nelson used these DBH measurements to estimate carbon storage in the trees of urban Sewanee. To do so, she needed a way to estimate a tree's biomass based on its diameter. Luckily, forest ecologists have developed biomass-diameter regressions for most common tree species. These regressions follow a standard equation, which in `R` is expressed as follows:
+
+`biomass_kg = exp(b0 + b1*log(dbh))`
+
+In this equation, you need three things to predict tree biomass: `dbh` (which Nelson measured), and the parameters `b0` and `b1`. The values for these parameters are species-specific, and forest ecologists have [tables](https://www.fs.usda.gov/research/treesearch/7058) that provide these two parameter values for each species.  For example, for Eastern White Pine these values are `b0 = -2.54` and `b1 = 2.43`. 
+
+#### (13) What is the biomass, in kg, for an Eastern White Pine with a DBH of 50 cm?
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+exp(-2.54 + 2.43*log(50))
+```
+&nbsp;  
+
+#### (14) Plot predicted biomass for Eastern White Pine trees ranging from 1 cm to 200 cm.
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**   
+
+&nbsp;  
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+dbh <- 1:200
+kg <- exp(-2.54 + 2.43*log(dbh))
+ggplot(data=NULL, aes(x=dbh, y=kg)) + geom_point()
+```
+
+&nbsp;  
+
+#### (15) Based on this graph, which type of forest would gain more biomass over the course of a single year? A forest of small trees, or a forest of large trees (all else being equal)?  
+
+&nbsp;  
+**Your answer goes here.**   
+
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+# A forest of large trees.
+```
+
+&nbsp; 
+
+#### (16) All else is *not* equal, however. What are some other factors about forest growth that make the previous question difficult to answer?  
+
+&nbsp;  
+**Your answer goes here.**   
+
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+# A forest with large trees has lower stem density.
+# A forest with large (and therefore old) trees experiences more mortality.
+```
+
+&nbsp; 
+
+#### Read in biomass regression coefficients.
+*We have prepared a dataset of biomass regression coefficients within a GoogleSheet. Read in this dataset using the code below *  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE}
+url <- 'https://docs.google.com/spreadsheets/d/1mx-4kfU4j966ORpzuFO0DG_VMmuQ08NR_uIxddJGc1E/edit?usp=sharing'
+coefficients <- gsheet2tbl(url)
+```
+
+&nbsp; 
+
+*(Note that this is a SUPER useful way of creating and reading in your own data into `R` -- put your data into a GoogleSheet and read it in using code similar to the above!)*  
+
+&nbsp;  
+
+#### (17) You measure a tree with a DBH of 79cm. Would it have more biomass if it were a white pine or a white oak?
+*Use the `coefficients` dataset to answer.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+
+# Pine
+pine <- coefficients %>% filter(species == 'white pine')
+exp(pine$b0 + pine$b1*log(79))
+
+# Oak
+oak <- coefficients %>% filter(species == 'white oak')
+exp(oak$b0 + oak$b1*log(79))
+
+# Answer: Oak
+```
+
+&nbsp; 
+&nbsp;  
+
+#### Join the `coefficients` dataset to the `trees` dataset.
+*The `left_join()` function will associate the `coefficients` data with the `trees` data according to the column they share in common, `species`. This function is a super handy way of joining together two datasets.*  
+
+```{r , echo=TRUE, eval=print_key, include=TRUE}
+trees <- left_join(trees, coefficients)
+```
+
+&nbsp;  
+
+#### (18) Add a new column, `biomass_kg`, to the `trees` dataset.
+
+&nbsp;  
+**Your code goes here.**   
+
+&nbsp;
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+trees <-
+  trees %>%
+  mutate(biomass_kg = exp(b0 + b1*log(dbh)))
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (19) How much heavier, on average, is an oak tree compared to a pine tree in urban Sewanee? 
+*Express your answer as a ratio (something like "Oak is 1.8 times the weight of pine").*
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+kg <- 
+  trees %>% 
+  group_by(species) %>% 
+  summarize(kg_mean = mean(biomass_kg))
+
+oak <- kg %>% filter(species ==  'oak') %>% pull(kg_mean)
+pine <- kg %>% filter(species ==  'pine') %>% pull(kg_mean)
+
+oak/pine
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (20) Convert biomass to kg of carbon
+*Only a fraction of a tree's biomass is attributable to carbon -- the rest is water, proteins, etc. A classic study, Jenkins et al. (2004), estimates that fraction to be about 0.50. In other words, half of a tree's biomass is carbon.*  
+
+*Add a new column to your `trees` dataset named `carbon_kg`, representing the amount of woody carbon contained in each tree that Nelson measured.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+trees <-
+  trees %>%
+  mutate(carbon_kg = biomass_kg*0.50)
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (21) Estimate carbon dioxide fixed based on woody carbon
+*Trees build up their woody carbon using the carbon dioxide they pull from the air. But it is not a one-for-one transaction, since carbon dioxide consists of both carbon AND oxygen. In fact, every kg of woody carbon represents 3.67 kg of carbon removed from the atmosphere (Jenkins et al. 2004).*  
+
+*Make a new column, `co2_kg`, that represents the amount of carbon dioxide removed by each tree that Nelson measured.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+trees <-
+  trees %>%
+  mutate(co2_kg = carbon_kg*3.67)
+```
+
+&nbsp; 
+&nbsp;
+
+#### (22) Calculate the total carbon dioxide removed for each of Nelson's 50 plots.
+*Save this summarized dataset in an object named `co2_per_plot`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+co2_per_plot <- trees %>%
+  group_by(plot) %>%
+  summarize(co2_kg = sum(co2_kg, na.rm=TRUE))
+```
+
+&nbsp;  
+
+#### (23) On average, how much carbon dioxide was removed from the atmosphere per plot?
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+co2_per_plot$co2_kg %>% mean(na.rm=TRUE)
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (24) Based on Nelson's sample plots, how much carbon dioxide, on average, has been removed from the atmosphere *per square meter* in urban Sewanee? Be sure to specify units!
+
+*(To calculate this, you will need to figure out the area, in square meters, of Nelson's sample plots. Store your answer in an object named `co2_per_m2`)*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+co2_per_m2 <- mean(co2_per_plot$co2_kg, na.rm=TRUE) / (pi*(25^2))
+co2_per_m2
+```
+
+&nbsp;  
+
+#### (25) Based on that estimate, how much carbon dioxide has been removed from the atmosphere by *all* the trees in urban Sewanee? Be sure to specify units!
+*The area of Nelson's urban Sewanee polygon is 1,043,121 square meters. Store your answer in an object named `kg_co2`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+kg_co2 <- co2_per_m2 * 1043121
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (26) How much carbon doixide is that in metric tons?
+*Store your answer in an object named `tons_co2`.*  
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your screenshot goes here.**  
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+tons_co2 <- kg_co2 / 1000
+tons_co2
+```
+
+&nbsp;  
+
+#### (27) Should "standing stock" be used for carbon offsets?
+*You just determined the "standing stock" of carbon dioxide removal in urban Sewanee. The trees in this area represent years and years of carbon sequestration. What if, hypothetically, Sewanee wanted to offset its students' lifestyles, as part of its efforts to become carbon-neutral, using the carbon sequestered in the trees of urban Sewanee? Does that logic make sense? Would you be in favor of that idea?  Why or why not?*
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key:
+# Lots of viable answers.
+```
+
+&nbsp;  
+
+#### (28) How much carbon dioxide was sequestered between 2022 and 2023?
+*Nelson measured all of these trees in spring 2022. Those trees grew a little bit larger in the year since, and that growth represents new carbon sequestration.*  
+
+*Assuming that ALL trees grew in diameter by 0.55cm, and assuming that ZERO trees died and ZERO trees were planted or born, how many tons of carbon were sequestered in urban Sewanee between 2022 and 2023?*  
+
+*Challenge: do all these calculations in a SINGLE pipe-line!*
+
+&nbsp;  
+**Your code goes here (this will take many lines of code).**   
+&nbsp;  
+**Your answer goes here.**  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+annual_removal <- 
+  trees %>% 
+  mutate(dbh = dbh + 0.55) %>% 
+  mutate(biomass_kg = exp(b0 + b1*log(dbh))) %>% 
+  mutate(carbon_kg = biomass_kg*0.50) %>% 
+  mutate(co2_kg = carbon_kg*3.67) %>% 
+  group_by(plot) %>% 
+  summarize(co2_kg = sum(co2_kg, na.rm=TRUE)) %>% 
+  summarize(co2_per_plot = mean(co2_kg, na.rm=TRUE)) %>% 
+  mutate(co2_per_m2 = co2_per_plot / (pi*25^2)) %>% 
+  mutate(kg_total = co2_per_m2 * 1043121) %>% 
+  mutate(tons_total = kg_total / 1000) %>% 
+  pull(tons_total) - tons_co2
+
+annual_removal
+```
+
+&nbsp; 
+&nbsp;  
+
+#### (29) Should this new, annual sequestration be used for offsets?
+*Could Sewanee viably use this annual carbon removal as part of a student carbon offset program? Why or why not?*  
+
+&nbsp;  
+**Your answer goes here.**   
+&nbsp;  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+# Many viable answers
+```
+
+&nbsp; 
+
+#### (30) Would these annual offests even make a big difference?
+*Say there are 1,630 students on campus. Assuming the average annual carbon footprint of a Sewanee student is the same as the national average ([16 tons](https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/#:~:text=What%20is%20a%20carbon%20footprint,highest%20rates%20in%20the%20world.)), what share of each student's lifestyle could be offset by the annual growth of trees in urban Sewanee?* 
+
+&nbsp;  
+**Your code goes here.**   
+&nbsp;  
+**Your answer goes here.**  
+
+```{r , echo=print_key, eval=print_key, include=print_key}
+# Answer key
+(removal_per_student <- annual_removal / 1630)
+
+removal_per_student / 16
+```
+

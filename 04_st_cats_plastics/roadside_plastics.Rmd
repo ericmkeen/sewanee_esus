@@ -1,0 +1,159 @@
+---
+title: "Workshop #4: Roadside plastics"
+author: "ENST 320"
+date: "Spring 2023"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+print_key = FALSE
+```
+
+&nbsp;  
+
+**Instructions:**  
+
+1. Save a copy of this document to your own Drive so that you can edit it.   
+
+2. You may work on this with others, but your answers must be your own, typed manually by you.  
+
+3. For each question, replace the "*Your code/answer/plot goes here*" line with your response. (For plots, you can take a screenshot of your plot from `R`).  
+
+4. When you are done, save your doc as a PDF then submit via this [form](https://forms.gle/2QrE6vTmWwup4DMv6).  
+
+Note that submissions will be assessed using [this rubric](https://docs.google.com/presentation/d/1PesPBMLaJqNBtc4mFJ8ymcsZaT1UjWAXQZyi10yZY84/edit#slide=id.g1c31560e1bb_0_7).  
+
+&nbsp;  
+&nbsp;  
+
+## Introduction  
+
+Roadside litter is [a major source](https://www.knoxnews.com/story/news/2019/02/08/microplastics-in-water-tennessee-river/2793976002/) of microplastic pollution in Tennessee's waterways. Sewanee's position atop the Cumberland Plateau, at the peak of [four different watersheds](https://new.sewanee.edu/offices/university-offices/environmental-stewardship-sustainability/headwaters-initiative/), means that roadside litter in Sewanee is ground-zero for Tennessee's plastic problem.  
+
+Your task is to design a study that answers the following three questions:  
+
+**1. Which major road entering/leaving Sewanee has the most roadside litter?**
+(Focus on Sherwood Rd, Jumpoff Road, Hwy 41A, and Roark's Coave Road). 
+
+**2. Is roadside plastic less prevalent on highways within the Domain boundary?** More specifically, is roadside litter worst on central campus, the roadways between central campus and the Domain boundary, or the roadways beyond the Domain boundary? 
+
+**3. Based on those results, which watershed receives the most litter pollution from Sewanee's roads?** The bottom of [this website](https://new.sewanee.edu/offices/university-offices/environmental-stewardship-sustainability/headwaters-initiative/) has a map of the watershed boundaries in Sewanee's Domain. We will be focusing on the western three: the Crow Creek Upper (Lost Cove), Boiling Fork Creek, and Mud Creek watersheds.  
+
+Your plan will involve a data collection section (where exactly will you collect samples, and how exactly will you do so?) and an analytical section.  
+
+&nbsp;  
+
+**Helpful tips:**  
+
+- Focus your research design on mesoplastics (between 0.5 cm and 2.5 cm) and macroplastics (larger than 2.5 cm) only -- ignore microscopic plastics for the purposes of this workshop. *(Note that all larger pieces of plastic will eventually break down into microplastics.)*   
+
+
+- To help you plan your study, [this interactive map website](https://geojson.io/#map=13.32/35.20475/-85.9128) will make it easy to find road names and find the latitude/longitude of sampling locations (use the upside-down tear drop in the toolbox).  
+
+&nbsp;  
+
+#### (1) Your name:   
+
+**Your answer goes here.**  
+&nbsp;  
+
+#### (2) The names of team members (max. 3 allowed):   
+
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+#### (3) Hypotheses/predictions
+*What do you think the answers to the above research questions are going to be? What is your prediction?*  
+
+**Your answer goes here.**
+&nbsp;  
+&nbsp;  
+
+
+#### (4) Library your packages
+*Show the code for "librarying" all the packages you need to use for this workshop. It may be easiest to answer this question last.*  
+
+**Your answer goes here.**  
+&nbsp;  
+**Your code goes here.**  
+&nbsp;  
+
+
+#### (5) Show your sampling locations
+*Produce an interactive `leaflet` map that displays every single sampling location that you plan. Use a GoogleSheet to prepare your set of sampling locations, then read that GoogleSheet into `R` to make your map. (Hint: make sure you set the GoogleSheet sharing settings to "Anyone with the link can view").*  
+
+**Your code goes here.**  
+&nbsp;  
+**A screenshot of your map goes here.**  
+&nbsp;  
+
+
+#### (6) Describe your sampling plan at each location.    
+*Write an account of your methodological plan for sampling at each of the above locations. Make sure it is well-written and thorough -- this will be at least a paragraph, possibly two or three. Use [THIS GUIDE](http://datascience.pizza/writing-a-report.html#methods) to help you write this section well.*  
+
+&nbsp;  
+**Your answer goes here.**  
+&nbsp;  
+&nbsp;  
+
+
+#### (7) Make up a fake dataset that reflects (a) your sampling method and (b) your predictions about what you will find.
+*What kind of dataset would your sampling plan produce? Use another GoogleSheet to generate this fake data set. This will be the basis for your plots and tables in subsequent questions, so make sure this fake data is structured carefully and that the numbers you make up are as realistic as possible.*  
+
+*Once you have created this dataset, read it into `R`.*  
+
+&nbsp;  
+**Your code goes here.**  
+&nbsp;  
+&nbsp;  
+
+#### (8) Write the code that shows the first six rows of the dataset, the last six rows, and the column names.  
+
+&nbsp;  
+**Your code goes here.**  
+&nbsp;  
+**Paste screenshot(s) of your Console results here.**
+&nbsp;  
+
+#### (9) Design and display a results table.  
+*Group and summarize your data that presents the details you would need to answer the original research questions based on the data you "collected".*  
+  
+&nbsp;  
+**Your code goes here.**  
+&nbsp;  
+**A screenshot of your table goes here.**  
+&nbsp;  
+  
+#### (10) Write a caption for this table 
+*Use the guidelines [HERE](http://datascience.pizza/style.html#captions-for-tables-and-figures) to write a professional-quality caption.*  
+
+&nbsp;  
+**Your caption text goes here.**  
+&nbsp;  
+&nbsp;  
+
+#### (11) Design and display a results plot.
+*Make sure the graph is designed to allow a reader to determine the answer the original research questions based on the visualized data.*  
+
+&nbsp;  
+**Your code goes here.**  
+&nbsp;  
+**A screenshot of your plot goes here.**  
+&nbsp;  
+
+#### (12) Write a caption for this plot 
+*Use the guidelines [HERE](http://datascience.pizza/style.html#captions-for-tables-and-figures) to write a professional-quality caption.*  
+
+&nbsp;  
+**Your caption text goes here.**  
+&nbsp;  
+&nbsp;  
+
+#### (13) Discuss any limitations of your study 
+*Evaluate your study design critically. Are there any shortcomings or weaknesses? Does it fail to fully answer any part of the original research questions?  How can your design be improved?*  
+
+&nbsp;  
+**Your answer goes here.**  
+
