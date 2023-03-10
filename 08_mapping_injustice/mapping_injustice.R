@@ -312,6 +312,25 @@ tracts$STATE %>% unique
 # Try saving object
 save(tracts, file='/Users/erickeen/Downloads/census_tracts.rds')
 
+
+################################################################################
+################################################################################
+# Air quality dataset
+
+# https://www.epa.gov/enviroatlas/data-download-step-2
+# https://www.epa.gov/national-air-toxics-assessment/2014-nata-assessment-results
+
+air <- readxl::read_excel('/Users/erickeen/Downloads/nata2014v2_national_cancerrisk_by_tract_poll.xlsx')
+air %>% names
+air <- air[-1,1:7]
+air <- air %>% dplyr::select(FIPS = Tract, cancer_risk = `Total Cancer Risk (per million)`)
+air %>% head
+air$FIPS <- paste0(air$FIPS, 'GID')
+save(air, file='/Users/erickeen/Downloads/cancer_risk.rds')
+
+
+################################################################################
+################################################################################
 ################################################################################
 ################################################################################
 # WORKSHOP
@@ -331,19 +350,24 @@ names(sepher)
 # Load data key
 load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/key_sepher.rds?raw=true'))
 key
+key$Name
 
 # Explore
 ggplot(sepher, aes(y=POVERTY.RATE_2016,
                    x=PCT.WHITE_2016)) +
   geom_point(alpha=.1)
 
-ggplot(sepher %>% filter(STATE %in% c('CALIFORNIA', 'TENNESSEE')),
-       aes(x=RISK_TOTAL,
-           fill=STATE)) +
-  geom_density()
+ggplot(sepher %>% filter(ST_ABBR %in% c('CA', 'FL')),
+       aes(x=RISK_SCORE,
+           fill=ST_ABBR)) +
+  geom_density(alpha=.4)
 
-# Create 2 plots
+# Is environmental risk exposure related to income?
+ggplot(sepher, aes(y=RISK_SCORE,
+                   x=MEDIAN.HOUSEHOLD.INCOME_2016)) +
+  geom_point(alpha=.1)
 
+# Devise your own justice-related question and make a plot that answers it
 
 
 #===============================================================================
@@ -352,13 +376,15 @@ ggplot(sepher %>% filter(STATE %in% c('CALIFORNIA', 'TENNESSEE')),
 # Load tracts
 load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/census_tracts.rds?raw=true'))
 
-# Demo w california
+# Demo w/ california
 cali <- tracts %>% filter(STATE == 'CALIFORNIA')
 
-ggplot(cali) +
-  geom_sf() +
-  coord_sf()
+# Make a leaflet map
+library(leaflet)
 
+# Make a ggplot map
+ggplot(cali) +
+  geom_sf()
 
 
 #===============================================================================
@@ -366,52 +392,116 @@ ggplot(cali) +
 
 mr <- left_join(tracts, sepher, by='FIPS')
 
+mr %>% names %>% tail
 
 #===============================================================================
+# Chloropleths
 
+mr_tn <- mr %>% filter(STATE == 'TENNESSEE')
+
+# Make map
+ggplot(mr_tn,
+       aes(fill=E_PCI_2016)) +
+  geom_sf(color=NA) +
+  labs(title='Per-capita income by census tract')
+
+mr_tn %>% names
+
+# Other color scales
+library(viridis)
+# details here: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
+
+ggplot(mr_tn,
+       aes(fill=E_PCI_2016)) +
+  geom_sf(color=NA) +
+  #scale_fill_viridis()
+  scale_fill_viridis(option='magma')
+
+
+# DIY CHLOROPLETH of your own state
+
+ggplot(cali, aes(fill=RISK_SCORE)) +
+  geom_sf(color=NA) +
+  labs(title='FEMA risk score')
 
 
 #===============================================================================
-
-
-
-#===============================================================================
-
-
 # Subset to manully defined study area, e.g., South Cumberland Plateau
 
-#tracts <- st_crop(tracts,
-#                  xmin = -86.5,
-#                  ymin = 34.5,
-#                  xmax = -84.5,
-#                  ymax = 36.6)
+socu <- st_crop(mr,
+                  xmin = -86.5,
+                  ymin = 34.5,
+                  xmax = -84.5,
+                  ymax = 36.6)
 
-# Subset to study area - DC
-tracts <- tracts %>% filter(STATE == 'DISTRICT OF COLUMBIA')
+ggplot(socu,
+       aes(fill=POPULATION)) +
+  geom_sf() +
+  geom_point(aes(x=-85.92, y=35.2), color='orange', size=3)
 
-
-tracts %>% nrow
-
-
-
+# DIY chloropleth of your own manually defined study area
 
 
+#===============================================================================
+# Air quality
 
-# Join SEPHER to tracts
-mr <- left_join(tracts, sepher, by='FIPS')
 
-# Non-N/A columns
-which(apply(mr, 2, function(x){any(!is.na(x))})) %>% names
-names(mr)[grepl('INCOME', names(mr))]
 
-# Map it
-ggplot(mr) +
-  geom_sf(aes(fill=E_PCI_2014)) # per capita income 2014
-  #geom_point(mapping=aes(x=-85.921, y=35.203), color='red', szie=2)
+
+#===============================================================================
+# FedData
+
+# FedData
+# https://github.com/ropensci/FedData
+
+library(devtools)
+devtools::install_github("ropensci/FedData")
+library(FedData)
+
+# National elevation dataset
+?get_ned
+
+?get_daymet
+
+?get_ghcn_daily
+
+?get_nhd
+
+?get_ssurgo
+
+?get_nlcd
+
+FedData::meve
+
+# Bounding box for south cumberland
+lims <- tibble(longitude = c(-86.5, -84.5, -84.5, -86.5, -86.5),
+               latitude = c(34.5, 34.5, 36, 36, 34.5))
+sewanee_box <-
+  st_as_sf(lims, coords = c('longitude', 'latitude'), crs=4326) %>%
+  summarise(geometry = st_combine(geometry)) %>%
+  st_cast("POLYGON")
+
+library(leaflet)
+leaflet(sewanee_box) %>% addTiles() %>% addPolygons()
+
+
+vt <- mr %>% filter(STATE == 'VERMONT')
+ggplot(vt) + geom_sf()
+
+NED <- get_ned(template = vt,
+               label='cali')
+NED %>% class
+plot(NED)
+
+library(rasterVis)
+gplot(NED) +
+  geom_tile(aes(x=x, y=y, fill=value), alpha=0.8) +
+  coord_sf()
+
 
 # Join NLCD
-cover <- get_nlcd(template = mr,
-         label = 'cover')
+cover <- get_nlcd(template = vt,
+         label = 'vt')
 cover <- projectRaster(from=cover, crs=4326)
 plot(cover)
 xyz <- rasterToPoints(cover) %>% as.data.frame
@@ -419,16 +509,18 @@ names(xyz) <- c('x', 'y', 'z')
 xyz <- xyz %>% mutate(cover = ifelse(z > 20 & z < 30, 'dev', 'und'))
 xyz$cover %>% table
 
+
+
 library(exactextractr)
 ex <- exact_extract(x=cover,
-                    y=tracts)
+                    y=vt)
 ex <- lapply(ex, function(x){
   xi <- x %>% filter(coverage_fraction > 0.5) %>% pull(value)
   xii <- length(which(xi > 20 & xi < 30)) / length(xi)
   return(xii)})
-mr$frac_dev <- ex %>% unlist
+vt$frac_dev <- ex %>% unlist
 
-ggplot(mr) +
+ggplot(vt) +
   geom_sf(aes(fill=frac_dev))
 
 mr %>% names
@@ -463,5 +555,9 @@ whites <- apply(mr[,grep('PCT.WHITE', names(mr))] %>% as.data.frame, 1,
       })
 
 whites %>% unlist
+
+
+
+# https://www.epa.gov/enviroatlas/data-download-step-2
 
 
