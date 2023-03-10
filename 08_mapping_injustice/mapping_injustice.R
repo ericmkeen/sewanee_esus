@@ -285,6 +285,14 @@ ggplot(sepher, aes(y=POVERTY.RATE_2016,
   geom_point(alpha=.1) +
   geom_smooth(method='lm')
 
+################################################################################
+################################################################################
+# Data key
+
+key <- readxl::read_excel('/Users/erickeen/Downloads/sepher2.0_cleaned_dataDictionary_20211123.xlsx')
+key <- key %>% filter(Name %in% names(sepher))
+save(key, file='/Users/erickeen/Downloads/key_sepher.rds')
+
 
 
 ################################################################################
@@ -299,6 +307,28 @@ tracts$STATE %>% unique
 
 # Try saving object
 save(tracts, file='/Users/erickeen/Downloads/census_tracts.rds')
+
+################################################################################
+################################################################################
+# WORKSHOP
+
+# Load tracts
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/census_tracts.rds?raw=true'))
+
+# Demo w california
+cali <- tracts %>% filter(STATE == 'CALIFORNIA')
+
+ggplot(cali) +
+  geom_sf() +
+  coord_sf()
+
+
+# Load SEPHER
+load(url('https://github.com/ericmkeen/sewanee_esus/blob/master/08_mapping_injustice/SEPHER_2016.rds?raw=true'))
+
+# Load data key
+
+
 
 
 # Subset to study area - SEWANEE
